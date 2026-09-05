@@ -15,6 +15,7 @@
 | 已確認的世界規則與體驗守則 | [遊戲憲法](docs/GAME_CONSTITUTION.md) |
 | 先前想法、差異化與待驗證項目 | [設計想法索引](docs/DESIGN_IDEAS.md) |
 | Godot、Blender 與美術製作選型 | [技術決議 TD-002](docs/decisions/TD-002_GODOT_BLENDER_ART_PIPELINE.md) |
+| 原創美術概念圖與生成來源 | [美術方向草案 v01](blender-assets/concepts/art-direction-v01.md)（概念參考，非遊戲截圖） |
 | 現況與下一步 | [開發順序](docs/DEVELOPMENT_ROADMAP.md) |
 | 美術資產製作與匯入 | [Blender 工作流程](docs/BLENDER_WORKFLOW.md) |
 | 客戶端／世界核心分工 | [Godot 客戶端](docs/GODOT_CLIENT_ARCH.md)、[Rust 世界核心](docs/RUST_SERVER_ARCH.md) |
