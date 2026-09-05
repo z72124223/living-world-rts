@@ -1,0 +1,29 @@
+{
+  "source": "MakeHuman CC0 assets, commit a8bc2d54ff0ac92e78ff71431b1023eda42bf482",
+  "blender": "5.1.2",
+  "body_vertices": 13380,
+  "body_triangles": 26756,
+  "body_connected_components": [
+    13380
+  ],
+  "rig_bones": 52,
+  "max_vertex_influences": 4,
+  "pose_displacement_m": 0.24046375887755625,
+  "sprite_resolution": [
+    192,
+    224
+  ],
+  "review_status": "AWAITING_USER_REVIEW",
+  "wardrobe": "NOT_REBUILT_IN_THIS_FOUNDATION_REVISION",
+  "runtime_performance": "NOT_MEASURED",
+  "source_sha256": {
+    "asian-male-young.target": "ed2e8c191cb6b87b4a2d97c80486acb2604fa549316c7aa2a738a5d5a14334dc",
+    "base.obj": "8e761e6624b8f54536409135d1636da63b32486a90d4897f84e121d144f6fb4c",
+    "default.mhskel": "99f179bce0aa850b45d4191a1d0d234c5851f881c057439470ded3bddf729a24",
+    "default_weights.mhw": "0f3641d651ae3d00ad6b4ccee43142edb109d3bd909d27d9e4139ef1beed8625",
+    "LICENSE.ASSETS.md": "f6089cba01cb570a24712b41ab8a586ccd3cc5ef53dc266ca50b95c288956d2c",
+    "LICENSE.md": "edd99571ca62698f78c943fd4fffb159a413c315fa0d4819d3cec5cadaf8b4f1",
+    "universal-male-young-averagemuscle-averageweight.target": "4ba5396ddabda448ece15650a566fbebfbb10239256ccb201e8f883429e12249",
+    "universal-male-young-maxmuscle-averageweight.target": "c171ff9cc95e96273beb3e3b1969a01988c2d4982ebc6fe04bf81cf72ee3b295"
+  }
+}

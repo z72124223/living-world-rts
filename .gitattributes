@@ -1,0 +1,2 @@
+# Keep pinned third-party asset bytes stable for the source hash manifest.
+/blender-assets/sources/makehuman-a8bc2d5/** -text
