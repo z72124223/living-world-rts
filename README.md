@@ -17,6 +17,7 @@
 | 先前想法、差異化與待驗證項目 | [設計想法索引](docs/DESIGN_IDEAS.md) |
 | Godot、Blender 與美術製作選型 | [技術決議 TD-002](docs/decisions/TD-002_GODOT_BLENDER_ART_PIPELINE.md) |
 | 原創美術概念圖與生成來源 | [美術方向草案 v01](blender-assets/concepts/art-direction-v01.md)（概念參考，非遊戲截圖） |
+| 女性角色概念與三種穿戴造型 | [女性角色・B 像素方向 v01](blender-assets/concepts/female-character-b-v01.md)（概念圖，尚未建模） |
 | 目前的美術修正樣品 | [人體與 B 像素方向 v02](blender-assets/samples/body-pixel-v02/README.md)（待美術審核）；[v01](blender-assets/samples/modular-character-v01/README.md) 已被使用者否決 |
 | 現況與下一步 | [開發順序](docs/DEVELOPMENT_ROADMAP.md) |
 | 美術資產製作與匯入 | [Blender 工作流程](docs/BLENDER_WORKFLOW.md) |
