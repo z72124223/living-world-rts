@@ -1,0 +1,3 @@
+# Preserve the original bytes of the retired local documents.
+/PLANS.md -text
+/docs/** -text

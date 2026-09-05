@@ -1,13 +1,30 @@
 # Living World RTS
 
-RTS + RPG 持續活世界遊戲專案。
+即時戰略（RTS）＋角色扮演（RPG）的持續活世界。人物、武將身分、組織、資訊與歷史共同形成玩家的經歷。
 
-## 單一事實來源
+## 目前決定（2026-09-06）
 
-- `docs/GAME_CONSTITUTION.md`：遊戲憲法，保存已確認且不可輕易違反的核心設計原則。
-- `docs/milestones/MP0_SPEC.md`：MP0 最小可執行版本規格。
-- `main` 分支：正式設計與程式的單一事實來源；聊天、研究筆記與未合併分支不構成正式規格。
+- 遊戲客戶端採 **Godot 4**；建模、材質與動畫採 **Blender**；世界規則核心維持 **Rust**。
+- 美術以低資源、高效能、高性價比及良好畫面為目標，像素表現列入候選；尚未鎖定純 2D、2.5D 或即時 3D。
+- 下一個工作階段優先驗證美術樣品與製作流程，再延續 MP0 的人物、組織與指揮骨架。
 
-## 當前階段
+## 閱讀入口
 
-MP0：先建立人物、統一組織樹、編入／脫離、拆分／合流、指揮鏈與基礎人物狀態，再逐步加入戰鬥等系統。
+| 內容 | 文件 |
+|---|---|
+| 已確認的世界規則與體驗守則 | [遊戲憲法](docs/GAME_CONSTITUTION.md) |
+| 先前想法、差異化與待驗證項目 | [設計想法索引](docs/DESIGN_IDEAS.md) |
+| Godot、Blender 與美術製作選型 | [技術決議 TD-002](docs/decisions/TD-002_GODOT_BLENDER_ART_PIPELINE.md) |
+| 現況與下一步 | [開發順序](docs/DEVELOPMENT_ROADMAP.md) |
+| 美術資產製作與匯入 | [Blender 工作流程](docs/BLENDER_WORKFLOW.md) |
+| 客戶端／世界核心分工 | [Godot 客戶端](docs/GODOT_CLIENT_ARCH.md)、[Rust 世界核心](docs/RUST_SERVER_ARCH.md) |
+| MP0 驗收範圍 | [MP0 規格](docs/milestones/MP0_SPEC.md) |
+| 被取代的舊資料及來源 | [封存索引](docs/archive/2026-07-25/README.md) |
+
+## 已有實作與資料權威
+
+目前程式位於 `crates/world-core`，已有人物核心與 7 個測試案例。組織樹、完整指揮鏈、Godot 客戶端、正式模型及引擎效能驗收尚未完成；工具已安裝不代表遊戲已可執行。
+
+`main` 分支及其正式設計文件是已合入版本的單一事實來源。工作分支保存待整合更新；研究文件、GitHub 舊議題與封存資料不自動成為正式規格。新決定需在文件中保留來源與狀態。
+
+歷史議題 #4 的「具名身分死亡後不可再生成」已由 [GD-002](docs/decisions/GD-002_NAMED_IDENTITY_CYCLE.md) 取代：一次生命永久死亡，具名身分可由新的生命再次承載。
