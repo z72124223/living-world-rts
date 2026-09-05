@@ -1,0 +1,19 @@
+{
+  "animation_ready": false,
+  "checks": "PASS",
+  "godot": "4.6.3-stable (official)",
+  "material_surfaces": 38,
+  "mesh_modules": [
+    "01 Body and posing rig",
+    "02 Face and hair",
+    "03 Cloth and boots",
+    "04 Lamellar armour",
+    "05 Belt and sword",
+    "06 Sword"
+  ],
+  "rendered_in_godot": false,
+  "runtime_performance": "NOT_MEASURED",
+  "skeletons": 0,
+  "triangles": 131277,
+  "glb_sha256": "fdf5f8a2c9098497dde15cfd4dc971d473b9c34468318f563bb84b4ee204296f"
+}

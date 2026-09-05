@@ -6,7 +6,7 @@
 
 - 遊戲客戶端採 **Godot 4**；建模、材質與動畫採 **Blender**；世界規則核心維持 **Rust**。
 - 美術以低資源、高效能、高性價比及良好畫面為目標，像素表現列入候選；尚未鎖定純 2D、2.5D 或即時 3D。
-- 最新美術回饋：v01 人體／骨架與整體造型不通過；本輪改以 B「像素圖像」為修正基準，先審核人體和像素呈現，再重製衣甲。
+- 最新美術回饋：舊 v01 人體／骨架與整體造型不通過；使用者認可 B 像素方向的女性概念圖，已依中央輕甲造型製作靜態樣品，模型外觀仍待確認。
 - 下一個工作階段優先驗證美術樣品與製作流程，再延續 MP0 的人物、組織與指揮骨架。
 
 ## 閱讀入口
@@ -17,8 +17,9 @@
 | 先前想法、差異化與待驗證項目 | [設計想法索引](docs/DESIGN_IDEAS.md) |
 | Godot、Blender 與美術製作選型 | [技術決議 TD-002](docs/decisions/TD-002_GODOT_BLENDER_ART_PIPELINE.md) |
 | 原創美術概念圖與生成來源 | [美術方向草案 v01](blender-assets/concepts/art-direction-v01.md)（概念參考，非遊戲截圖） |
-| 女性角色概念與三種穿戴造型 | [女性角色・B 像素方向 v01](blender-assets/concepts/female-character-b-v01.md)（概念圖，尚未建模） |
-| 目前的美術修正樣品 | [人體與 B 像素方向 v02](blender-assets/samples/body-pixel-v02/README.md)（待美術審核）；[v01](blender-assets/samples/modular-character-v01/README.md) 已被使用者否決 |
+| 女性角色概念與三種穿戴造型 | [女性角色・B 像素方向 v01](blender-assets/concepts/female-character-b-v01.md)（外觀參考已認可） |
+| 目前的美術修正樣品 | [女性輕甲靜態模型 v01](blender-assets/samples/female-light-armour-v01/README.md)（含概念與模型比對，待美術確認） |
+| 先前樣品 | [人體與像素基底 v02](blender-assets/samples/body-pixel-v02/README.md)；[分件 v01](blender-assets/samples/modular-character-v01/README.md) 已被使用者否決 |
 | 現況與下一步 | [開發順序](docs/DEVELOPMENT_ROADMAP.md) |
 | 美術資產製作與匯入 | [Blender 工作流程](docs/BLENDER_WORKFLOW.md) |
 | 客戶端／世界核心分工 | [Godot 客戶端](docs/GODOT_CLIENT_ARCH.md)、[Rust 世界核心](docs/RUST_SERVER_ARCH.md) |

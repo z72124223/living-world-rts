@@ -1,0 +1,15 @@
+00:02.984  blend            | Read blend: "C:\Users\f7212\OneDrive\文件\遊戲開發\blender-assets\samples\female-light-armour-v01\female-light-armour.blend"
+C:\Users\f7212\OneDrive\文件\遊戲開發\scripts\render_female_pixel_review.py:20: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if not m.use_nodes:continue
+00:42.312  render           | Saved: 'C:\Users\f7212\OneDrive\文件\遊戲開發\blender-assets\samples\female-light-armour-v01\model-pixel.png'
+01:26.156  render           | Saved: 'C:\Users\f7212\OneDrive\文件\遊戲開發\blender-assets\samples\female-light-armour-v01\game-scale-preview.png'
+C:\Users\f7212\OneDrive\文件\遊戲開發\scripts\render_female_pixel_review.py:76: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.use_nodes=True;n=m.node_tree.nodes;n.clear()
+C:\Users\f7212\OneDrive\文件\遊戲開發\scripts\render_female_pixel_review.py:91: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.use_nodes=True;n=m.node_tree.nodes;n.clear()
+01:26.562  render           | Saved: 'C:\Users\f7212\OneDrive\文件\遊戲開發\blender-assets\samples\female-light-armour-v01\concept-model-comparison.png'
+Info: Saved as "female-pixel-source.blend"
+FEMALE_PIXEL_REVIEW_COMPLETE
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:37:34)
+
+Blender quit

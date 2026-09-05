@@ -15,6 +15,11 @@
 | `asian-male-young.target` | `makehuman/data/targets/macrodetails/asian-male-young.target` |
 | `universal-male-young-averagemuscle-averageweight.target` | `makehuman/data/targets/macrodetails/universal-male-young-averagemuscle-averageweight.target` |
 | `universal-male-young-maxmuscle-averageweight.target` | `makehuman/data/targets/macrodetails/universal-male-young-maxmuscle-averageweight.target` |
+| `asian-female-young.target` | `makehuman/data/targets/macrodetails/asian-female-young.target` |
+| `universal-female-young-averagemuscle-averageweight.target` | `makehuman/data/targets/macrodetails/universal-female-young-averagemuscle-averageweight.target` |
+| `universal-female-young-maxmuscle-averageweight.target` | `makehuman/data/targets/macrodetails/universal-female-young-maxmuscle-averageweight.target` |
 | `LICENSE.md`、`LICENSE.ASSETS.md` | 上游根目錄的同名文件 |
 
 由本專案腳本組合成年男性與肌肉形態、調整尺度及頭部比例、移除輔助幾何、整理骨架及權重，另製作髮髻、簡化眼睛與像素呈現。底模不宣稱為本專案原創雕塑。來源檔案雜湊見 [v02 建模報告](../../samples/body-pixel-v02/build-report.json)。
+
+女性輕甲樣品改用女性形態及 25% 肌肉目標，保留完整人體和姿勢骨架；另製作風格化頭部、髮型與衣甲。來源雜湊及具體修改見[女性樣品報告](../../samples/female-light-armour-v01/build-report.json)。

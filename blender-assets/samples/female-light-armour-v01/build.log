@@ -1,0 +1,31 @@
+C:\Users\f7212\OneDrive\文件\遊戲開發\scripts\build_female_concept_sample.py:44: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+C:\Users\f7212\OneDrive\文件\遊戲開發\scripts\build_female_concept_sample.py:625: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('Warm neutral studio');scene.world=world;world.use_nodes=True
+01:10.000  render           | Saved: 'C:\Users\f7212\OneDrive\文件\遊戲開發\blender-assets\samples\female-light-armour-v01\model-quarter.png'
+01:30.578  render           | Saved: 'C:\Users\f7212\OneDrive\文件\遊戲開發\blender-assets\samples\female-light-armour-v01\model-face.png'
+01:53.641  render           | Saved: 'C:\Users\f7212\OneDrive\文件\遊戲開發\blender-assets\samples\female-light-armour-v01\model-front.png'
+02:16.484  render           | Saved: 'C:\Users\f7212\OneDrive\文件\遊戲開發\blender-assets\samples\female-light-armour-v01\model-back.png'
+03:19.094  render           | Saved: 'C:\Users\f7212\OneDrive\文件\遊戲開發\blender-assets\samples\female-light-armour-v01\model-pixel.png'
+Info: Saved as "female-light-armour.blend"
+Warning: No mesh data to join
+INFO Draco mesh compression is available, use library at C:\Program Files\Blender Foundation\Blender 5.1\5.1\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+05:58:55 | INFO: Starting glTF 2.0 export
+05:58:55 | INFO: Extracting primitive: Body | continuous adult female.001
+05:58:55 | INFO: Primitives created: 1
+05:58:55 | INFO: Extracting primitive: Head | sculpted graphic proportions.001
+05:58:56 | INFO: Primitives created: 10
+05:58:56 | INFO: Extracting primitive: Wrapped teal blouse.001
+05:58:56 | INFO: Primitives created: 9
+05:58:56 | INFO: Extracting primitive: Forearm leather guard L.001
+05:58:56 | INFO: Primitives created: 8
+05:58:56 | INFO: Extracting primitive: Wrapped red waist sash.001
+05:58:56 | INFO: Primitives created: 6
+05:58:56 | INFO: Extracting primitive: Dark leather scabbard.001
+05:58:56 | INFO: Primitives created: 4
+05:58:56 | INFO: Finished glTF 2.0 export in 0.5385830402374268 s
+
+FEMALE_CONCEPT_SAMPLE_BUILT {"reference": "blender-assets/concepts/female-character-b-v01.png, middle light armour", "blender": "5.1.2", "status": "STATIC_ART_STUDY_AWAITING_USER_REVIEW", "body_source": "MakeHuman CC0 a8bc2d54ff0ac92e78ff71431b1023eda42bf482", "body_macro_targets": {"asian-female-young.target": 1.0, "universal-female-young-averagemuscle-averageweight.target": 0.75, "universal-female-young-maxmuscle-averageweight.target": 0.25}, "head_source": "Original parameterized stylized head; original source head preserved behind a reversible mask", "source_sha256": {"base.obj": "8e761e6624b8f54536409135d1636da63b32486a90d4897f84e121d144f6fb4c", "default.mhskel": "99f179bce0aa850b45d4191a1d0d234c5851f881c057439470ded3bddf729a24", "default_weights.mhw": "0f3641d651ae3d00ad6b4ccee43142edb109d3bd909d27d9e4139ef1beed8625", "asian-female-young.target": "095fe79694fa19e1fe98d93009ec116199bd524e081c640351a10eccf2cca1eb", "universal-female-young-averagemuscle-averageweight.target": "4ba5396ddabda448ece15650a566fbebfbb10239256ccb201e8f883429e12249", "universal-female-young-maxmuscle-averageweight.target": "2e56b09b44a8497b927585447fdaac5ea7293521d1f3a3df1059495873c53f4e"}, "body_vertices": 13380, "body_bones": 52, "static_export_meshes": 6, "static_export_triangles": 131277, "animation_ready": false, "godot_import": "NOT_YET_VERIFIED", "runtime_performance": "NOT_MEASURED", "render_origin": "Actual Blender geometry, no image generation or concept texture billboard", "pixel_resolution": [240, 300]}
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:37:34)
+
+Blender quit
