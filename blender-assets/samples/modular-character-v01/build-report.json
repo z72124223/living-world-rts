@@ -1,0 +1,41 @@
+{
+  "blender": "5.1.2",
+  "units": "metres",
+  "up": "Z",
+  "forward": "-Y",
+  "skeleton_bones": 22,
+  "modules": {
+    "01_Body": {
+      "vertices": 913,
+      "triangles": 1690,
+      "used_materials": 5
+    },
+    "03_Clothes": {
+      "vertices": 880,
+      "triangles": 1430,
+      "used_materials": 6
+    },
+    "04_ChestArmor": {
+      "vertices": 1232,
+      "triangles": 1832,
+      "used_materials": 3
+    },
+    "05_Weapon_Spear": {
+      "vertices": 186,
+      "triangles": 310,
+      "used_materials": 5
+    }
+  },
+  "checks": {
+    "all_skinned_vertices_normalized": true,
+    "one_shared_skeleton": true,
+    "weapon_parent": "Hand.R",
+    "01_Body_pose_displacement_m": 0.270487,
+    "03_Clothes_pose_displacement_m": 0.209064,
+    "05_Weapon_Spear_pose_displacement_m": 0.080136
+  },
+  "runtime_performance": "NOT_MEASURED",
+  "damage_gameplay": "NOT_IMPLEMENTED",
+  "total_triangles": 5262,
+  "glb_bytes": 503888
+}

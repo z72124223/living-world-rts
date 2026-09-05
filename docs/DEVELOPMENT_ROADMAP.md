@@ -9,13 +9,13 @@
 | 人物核心 MP0-001 | `crates/world-core/src/character.rs` 已存在；GitHub Issue #1 已關閉，PR #2 已合併；含 7 個測試案例，本次文件整理未重跑 Rust 測試 |
 | 統一組織樹 MP0-002 | [Issue #3](https://github.com/z72124223/living-world-rts/issues/3) 開啟中，尚未實作 |
 | 完整指揮鏈 | MP0 已有情境規格，尚未實作 |
-| Godot 客戶端與 Blender 樣品 | 選型已確認，尚無 `project.godot`、正式模型或資產匯入驗收 |
+| Godot 客戶端與 Blender 樣品 | [分件角色 v01](../blender-assets/samples/modular-character-v01/README.md) 已有可編輯模型與 Blender 渲染，Godot 分件／骨架／動作匯入檢查通過；尚無正式遊戲客戶端、量產模型或引擎效能驗收 |
 | 武將身分循環與跨生命記憶 | 憲法與 GD-002 已有設計，尚未原型驗證 |
 | 軍制通訊、動態戰場職能 | 研究文字已回收供閱讀；保留研究狀態 |
 
 ## 近期順序
 
-1. **美術與製作流程樣品。** 依 [TD-002](decisions/TD-002_GODOT_BLENDER_ART_PIPELINE.md) 製作共用的小型人物／場景樣品，比較低面數 3D 像素質感與預先渲染的像素／2.5D；以實際畫面、動作、資源消耗和製作成本決定方向。
+1. **美術與製作流程樣品。** 使用者本輪只要求「人體＋骨架＋衣服＋胸甲＋武器」，初版已完成。先看樣品調整人物比例、衣甲輪廓與配色，再依 [TD-002](decisions/TD-002_GODOT_BLENDER_ART_PIPELINE.md) 比較遊戲俯視尺度、低面數 3D 像素質感與預先渲染的像素／2.5D；以實際畫面、動作、資源消耗和製作成本決定方向。肢體受傷影響已提出架構衝突，暫停採用、待重新討論。
 2. **延續 MP0。** 先完成組織樹與拆分／合流，再完成指揮順位與代理指揮，跑通 [四人驗證場景](milestones/MP0_SPEC.md)。MP0 仍可在沒有 Godot 的環境獨立測試。
 3. **選定第一段可玩體驗。** 從 [設計想法索引](DESIGN_IDEAS.md) 選一個能表達差異化的短場景，確認玩家控制權、資訊、選擇與後果，再接合 Godot 和 Rust。這個場景目前未定案。
 

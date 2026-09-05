@@ -1,0 +1,21 @@
+{
+  "animations": [
+    "Rig_Check_3s"
+  ],
+  "checks": "PASS",
+  "godot": "4.6.3-stable (official)",
+  "material_surfaces": 19,
+  "mesh_modules": [
+    "01_Body",
+    "03_Clothes",
+    "04_ChestArmor",
+    "05_Weapon_Spear"
+  ],
+  "rendered_in_godot": false,
+  "runtime_performance": "NOT_MEASURED",
+  "skeleton_bones": 22,
+  "skinned_meshes": 3,
+  "weapon_attachments": [
+    "Hand.R"
+  ]
+}
