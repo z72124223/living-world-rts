@@ -1,0 +1,2055 @@
+{
+	"art_approval": "PENDING_USER_REVIEW",
+	"captures": [
+		{
+			"error": 0,
+			"height": 800,
+			"name": "01-four-directions-full-equipment",
+			"path": "C:/Users/f7212/.codex/worktrees/ee20/遊戲開發/prototype/reports/actors/01-four-directions-full-equipment.png",
+			"saved": true,
+			"width": 1280
+		},
+		{
+			"error": 0,
+			"height": 800,
+			"name": "02-clothing-only",
+			"path": "C:/Users/f7212/.codex/worktrees/ee20/遊戲開發/prototype/reports/actors/02-clothing-only.png",
+			"saved": true,
+			"width": 1280
+		},
+		{
+			"error": 0,
+			"height": 800,
+			"name": "03-base-without-equipment",
+			"path": "C:/Users/f7212/.codex/worktrees/ee20/遊戲開發/prototype/reports/actors/03-base-without-equipment.png",
+			"saved": true,
+			"width": 1280
+		},
+		{
+			"error": 0,
+			"height": 800,
+			"name": "04-four-directions-walk",
+			"path": "C:/Users/f7212/.codex/worktrees/ee20/遊戲開發/prototype/reports/actors/04-four-directions-walk.png",
+			"saved": true,
+			"width": 1280
+		},
+		{
+			"error": 0,
+			"height": 800,
+			"name": "05-four-directions-run",
+			"path": "C:/Users/f7212/.codex/worktrees/ee20/遊戲開發/prototype/reports/actors/05-four-directions-run.png",
+			"saved": true,
+			"width": 1280
+		},
+		{
+			"error": 0,
+			"height": 800,
+			"name": "06-performance-32-actors",
+			"path": "C:/Users/f7212/.codex/worktrees/ee20/遊戲開發/prototype/reports/actors/06-performance-32-actors.png",
+			"saved": true,
+			"width": 1280
+		}
+	],
+	"checks": [
+		{
+			"evidence": 8,
+			"name": "eight preview actors",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"atlas_row": 0,
+				"direction": "sw",
+				"direction_art_status": "new_turns_and_clothing_await_user_review",
+				"direction_index": 0,
+				"foot_anchor": [
+					0,
+					0
+				],
+				"frame": 0,
+				"gender": "male",
+				"loadout": {
+					"armor": "chest",
+					"clothing": "cloth",
+					"weapon": "sword"
+				},
+				"motion": "idle",
+				"runtime_mesh_vertices": 4,
+				"selected": true,
+				"source_frame": 0,
+				"source_height": 239,
+				"source_rect": [
+					0,
+					0,
+					192,
+					192
+				],
+				"texture": "res://prototype/actors/atlases/male-111.png",
+				"world_height": 64.0
+			},
+			"name": "male sw direction preserved after stopping",
+			"passed": true
+		},
+		{
+			"evidence": [
+				{
+					"flip_h": false,
+					"flip_v": false,
+					"frame": 0,
+					"frame_coords": "(0, 0)",
+					"hframes": 20,
+					"name": "BakedCharacter",
+					"region_enabled": false,
+					"region_rect": "[P: (0.0, 0.0), S: (0.0, 0.0)]",
+					"texture": "res://prototype/actors/atlases/male-111.png",
+					"vframes": 4
+				}
+			],
+			"name": "male sw uses no mirrored sprite",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"atlas_row": 1,
+				"direction": "se",
+				"direction_art_status": "new_turns_and_clothing_await_user_review",
+				"direction_index": 1,
+				"foot_anchor": [
+					0,
+					0
+				],
+				"frame": 0,
+				"gender": "male",
+				"loadout": {
+					"armor": "chest",
+					"clothing": "cloth",
+					"weapon": "sword"
+				},
+				"motion": "idle",
+				"runtime_mesh_vertices": 4,
+				"selected": true,
+				"source_frame": 20,
+				"source_height": 239,
+				"source_rect": [
+					0,
+					192,
+					192,
+					192
+				],
+				"texture": "res://prototype/actors/atlases/male-111.png",
+				"world_height": 64.0
+			},
+			"name": "male se direction preserved after stopping",
+			"passed": true
+		},
+		{
+			"evidence": [
+				{
+					"flip_h": false,
+					"flip_v": false,
+					"frame": 20,
+					"frame_coords": "(0, 1)",
+					"hframes": 20,
+					"name": "BakedCharacter",
+					"region_enabled": false,
+					"region_rect": "[P: (0.0, 0.0), S: (0.0, 0.0)]",
+					"texture": "res://prototype/actors/atlases/male-111.png",
+					"vframes": 4
+				}
+			],
+			"name": "male se uses no mirrored sprite",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"atlas_row": 2,
+				"direction": "nw",
+				"direction_art_status": "new_turns_and_clothing_await_user_review",
+				"direction_index": 2,
+				"foot_anchor": [
+					0,
+					0
+				],
+				"frame": 0,
+				"gender": "male",
+				"loadout": {
+					"armor": "chest",
+					"clothing": "cloth",
+					"weapon": "sword"
+				},
+				"motion": "idle",
+				"runtime_mesh_vertices": 4,
+				"selected": true,
+				"source_frame": 40,
+				"source_height": 239,
+				"source_rect": [
+					0,
+					384,
+					192,
+					192
+				],
+				"texture": "res://prototype/actors/atlases/male-111.png",
+				"world_height": 64.0
+			},
+			"name": "male nw direction preserved after stopping",
+			"passed": true
+		},
+		{
+			"evidence": [
+				{
+					"flip_h": false,
+					"flip_v": false,
+					"frame": 40,
+					"frame_coords": "(0, 2)",
+					"hframes": 20,
+					"name": "BakedCharacter",
+					"region_enabled": false,
+					"region_rect": "[P: (0.0, 0.0), S: (0.0, 0.0)]",
+					"texture": "res://prototype/actors/atlases/male-111.png",
+					"vframes": 4
+				}
+			],
+			"name": "male nw uses no mirrored sprite",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"atlas_row": 3,
+				"direction": "ne",
+				"direction_art_status": "new_turns_and_clothing_await_user_review",
+				"direction_index": 3,
+				"foot_anchor": [
+					0,
+					0
+				],
+				"frame": 0,
+				"gender": "male",
+				"loadout": {
+					"armor": "chest",
+					"clothing": "cloth",
+					"weapon": "sword"
+				},
+				"motion": "idle",
+				"runtime_mesh_vertices": 4,
+				"selected": true,
+				"source_frame": 60,
+				"source_height": 239,
+				"source_rect": [
+					0,
+					576,
+					192,
+					192
+				],
+				"texture": "res://prototype/actors/atlases/male-111.png",
+				"world_height": 64.0
+			},
+			"name": "male ne direction preserved after stopping",
+			"passed": true
+		},
+		{
+			"evidence": [
+				{
+					"flip_h": false,
+					"flip_v": false,
+					"frame": 60,
+					"frame_coords": "(0, 3)",
+					"hframes": 20,
+					"name": "BakedCharacter",
+					"region_enabled": false,
+					"region_rect": "[P: (0.0, 0.0), S: (0.0, 0.0)]",
+					"texture": "res://prototype/actors/atlases/male-111.png",
+					"vframes": 4
+				}
+			],
+			"name": "male ne uses no mirrored sprite",
+			"passed": true
+		},
+		{
+			"evidence": [
+				0,
+				1,
+				2,
+				3
+			],
+			"name": "male four independent atlas rows",
+			"passed": true
+		},
+		{
+			"evidence": [
+				0,
+				20,
+				40,
+				60
+			],
+			"name": "male four distinct source frame indices",
+			"passed": true
+		},
+		{
+			"evidence": [
+				"[{\"flip_h\":false,\"flip_v\":false,\"frame\":0,\"frame_coords\":\"(0, 0)\",\"hframes\":20,\"name\":\"BakedCharacter\",\"region_enabled\":false,\"region_rect\":\"[P: (0.0, 0.0), S: (0.0, 0.0)]\",\"texture\":\"res://prototype/actors/atlases/male-111.png\",\"vframes\":4}]",
+				"[{\"flip_h\":false,\"flip_v\":false,\"frame\":20,\"frame_coords\":\"(0, 1)\",\"hframes\":20,\"name\":\"BakedCharacter\",\"region_enabled\":false,\"region_rect\":\"[P: (0.0, 0.0), S: (0.0, 0.0)]\",\"texture\":\"res://prototype/actors/atlases/male-111.png\",\"vframes\":4}]",
+				"[{\"flip_h\":false,\"flip_v\":false,\"frame\":40,\"frame_coords\":\"(0, 2)\",\"hframes\":20,\"name\":\"BakedCharacter\",\"region_enabled\":false,\"region_rect\":\"[P: (0.0, 0.0), S: (0.0, 0.0)]\",\"texture\":\"res://prototype/actors/atlases/male-111.png\",\"vframes\":4}]",
+				"[{\"flip_h\":false,\"flip_v\":false,\"frame\":60,\"frame_coords\":\"(0, 3)\",\"hframes\":20,\"name\":\"BakedCharacter\",\"region_enabled\":false,\"region_rect\":\"[P: (0.0, 0.0), S: (0.0, 0.0)]\",\"texture\":\"res://prototype/actors/atlases/male-111.png\",\"vframes\":4}]"
+			],
+			"name": "male four distinct rendered sprite sources",
+			"passed": true
+		},
+		{
+			"evidence": [
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5
+			],
+			"name": "male walk animation advances",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"atlas_row": 1,
+				"direction": "se",
+				"direction_art_status": "new_turns_and_clothing_await_user_review",
+				"direction_index": 1,
+				"foot_anchor": [
+					0,
+					0
+				],
+				"frame": 5,
+				"gender": "male",
+				"loadout": {
+					"armor": "chest",
+					"clothing": "cloth",
+					"weapon": "sword"
+				},
+				"motion": "walk",
+				"runtime_mesh_vertices": 4,
+				"selected": true,
+				"source_frame": 25,
+				"source_height": 239,
+				"source_rect": [
+					960,
+					192,
+					192,
+					192
+				],
+				"texture": "res://prototype/actors/atlases/male-111.png",
+				"world_height": 64.0
+			},
+			"name": "male speed selects walk",
+			"passed": true
+		},
+		{
+			"evidence": [
+				12,
+				12,
+				12,
+				12,
+				12,
+				12,
+				13,
+				13,
+				13,
+				13,
+				13,
+				13,
+				13,
+				14,
+				14,
+				14,
+				14,
+				14,
+				14,
+				14
+			],
+			"name": "male run animation advances",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"atlas_row": 1,
+				"direction": "se",
+				"direction_art_status": "new_turns_and_clothing_await_user_review",
+				"direction_index": 1,
+				"foot_anchor": [
+					0,
+					0
+				],
+				"frame": 14,
+				"gender": "male",
+				"loadout": {
+					"armor": "chest",
+					"clothing": "cloth",
+					"weapon": "sword"
+				},
+				"motion": "run",
+				"runtime_mesh_vertices": 4,
+				"selected": true,
+				"source_frame": 34,
+				"source_height": 239,
+				"source_rect": [
+					2688,
+					192,
+					192,
+					192
+				],
+				"texture": "res://prototype/actors/atlases/male-111.png",
+				"world_height": 64.0
+			},
+			"name": "male speed selects run",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"after": "(145.0, 372.0)",
+				"before": "(145.0, 372.0)"
+			},
+			"name": "male actor does not own movement",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"after": "(2.6, 2.6)",
+				"before": "(2.6, 2.6)"
+			},
+			"name": "male actor preserves caller scale",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"atlas_row": 1,
+				"direction": "se",
+				"direction_art_status": "new_turns_and_clothing_await_user_review",
+				"direction_index": 1,
+				"foot_anchor": [
+					0,
+					0
+				],
+				"frame": 0,
+				"gender": "male",
+				"loadout": {
+					"armor": "chest",
+					"clothing": "cloth",
+					"weapon": "sword"
+				},
+				"motion": "idle",
+				"runtime_mesh_vertices": 4,
+				"selected": true,
+				"source_frame": 20,
+				"source_height": 239,
+				"source_rect": [
+					0,
+					192,
+					192,
+					192
+				],
+				"texture": "res://prototype/actors/atlases/male-111.png",
+				"world_height": 64.0
+			},
+			"name": "male configured identity and 64px body height",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"atlas_row": 1,
+				"direction": "se",
+				"direction_art_status": "new_turns_and_clothing_await_user_review",
+				"direction_index": 1,
+				"foot_anchor": [
+					0,
+					0
+				],
+				"frame": 0,
+				"gender": "male",
+				"loadout": {
+					"armor": "chest",
+					"clothing": "cloth",
+					"weapon": "sword"
+				},
+				"motion": "idle",
+				"runtime_mesh_vertices": 4,
+				"selected": true,
+				"source_frame": 20,
+				"source_height": 239,
+				"source_rect": [
+					0,
+					192,
+					192,
+					192
+				],
+				"texture": "res://prototype/actors/atlases/male-111.png",
+				"world_height": 64.0
+			},
+			"name": "male selection activates",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"atlas_row": 1,
+				"direction": "se",
+				"direction_art_status": "new_turns_and_clothing_await_user_review",
+				"direction_index": 1,
+				"foot_anchor": [
+					0,
+					0
+				],
+				"frame": 0,
+				"gender": "male",
+				"loadout": {
+					"armor": "chest",
+					"clothing": "cloth",
+					"weapon": "sword"
+				},
+				"motion": "idle",
+				"runtime_mesh_vertices": 4,
+				"selected": false,
+				"source_frame": 20,
+				"source_height": 239,
+				"source_rect": [
+					0,
+					192,
+					192,
+					192
+				],
+				"texture": "res://prototype/actors/atlases/male-111.png",
+				"world_height": 64.0
+			},
+			"name": "male selection clears",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"atlas_row": 0,
+				"direction": "sw",
+				"direction_art_status": "new_turns_and_clothing_await_user_review",
+				"direction_index": 0,
+				"foot_anchor": [
+					0,
+					0
+				],
+				"frame": 0,
+				"gender": "female",
+				"loadout": {
+					"armor": "chest",
+					"clothing": "cloth",
+					"weapon": "sword"
+				},
+				"motion": "idle",
+				"runtime_mesh_vertices": 4,
+				"selected": false,
+				"source_frame": 0,
+				"source_height": 229,
+				"source_rect": [
+					0,
+					0,
+					192,
+					192
+				],
+				"texture": "res://prototype/actors/atlases/female-111.png",
+				"world_height": 64.0
+			},
+			"name": "female sw direction preserved after stopping",
+			"passed": true
+		},
+		{
+			"evidence": [
+				{
+					"flip_h": false,
+					"flip_v": false,
+					"frame": 0,
+					"frame_coords": "(0, 0)",
+					"hframes": 20,
+					"name": "BakedCharacter",
+					"region_enabled": false,
+					"region_rect": "[P: (0.0, 0.0), S: (0.0, 0.0)]",
+					"texture": "res://prototype/actors/atlases/female-111.png",
+					"vframes": 4
+				}
+			],
+			"name": "female sw uses no mirrored sprite",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"atlas_row": 1,
+				"direction": "se",
+				"direction_art_status": "new_turns_and_clothing_await_user_review",
+				"direction_index": 1,
+				"foot_anchor": [
+					0,
+					0
+				],
+				"frame": 0,
+				"gender": "female",
+				"loadout": {
+					"armor": "chest",
+					"clothing": "cloth",
+					"weapon": "sword"
+				},
+				"motion": "idle",
+				"runtime_mesh_vertices": 4,
+				"selected": false,
+				"source_frame": 20,
+				"source_height": 229,
+				"source_rect": [
+					0,
+					192,
+					192,
+					192
+				],
+				"texture": "res://prototype/actors/atlases/female-111.png",
+				"world_height": 64.0
+			},
+			"name": "female se direction preserved after stopping",
+			"passed": true
+		},
+		{
+			"evidence": [
+				{
+					"flip_h": false,
+					"flip_v": false,
+					"frame": 20,
+					"frame_coords": "(0, 1)",
+					"hframes": 20,
+					"name": "BakedCharacter",
+					"region_enabled": false,
+					"region_rect": "[P: (0.0, 0.0), S: (0.0, 0.0)]",
+					"texture": "res://prototype/actors/atlases/female-111.png",
+					"vframes": 4
+				}
+			],
+			"name": "female se uses no mirrored sprite",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"atlas_row": 2,
+				"direction": "nw",
+				"direction_art_status": "new_turns_and_clothing_await_user_review",
+				"direction_index": 2,
+				"foot_anchor": [
+					0,
+					0
+				],
+				"frame": 0,
+				"gender": "female",
+				"loadout": {
+					"armor": "chest",
+					"clothing": "cloth",
+					"weapon": "sword"
+				},
+				"motion": "idle",
+				"runtime_mesh_vertices": 4,
+				"selected": false,
+				"source_frame": 40,
+				"source_height": 229,
+				"source_rect": [
+					0,
+					384,
+					192,
+					192
+				],
+				"texture": "res://prototype/actors/atlases/female-111.png",
+				"world_height": 64.0
+			},
+			"name": "female nw direction preserved after stopping",
+			"passed": true
+		},
+		{
+			"evidence": [
+				{
+					"flip_h": false,
+					"flip_v": false,
+					"frame": 40,
+					"frame_coords": "(0, 2)",
+					"hframes": 20,
+					"name": "BakedCharacter",
+					"region_enabled": false,
+					"region_rect": "[P: (0.0, 0.0), S: (0.0, 0.0)]",
+					"texture": "res://prototype/actors/atlases/female-111.png",
+					"vframes": 4
+				}
+			],
+			"name": "female nw uses no mirrored sprite",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"atlas_row": 3,
+				"direction": "ne",
+				"direction_art_status": "new_turns_and_clothing_await_user_review",
+				"direction_index": 3,
+				"foot_anchor": [
+					0,
+					0
+				],
+				"frame": 0,
+				"gender": "female",
+				"loadout": {
+					"armor": "chest",
+					"clothing": "cloth",
+					"weapon": "sword"
+				},
+				"motion": "idle",
+				"runtime_mesh_vertices": 4,
+				"selected": false,
+				"source_frame": 60,
+				"source_height": 229,
+				"source_rect": [
+					0,
+					576,
+					192,
+					192
+				],
+				"texture": "res://prototype/actors/atlases/female-111.png",
+				"world_height": 64.0
+			},
+			"name": "female ne direction preserved after stopping",
+			"passed": true
+		},
+		{
+			"evidence": [
+				{
+					"flip_h": false,
+					"flip_v": false,
+					"frame": 60,
+					"frame_coords": "(0, 3)",
+					"hframes": 20,
+					"name": "BakedCharacter",
+					"region_enabled": false,
+					"region_rect": "[P: (0.0, 0.0), S: (0.0, 0.0)]",
+					"texture": "res://prototype/actors/atlases/female-111.png",
+					"vframes": 4
+				}
+			],
+			"name": "female ne uses no mirrored sprite",
+			"passed": true
+		},
+		{
+			"evidence": [
+				0,
+				1,
+				2,
+				3
+			],
+			"name": "female four independent atlas rows",
+			"passed": true
+		},
+		{
+			"evidence": [
+				0,
+				20,
+				40,
+				60
+			],
+			"name": "female four distinct source frame indices",
+			"passed": true
+		},
+		{
+			"evidence": [
+				"[{\"flip_h\":false,\"flip_v\":false,\"frame\":0,\"frame_coords\":\"(0, 0)\",\"hframes\":20,\"name\":\"BakedCharacter\",\"region_enabled\":false,\"region_rect\":\"[P: (0.0, 0.0), S: (0.0, 0.0)]\",\"texture\":\"res://prototype/actors/atlases/female-111.png\",\"vframes\":4}]",
+				"[{\"flip_h\":false,\"flip_v\":false,\"frame\":20,\"frame_coords\":\"(0, 1)\",\"hframes\":20,\"name\":\"BakedCharacter\",\"region_enabled\":false,\"region_rect\":\"[P: (0.0, 0.0), S: (0.0, 0.0)]\",\"texture\":\"res://prototype/actors/atlases/female-111.png\",\"vframes\":4}]",
+				"[{\"flip_h\":false,\"flip_v\":false,\"frame\":40,\"frame_coords\":\"(0, 2)\",\"hframes\":20,\"name\":\"BakedCharacter\",\"region_enabled\":false,\"region_rect\":\"[P: (0.0, 0.0), S: (0.0, 0.0)]\",\"texture\":\"res://prototype/actors/atlases/female-111.png\",\"vframes\":4}]",
+				"[{\"flip_h\":false,\"flip_v\":false,\"frame\":60,\"frame_coords\":\"(0, 3)\",\"hframes\":20,\"name\":\"BakedCharacter\",\"region_enabled\":false,\"region_rect\":\"[P: (0.0, 0.0), S: (0.0, 0.0)]\",\"texture\":\"res://prototype/actors/atlases/female-111.png\",\"vframes\":4}]"
+			],
+			"name": "female four distinct rendered sprite sources",
+			"passed": true
+		},
+		{
+			"evidence": [
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5
+			],
+			"name": "female walk animation advances",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"atlas_row": 1,
+				"direction": "se",
+				"direction_art_status": "new_turns_and_clothing_await_user_review",
+				"direction_index": 1,
+				"foot_anchor": [
+					0,
+					0
+				],
+				"frame": 5,
+				"gender": "female",
+				"loadout": {
+					"armor": "chest",
+					"clothing": "cloth",
+					"weapon": "sword"
+				},
+				"motion": "walk",
+				"runtime_mesh_vertices": 4,
+				"selected": false,
+				"source_frame": 25,
+				"source_height": 229,
+				"source_rect": [
+					960,
+					192,
+					192,
+					192
+				],
+				"texture": "res://prototype/actors/atlases/female-111.png",
+				"world_height": 64.0
+			},
+			"name": "female speed selects walk",
+			"passed": true
+		},
+		{
+			"evidence": [
+				12,
+				12,
+				12,
+				12,
+				12,
+				12,
+				12,
+				13,
+				13,
+				13,
+				13,
+				13,
+				13,
+				13,
+				14,
+				14,
+				14,
+				14,
+				14,
+				14
+			],
+			"name": "female run animation advances",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"atlas_row": 1,
+				"direction": "se",
+				"direction_art_status": "new_turns_and_clothing_await_user_review",
+				"direction_index": 1,
+				"foot_anchor": [
+					0,
+					0
+				],
+				"frame": 14,
+				"gender": "female",
+				"loadout": {
+					"armor": "chest",
+					"clothing": "cloth",
+					"weapon": "sword"
+				},
+				"motion": "run",
+				"runtime_mesh_vertices": 4,
+				"selected": false,
+				"source_frame": 34,
+				"source_height": 229,
+				"source_rect": [
+					2688,
+					192,
+					192,
+					192
+				],
+				"texture": "res://prototype/actors/atlases/female-111.png",
+				"world_height": 64.0
+			},
+			"name": "female speed selects run",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"after": "(145.0, 647.0)",
+				"before": "(145.0, 647.0)"
+			},
+			"name": "female actor does not own movement",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"after": "(2.6, 2.6)",
+				"before": "(2.6, 2.6)"
+			},
+			"name": "female actor preserves caller scale",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"atlas_row": 1,
+				"direction": "se",
+				"direction_art_status": "new_turns_and_clothing_await_user_review",
+				"direction_index": 1,
+				"foot_anchor": [
+					0,
+					0
+				],
+				"frame": 0,
+				"gender": "female",
+				"loadout": {
+					"armor": "chest",
+					"clothing": "cloth",
+					"weapon": "sword"
+				},
+				"motion": "idle",
+				"runtime_mesh_vertices": 4,
+				"selected": false,
+				"source_frame": 20,
+				"source_height": 229,
+				"source_rect": [
+					0,
+					192,
+					192,
+					192
+				],
+				"texture": "res://prototype/actors/atlases/female-111.png",
+				"world_height": 64.0
+			},
+			"name": "female configured identity and 64px body height",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"atlas_row": 1,
+				"direction": "se",
+				"direction_art_status": "new_turns_and_clothing_await_user_review",
+				"direction_index": 1,
+				"foot_anchor": [
+					0,
+					0
+				],
+				"frame": 0,
+				"gender": "female",
+				"loadout": {
+					"armor": "chest",
+					"clothing": "cloth",
+					"weapon": "sword"
+				},
+				"motion": "idle",
+				"runtime_mesh_vertices": 4,
+				"selected": true,
+				"source_frame": 20,
+				"source_height": 229,
+				"source_rect": [
+					0,
+					192,
+					192,
+					192
+				],
+				"texture": "res://prototype/actors/atlases/female-111.png",
+				"world_height": 64.0
+			},
+			"name": "female selection activates",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"atlas_row": 1,
+				"direction": "se",
+				"direction_art_status": "new_turns_and_clothing_await_user_review",
+				"direction_index": 1,
+				"foot_anchor": [
+					0,
+					0
+				],
+				"frame": 0,
+				"gender": "female",
+				"loadout": {
+					"armor": "chest",
+					"clothing": "cloth",
+					"weapon": "sword"
+				},
+				"motion": "idle",
+				"runtime_mesh_vertices": 4,
+				"selected": false,
+				"source_frame": 20,
+				"source_height": 229,
+				"source_rect": [
+					0,
+					192,
+					192,
+					192
+				],
+				"texture": "res://prototype/actors/atlases/female-111.png",
+				"world_height": 64.0
+			},
+			"name": "female selection clears",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"armor": "none",
+				"clothing": "none",
+				"weapon": "none"
+			},
+			"name": "male equipment combination 0",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"armor": "none",
+				"clothing": "cloth",
+				"weapon": "none"
+			},
+			"name": "male equipment combination 1",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"armor": "chest",
+				"clothing": "none",
+				"weapon": "none"
+			},
+			"name": "male equipment combination 2",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"armor": "chest",
+				"clothing": "cloth",
+				"weapon": "none"
+			},
+			"name": "male equipment combination 3",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"armor": "none",
+				"clothing": "none",
+				"weapon": "sword"
+			},
+			"name": "male equipment combination 4",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"armor": "none",
+				"clothing": "cloth",
+				"weapon": "sword"
+			},
+			"name": "male equipment combination 5",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"armor": "chest",
+				"clothing": "none",
+				"weapon": "sword"
+			},
+			"name": "male equipment combination 6",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"armor": "chest",
+				"clothing": "cloth",
+				"weapon": "sword"
+			},
+			"name": "male equipment combination 7",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"unique_visible_sprite_configurations": 8
+			},
+			"name": "male eight equipment render combinations",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"armor": "none",
+				"clothing": "none",
+				"weapon": "none"
+			},
+			"name": "female equipment combination 0",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"armor": "none",
+				"clothing": "cloth",
+				"weapon": "none"
+			},
+			"name": "female equipment combination 1",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"armor": "chest",
+				"clothing": "none",
+				"weapon": "none"
+			},
+			"name": "female equipment combination 2",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"armor": "chest",
+				"clothing": "cloth",
+				"weapon": "none"
+			},
+			"name": "female equipment combination 3",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"armor": "none",
+				"clothing": "none",
+				"weapon": "sword"
+			},
+			"name": "female equipment combination 4",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"armor": "none",
+				"clothing": "cloth",
+				"weapon": "sword"
+			},
+			"name": "female equipment combination 5",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"armor": "chest",
+				"clothing": "none",
+				"weapon": "sword"
+			},
+			"name": "female equipment combination 6",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"armor": "chest",
+				"clothing": "cloth",
+				"weapon": "sword"
+			},
+			"name": "female equipment combination 7",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"unique_visible_sprite_configurations": 8
+			},
+			"name": "female eight equipment render combinations",
+			"passed": true
+		}
+	],
+	"environment": {
+		"display_server": "Windows",
+		"godot": {
+			"build": "official",
+			"hash": "7d41c59c457bd5a245092b4e7eb2d833e3b3f8c3",
+			"hex": 263683,
+			"major": 4,
+			"minor": 6,
+			"patch": 3,
+			"status": "stable",
+			"string": "4.6.3-stable (official)",
+			"timestamp": 0
+		},
+		"gpu": "NVIDIA GeForce GTX 1080 Ti",
+		"gpu_vendor": "NVIDIA",
+		"gpu_viewport_readback": true,
+		"os": "Windows",
+		"os_version": "10.0.19045",
+		"processor": "Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz",
+		"processor_count": 12,
+		"rendering_method": "gl_compatibility",
+		"viewport_size": "(1280.0, 800.0)"
+	},
+	"equipment_evidence": [
+		{
+			"actual": {
+				"armor": "none",
+				"clothing": "none",
+				"weapon": "none"
+			},
+			"gender": "male",
+			"requested": {
+				"armor": "none",
+				"clothing": "none",
+				"weapon": "none"
+			},
+			"visible_sprites": [
+				{
+					"flip_h": false,
+					"flip_v": false,
+					"frame": 0,
+					"frame_coords": "(0, 0)",
+					"hframes": 20,
+					"name": "BakedCharacter",
+					"region_enabled": false,
+					"region_rect": "[P: (0.0, 0.0), S: (0.0, 0.0)]",
+					"texture": "res://prototype/actors/atlases/male-000.png",
+					"vframes": 4
+				}
+			]
+		},
+		{
+			"actual": {
+				"armor": "none",
+				"clothing": "cloth",
+				"weapon": "none"
+			},
+			"gender": "male",
+			"requested": {
+				"armor": "none",
+				"clothing": "cloth",
+				"weapon": "none"
+			},
+			"visible_sprites": [
+				{
+					"flip_h": false,
+					"flip_v": false,
+					"frame": 0,
+					"frame_coords": "(0, 0)",
+					"hframes": 20,
+					"name": "BakedCharacter",
+					"region_enabled": false,
+					"region_rect": "[P: (0.0, 0.0), S: (0.0, 0.0)]",
+					"texture": "res://prototype/actors/atlases/male-100.png",
+					"vframes": 4
+				}
+			]
+		},
+		{
+			"actual": {
+				"armor": "chest",
+				"clothing": "none",
+				"weapon": "none"
+			},
+			"gender": "male",
+			"requested": {
+				"armor": "chest",
+				"clothing": "none",
+				"weapon": "none"
+			},
+			"visible_sprites": [
+				{
+					"flip_h": false,
+					"flip_v": false,
+					"frame": 0,
+					"frame_coords": "(0, 0)",
+					"hframes": 20,
+					"name": "BakedCharacter",
+					"region_enabled": false,
+					"region_rect": "[P: (0.0, 0.0), S: (0.0, 0.0)]",
+					"texture": "res://prototype/actors/atlases/male-010.png",
+					"vframes": 4
+				}
+			]
+		},
+		{
+			"actual": {
+				"armor": "chest",
+				"clothing": "cloth",
+				"weapon": "none"
+			},
+			"gender": "male",
+			"requested": {
+				"armor": "chest",
+				"clothing": "cloth",
+				"weapon": "none"
+			},
+			"visible_sprites": [
+				{
+					"flip_h": false,
+					"flip_v": false,
+					"frame": 0,
+					"frame_coords": "(0, 0)",
+					"hframes": 20,
+					"name": "BakedCharacter",
+					"region_enabled": false,
+					"region_rect": "[P: (0.0, 0.0), S: (0.0, 0.0)]",
+					"texture": "res://prototype/actors/atlases/male-110.png",
+					"vframes": 4
+				}
+			]
+		},
+		{
+			"actual": {
+				"armor": "none",
+				"clothing": "none",
+				"weapon": "sword"
+			},
+			"gender": "male",
+			"requested": {
+				"armor": "none",
+				"clothing": "none",
+				"weapon": "sword"
+			},
+			"visible_sprites": [
+				{
+					"flip_h": false,
+					"flip_v": false,
+					"frame": 0,
+					"frame_coords": "(0, 0)",
+					"hframes": 20,
+					"name": "BakedCharacter",
+					"region_enabled": false,
+					"region_rect": "[P: (0.0, 0.0), S: (0.0, 0.0)]",
+					"texture": "res://prototype/actors/atlases/male-001.png",
+					"vframes": 4
+				}
+			]
+		},
+		{
+			"actual": {
+				"armor": "none",
+				"clothing": "cloth",
+				"weapon": "sword"
+			},
+			"gender": "male",
+			"requested": {
+				"armor": "none",
+				"clothing": "cloth",
+				"weapon": "sword"
+			},
+			"visible_sprites": [
+				{
+					"flip_h": false,
+					"flip_v": false,
+					"frame": 0,
+					"frame_coords": "(0, 0)",
+					"hframes": 20,
+					"name": "BakedCharacter",
+					"region_enabled": false,
+					"region_rect": "[P: (0.0, 0.0), S: (0.0, 0.0)]",
+					"texture": "res://prototype/actors/atlases/male-101.png",
+					"vframes": 4
+				}
+			]
+		},
+		{
+			"actual": {
+				"armor": "chest",
+				"clothing": "none",
+				"weapon": "sword"
+			},
+			"gender": "male",
+			"requested": {
+				"armor": "chest",
+				"clothing": "none",
+				"weapon": "sword"
+			},
+			"visible_sprites": [
+				{
+					"flip_h": false,
+					"flip_v": false,
+					"frame": 0,
+					"frame_coords": "(0, 0)",
+					"hframes": 20,
+					"name": "BakedCharacter",
+					"region_enabled": false,
+					"region_rect": "[P: (0.0, 0.0), S: (0.0, 0.0)]",
+					"texture": "res://prototype/actors/atlases/male-011.png",
+					"vframes": 4
+				}
+			]
+		},
+		{
+			"actual": {
+				"armor": "chest",
+				"clothing": "cloth",
+				"weapon": "sword"
+			},
+			"gender": "male",
+			"requested": {
+				"armor": "chest",
+				"clothing": "cloth",
+				"weapon": "sword"
+			},
+			"visible_sprites": [
+				{
+					"flip_h": false,
+					"flip_v": false,
+					"frame": 0,
+					"frame_coords": "(0, 0)",
+					"hframes": 20,
+					"name": "BakedCharacter",
+					"region_enabled": false,
+					"region_rect": "[P: (0.0, 0.0), S: (0.0, 0.0)]",
+					"texture": "res://prototype/actors/atlases/male-111.png",
+					"vframes": 4
+				}
+			]
+		},
+		{
+			"actual": {
+				"armor": "none",
+				"clothing": "none",
+				"weapon": "none"
+			},
+			"gender": "female",
+			"requested": {
+				"armor": "none",
+				"clothing": "none",
+				"weapon": "none"
+			},
+			"visible_sprites": [
+				{
+					"flip_h": false,
+					"flip_v": false,
+					"frame": 0,
+					"frame_coords": "(0, 0)",
+					"hframes": 20,
+					"name": "BakedCharacter",
+					"region_enabled": false,
+					"region_rect": "[P: (0.0, 0.0), S: (0.0, 0.0)]",
+					"texture": "res://prototype/actors/atlases/female-000.png",
+					"vframes": 4
+				}
+			]
+		},
+		{
+			"actual": {
+				"armor": "none",
+				"clothing": "cloth",
+				"weapon": "none"
+			},
+			"gender": "female",
+			"requested": {
+				"armor": "none",
+				"clothing": "cloth",
+				"weapon": "none"
+			},
+			"visible_sprites": [
+				{
+					"flip_h": false,
+					"flip_v": false,
+					"frame": 0,
+					"frame_coords": "(0, 0)",
+					"hframes": 20,
+					"name": "BakedCharacter",
+					"region_enabled": false,
+					"region_rect": "[P: (0.0, 0.0), S: (0.0, 0.0)]",
+					"texture": "res://prototype/actors/atlases/female-100.png",
+					"vframes": 4
+				}
+			]
+		},
+		{
+			"actual": {
+				"armor": "chest",
+				"clothing": "none",
+				"weapon": "none"
+			},
+			"gender": "female",
+			"requested": {
+				"armor": "chest",
+				"clothing": "none",
+				"weapon": "none"
+			},
+			"visible_sprites": [
+				{
+					"flip_h": false,
+					"flip_v": false,
+					"frame": 0,
+					"frame_coords": "(0, 0)",
+					"hframes": 20,
+					"name": "BakedCharacter",
+					"region_enabled": false,
+					"region_rect": "[P: (0.0, 0.0), S: (0.0, 0.0)]",
+					"texture": "res://prototype/actors/atlases/female-010.png",
+					"vframes": 4
+				}
+			]
+		},
+		{
+			"actual": {
+				"armor": "chest",
+				"clothing": "cloth",
+				"weapon": "none"
+			},
+			"gender": "female",
+			"requested": {
+				"armor": "chest",
+				"clothing": "cloth",
+				"weapon": "none"
+			},
+			"visible_sprites": [
+				{
+					"flip_h": false,
+					"flip_v": false,
+					"frame": 0,
+					"frame_coords": "(0, 0)",
+					"hframes": 20,
+					"name": "BakedCharacter",
+					"region_enabled": false,
+					"region_rect": "[P: (0.0, 0.0), S: (0.0, 0.0)]",
+					"texture": "res://prototype/actors/atlases/female-110.png",
+					"vframes": 4
+				}
+			]
+		},
+		{
+			"actual": {
+				"armor": "none",
+				"clothing": "none",
+				"weapon": "sword"
+			},
+			"gender": "female",
+			"requested": {
+				"armor": "none",
+				"clothing": "none",
+				"weapon": "sword"
+			},
+			"visible_sprites": [
+				{
+					"flip_h": false,
+					"flip_v": false,
+					"frame": 0,
+					"frame_coords": "(0, 0)",
+					"hframes": 20,
+					"name": "BakedCharacter",
+					"region_enabled": false,
+					"region_rect": "[P: (0.0, 0.0), S: (0.0, 0.0)]",
+					"texture": "res://prototype/actors/atlases/female-001.png",
+					"vframes": 4
+				}
+			]
+		},
+		{
+			"actual": {
+				"armor": "none",
+				"clothing": "cloth",
+				"weapon": "sword"
+			},
+			"gender": "female",
+			"requested": {
+				"armor": "none",
+				"clothing": "cloth",
+				"weapon": "sword"
+			},
+			"visible_sprites": [
+				{
+					"flip_h": false,
+					"flip_v": false,
+					"frame": 0,
+					"frame_coords": "(0, 0)",
+					"hframes": 20,
+					"name": "BakedCharacter",
+					"region_enabled": false,
+					"region_rect": "[P: (0.0, 0.0), S: (0.0, 0.0)]",
+					"texture": "res://prototype/actors/atlases/female-101.png",
+					"vframes": 4
+				}
+			]
+		},
+		{
+			"actual": {
+				"armor": "chest",
+				"clothing": "none",
+				"weapon": "sword"
+			},
+			"gender": "female",
+			"requested": {
+				"armor": "chest",
+				"clothing": "none",
+				"weapon": "sword"
+			},
+			"visible_sprites": [
+				{
+					"flip_h": false,
+					"flip_v": false,
+					"frame": 0,
+					"frame_coords": "(0, 0)",
+					"hframes": 20,
+					"name": "BakedCharacter",
+					"region_enabled": false,
+					"region_rect": "[P: (0.0, 0.0), S: (0.0, 0.0)]",
+					"texture": "res://prototype/actors/atlases/female-011.png",
+					"vframes": 4
+				}
+			]
+		},
+		{
+			"actual": {
+				"armor": "chest",
+				"clothing": "cloth",
+				"weapon": "sword"
+			},
+			"gender": "female",
+			"requested": {
+				"armor": "chest",
+				"clothing": "cloth",
+				"weapon": "sword"
+			},
+			"visible_sprites": [
+				{
+					"flip_h": false,
+					"flip_v": false,
+					"frame": 1,
+					"frame_coords": "(1, 0)",
+					"hframes": 20,
+					"name": "BakedCharacter",
+					"region_enabled": false,
+					"region_rect": "[P: (0.0, 0.0), S: (0.0, 0.0)]",
+					"texture": "res://prototype/actors/atlases/female-111.png",
+					"vframes": 4
+				}
+			]
+		}
+	],
+	"four_direction_evidence": [
+		{
+			"gender": "male",
+			"requested_direction": "sw",
+			"sprites": [
+				{
+					"flip_h": false,
+					"flip_v": false,
+					"frame": 0,
+					"frame_coords": "(0, 0)",
+					"hframes": 20,
+					"name": "BakedCharacter",
+					"region_enabled": false,
+					"region_rect": "[P: (0.0, 0.0), S: (0.0, 0.0)]",
+					"texture": "res://prototype/actors/atlases/male-111.png",
+					"vframes": 4
+				}
+			],
+			"state": {
+				"atlas_row": 0,
+				"direction": "sw",
+				"direction_art_status": "new_turns_and_clothing_await_user_review",
+				"direction_index": 0,
+				"foot_anchor": [
+					0,
+					0
+				],
+				"frame": 0,
+				"gender": "male",
+				"loadout": {
+					"armor": "chest",
+					"clothing": "cloth",
+					"weapon": "sword"
+				},
+				"motion": "idle",
+				"runtime_mesh_vertices": 4,
+				"selected": true,
+				"source_frame": 0,
+				"source_height": 239,
+				"source_rect": [
+					0,
+					0,
+					192,
+					192
+				],
+				"texture": "res://prototype/actors/atlases/male-111.png",
+				"world_height": 64.0
+			}
+		},
+		{
+			"gender": "male",
+			"requested_direction": "se",
+			"sprites": [
+				{
+					"flip_h": false,
+					"flip_v": false,
+					"frame": 20,
+					"frame_coords": "(0, 1)",
+					"hframes": 20,
+					"name": "BakedCharacter",
+					"region_enabled": false,
+					"region_rect": "[P: (0.0, 0.0), S: (0.0, 0.0)]",
+					"texture": "res://prototype/actors/atlases/male-111.png",
+					"vframes": 4
+				}
+			],
+			"state": {
+				"atlas_row": 1,
+				"direction": "se",
+				"direction_art_status": "new_turns_and_clothing_await_user_review",
+				"direction_index": 1,
+				"foot_anchor": [
+					0,
+					0
+				],
+				"frame": 0,
+				"gender": "male",
+				"loadout": {
+					"armor": "chest",
+					"clothing": "cloth",
+					"weapon": "sword"
+				},
+				"motion": "idle",
+				"runtime_mesh_vertices": 4,
+				"selected": true,
+				"source_frame": 20,
+				"source_height": 239,
+				"source_rect": [
+					0,
+					192,
+					192,
+					192
+				],
+				"texture": "res://prototype/actors/atlases/male-111.png",
+				"world_height": 64.0
+			}
+		},
+		{
+			"gender": "male",
+			"requested_direction": "nw",
+			"sprites": [
+				{
+					"flip_h": false,
+					"flip_v": false,
+					"frame": 40,
+					"frame_coords": "(0, 2)",
+					"hframes": 20,
+					"name": "BakedCharacter",
+					"region_enabled": false,
+					"region_rect": "[P: (0.0, 0.0), S: (0.0, 0.0)]",
+					"texture": "res://prototype/actors/atlases/male-111.png",
+					"vframes": 4
+				}
+			],
+			"state": {
+				"atlas_row": 2,
+				"direction": "nw",
+				"direction_art_status": "new_turns_and_clothing_await_user_review",
+				"direction_index": 2,
+				"foot_anchor": [
+					0,
+					0
+				],
+				"frame": 0,
+				"gender": "male",
+				"loadout": {
+					"armor": "chest",
+					"clothing": "cloth",
+					"weapon": "sword"
+				},
+				"motion": "idle",
+				"runtime_mesh_vertices": 4,
+				"selected": true,
+				"source_frame": 40,
+				"source_height": 239,
+				"source_rect": [
+					0,
+					384,
+					192,
+					192
+				],
+				"texture": "res://prototype/actors/atlases/male-111.png",
+				"world_height": 64.0
+			}
+		},
+		{
+			"gender": "male",
+			"requested_direction": "ne",
+			"sprites": [
+				{
+					"flip_h": false,
+					"flip_v": false,
+					"frame": 60,
+					"frame_coords": "(0, 3)",
+					"hframes": 20,
+					"name": "BakedCharacter",
+					"region_enabled": false,
+					"region_rect": "[P: (0.0, 0.0), S: (0.0, 0.0)]",
+					"texture": "res://prototype/actors/atlases/male-111.png",
+					"vframes": 4
+				}
+			],
+			"state": {
+				"atlas_row": 3,
+				"direction": "ne",
+				"direction_art_status": "new_turns_and_clothing_await_user_review",
+				"direction_index": 3,
+				"foot_anchor": [
+					0,
+					0
+				],
+				"frame": 0,
+				"gender": "male",
+				"loadout": {
+					"armor": "chest",
+					"clothing": "cloth",
+					"weapon": "sword"
+				},
+				"motion": "idle",
+				"runtime_mesh_vertices": 4,
+				"selected": true,
+				"source_frame": 60,
+				"source_height": 239,
+				"source_rect": [
+					0,
+					576,
+					192,
+					192
+				],
+				"texture": "res://prototype/actors/atlases/male-111.png",
+				"world_height": 64.0
+			}
+		},
+		{
+			"gender": "female",
+			"requested_direction": "sw",
+			"sprites": [
+				{
+					"flip_h": false,
+					"flip_v": false,
+					"frame": 0,
+					"frame_coords": "(0, 0)",
+					"hframes": 20,
+					"name": "BakedCharacter",
+					"region_enabled": false,
+					"region_rect": "[P: (0.0, 0.0), S: (0.0, 0.0)]",
+					"texture": "res://prototype/actors/atlases/female-111.png",
+					"vframes": 4
+				}
+			],
+			"state": {
+				"atlas_row": 0,
+				"direction": "sw",
+				"direction_art_status": "new_turns_and_clothing_await_user_review",
+				"direction_index": 0,
+				"foot_anchor": [
+					0,
+					0
+				],
+				"frame": 0,
+				"gender": "female",
+				"loadout": {
+					"armor": "chest",
+					"clothing": "cloth",
+					"weapon": "sword"
+				},
+				"motion": "idle",
+				"runtime_mesh_vertices": 4,
+				"selected": false,
+				"source_frame": 0,
+				"source_height": 229,
+				"source_rect": [
+					0,
+					0,
+					192,
+					192
+				],
+				"texture": "res://prototype/actors/atlases/female-111.png",
+				"world_height": 64.0
+			}
+		},
+		{
+			"gender": "female",
+			"requested_direction": "se",
+			"sprites": [
+				{
+					"flip_h": false,
+					"flip_v": false,
+					"frame": 20,
+					"frame_coords": "(0, 1)",
+					"hframes": 20,
+					"name": "BakedCharacter",
+					"region_enabled": false,
+					"region_rect": "[P: (0.0, 0.0), S: (0.0, 0.0)]",
+					"texture": "res://prototype/actors/atlases/female-111.png",
+					"vframes": 4
+				}
+			],
+			"state": {
+				"atlas_row": 1,
+				"direction": "se",
+				"direction_art_status": "new_turns_and_clothing_await_user_review",
+				"direction_index": 1,
+				"foot_anchor": [
+					0,
+					0
+				],
+				"frame": 0,
+				"gender": "female",
+				"loadout": {
+					"armor": "chest",
+					"clothing": "cloth",
+					"weapon": "sword"
+				},
+				"motion": "idle",
+				"runtime_mesh_vertices": 4,
+				"selected": false,
+				"source_frame": 20,
+				"source_height": 229,
+				"source_rect": [
+					0,
+					192,
+					192,
+					192
+				],
+				"texture": "res://prototype/actors/atlases/female-111.png",
+				"world_height": 64.0
+			}
+		},
+		{
+			"gender": "female",
+			"requested_direction": "nw",
+			"sprites": [
+				{
+					"flip_h": false,
+					"flip_v": false,
+					"frame": 40,
+					"frame_coords": "(0, 2)",
+					"hframes": 20,
+					"name": "BakedCharacter",
+					"region_enabled": false,
+					"region_rect": "[P: (0.0, 0.0), S: (0.0, 0.0)]",
+					"texture": "res://prototype/actors/atlases/female-111.png",
+					"vframes": 4
+				}
+			],
+			"state": {
+				"atlas_row": 2,
+				"direction": "nw",
+				"direction_art_status": "new_turns_and_clothing_await_user_review",
+				"direction_index": 2,
+				"foot_anchor": [
+					0,
+					0
+				],
+				"frame": 0,
+				"gender": "female",
+				"loadout": {
+					"armor": "chest",
+					"clothing": "cloth",
+					"weapon": "sword"
+				},
+				"motion": "idle",
+				"runtime_mesh_vertices": 4,
+				"selected": false,
+				"source_frame": 40,
+				"source_height": 229,
+				"source_rect": [
+					0,
+					384,
+					192,
+					192
+				],
+				"texture": "res://prototype/actors/atlases/female-111.png",
+				"world_height": 64.0
+			}
+		},
+		{
+			"gender": "female",
+			"requested_direction": "ne",
+			"sprites": [
+				{
+					"flip_h": false,
+					"flip_v": false,
+					"frame": 60,
+					"frame_coords": "(0, 3)",
+					"hframes": 20,
+					"name": "BakedCharacter",
+					"region_enabled": false,
+					"region_rect": "[P: (0.0, 0.0), S: (0.0, 0.0)]",
+					"texture": "res://prototype/actors/atlases/female-111.png",
+					"vframes": 4
+				}
+			],
+			"state": {
+				"atlas_row": 3,
+				"direction": "ne",
+				"direction_art_status": "new_turns_and_clothing_await_user_review",
+				"direction_index": 3,
+				"foot_anchor": [
+					0,
+					0
+				],
+				"frame": 0,
+				"gender": "female",
+				"loadout": {
+					"armor": "chest",
+					"clothing": "cloth",
+					"weapon": "sword"
+				},
+				"motion": "idle",
+				"runtime_mesh_vertices": 4,
+				"selected": false,
+				"source_frame": 60,
+				"source_height": 229,
+				"source_rect": [
+					0,
+					576,
+					192,
+					192
+				],
+				"texture": "res://prototype/actors/atlases/female-111.png",
+				"world_height": 64.0
+			}
+		}
+	],
+	"functional_passed": true,
+	"gpu_capture_passed": true,
+	"limits": [
+		"Rendered sample contains 32 actors, not a large RTS capacity claim.",
+		"Frame intervals include OS scheduling and vertical synchronization. The engine process-time monitor updates coarsely and is not a per-actor CPU profiler.",
+		"Screenshots and structural checks do not replace user approval of new rear views, clothing, and animation."
+	],
+	"passed": true,
+	"performance": {
+		"actors": 32,
+		"body_world_height_px": 64,
+		"display_scale": 1.5,
+		"draw_calls_last_frame": 124.0,
+		"engine_max_fps": 0,
+		"engine_process_time_monitor_ms": {
+			"max": 5.937,
+			"mean": 5.929,
+			"min": 5.927,
+			"p95": 5.937
+		},
+		"equipment": "cloth + chest armor + sword",
+		"estimated_fps_from_mean_interval": 169.989488983264,
+		"frame_interval_ms": {
+			"max": 6.011,
+			"mean": 5.88271666666667,
+			"min": 5.769,
+			"p95": 5.951
+		},
+		"hidden_preview_actors_process_disabled": true,
+		"measured": true,
+		"motions": "mixed walk/run, four diagonal directions",
+		"rendered_objects_last_frame": 270.0,
+		"sample_frames": 240,
+		"scope": "Small native desktop viewport sample; no large RTS capacity conclusion.",
+		"static_memory_bytes": 52432898.0,
+		"visible_actors": 32,
+		"vsync_mode": 1,
+		"warmup_frames": 343,
+		"warmup_seconds": 2.004761
+	},
+	"schema": "prototype-actor-acceptance/1",
+	"timestamp_utc": "2026-09-06 02:21:43"
+}
