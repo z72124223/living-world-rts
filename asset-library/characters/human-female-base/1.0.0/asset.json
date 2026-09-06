@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "human-female-base",
+  "name": "女性人體・曲線／網格／骨架",
+  "version": "1.0.0",
+  "source_revision": "v03",
+  "category": "characters/human/body-base",
+  "tags": [
+    "2D",
+    "像素",
+    "人體基底",
+    "網格",
+    "骨架"
+  ],
+  "archived_at": "2026-09-06T09:09:34+08:00",
+  "status": "approved",
+  "approval": {
+    "art_approved": true,
+    "date": "2026-09-06",
+    "source": "使用者確認「OK了」，並要求將成品收錄素材庫與建檔。"
+  },
+  "format": {
+    "canvas_px": [
+      256,
+      256
+    ],
+    "color": "RGBA",
+    "source_layers": 8,
+    "source_frames": 1,
+    "view": "斜側面，朝畫面左方",
+    "coordinates": "原點左上；X 向右、Y 向下；所有圖層共用畫布",
+    "sampling": "nearest",
+    "neutral_body": true,
+    "garments_included": false
+  },
+  "rig": {
+    "engine": "Godot 4.6.3",
+    "implementation": "Skeleton2D / Bone2D / Polygon2D",
+    "bones": 15,
+    "mesh_parts": 5,
+    "vertices": 4014,
+    "triangles": 6762,
+    "root_joint_px": [
+      121,
+      120
+    ],
+    "preview_joints": [
+      "near_upper_arm",
+      "near_forearm",
+      "near_thigh",
+      "near_shin",
+      "far_thigh",
+      "far_shin"
+    ]
+  },
+  "files": {
+    "native": "source/female-body-contour-v03.aseprite",
+    "body_master": "runtime/assets/body-v03-master.png",
+    "preview": "runtime/assets/body-v03-preview.png",
+    "mesh": "runtime/assets/body-v03-mesh.json",
+    "skeleton": "runtime/assets/body-v03-rig.json",
+    "head": "runtime/assets/body-head.png",
+    "pose_previews": [
+      "previews/rest.png",
+      "previews/elbow.png",
+      "previews/knee.png"
+    ],
+    "verification": "verification/report.json",
+    "manifest": "manifest.sha256.json"
+  },
+  "provenance": {
+    "art": "Codex image_gen 生成角色參考，Aseprite 製作中性人體底稿；網格由原檔像素邊界生成。",
+    "reference": "source/references/female-rig-unitard-v02.png",
+    "prompts": "source/references/prompts.txt",
+    "aseprite": "1.3.18.3-dev, locally built; application binary not bundled",
+    "external_asset_pack": null,
+    "font_license": "runtime/assets/FONT-LICENSE.txt"
+  },
+  "verification": {
+    "technical_pass": true,
+    "contour_difference_px": 0,
+    "mask_iou": 1.0,
+    "native_roundtrip": true,
+    "method": "Actual untextured Polygon2D GPU alpha vs Aseprite body master",
+    "input_hashes_match": true
+  },
+  "scope": "單一方向人體基底與互動彎曲樣品；尚未製作完整動作集、衣裝綁定或大量 RTS 單位效能優化。",
+  "sample_url": "/?character=female"
+}

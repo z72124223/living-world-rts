@@ -1,0 +1,4 @@
+{
+  "female": {"id":"human-female-base","name":"女性人體","version":"1.0.0","approved":true,"approval_date":"2026-09-06","approval_source":"使用者確認「OK了」，並要求將成品收錄素材庫與建檔。","prefix":"body-v03","head":"body-head.png"},
+  "male": {"id":"human-male-base","name":"男性人體","version":"0.1.0","approved":true,"approval_date":"2026-09-06","approval_source":"使用者確認「好 通過」，接著詢問如何做成實體遊戲；此確認適用目前男性人體曲線、網格與骨架樣品。","prefix":"male-body-v01","head":"male-body-head.png"}
+}

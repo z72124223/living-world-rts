@@ -1,0 +1,35 @@
+{
+	"art_approved": true,
+	"bones": 15,
+	"character_id": "human-male-base",
+	"contour": {
+		"extra": 0,
+		"iou": 1.0,
+		"method": "Actual untextured Polygon2D GPU alpha vs Aseprite body master",
+		"missing": 0,
+		"reference_pixels": 8857.0
+	},
+	"elbow_vertex_movement_px": 18.6941566467285,
+	"input_sha256": {
+		"male-body-head.png": "f96926901609ae01d67857282c4363448e040a1a33d9ee49ab7d291a4abfd0c1",
+		"male-body-v01-far_arm.png": "ba18c171812fd5ea383423b8169ce87f640c0a6741eb31d65d606d6b17f0b2c7",
+		"male-body-v01-far_leg.png": "2eb0c75ff37bdf6d71435ad59555249f8d8ec693762314a8eb1a6b1d4dad6c39",
+		"male-body-v01-master.png": "2b9d04baad669e3486aed2a32ff3f51de957b52ceb99a137fc01d09be118e512",
+		"male-body-v01-mesh.json": "2973d0b399650ba4fb7e857254eaa795cb062b3476ad4a32223bda4fdb4cda12",
+		"male-body-v01-near_arm.png": "91841e721c6fdb1c81213f8496b51e0d234e4c10eb3ac57841e9242bf6862c6c",
+		"male-body-v01-near_leg.png": "2331f58a052ac3d51af495a4b4a97c3b46042fb38b4e6b1d05311aaa670ceede",
+		"male-body-v01-preview.png": "5360a225aa6e6ca8ed5a991f9fe481306b0159737d4a9acc9402e92a3d898614",
+		"male-body-v01-rig.json": "a0e42082174c426e5b8b8e4e1023cb7b1061713d06e71adddf0cebcce2f7fad6",
+		"male-body-v01-torso_pelvis.png": "e67801737f925c2165ab8b8cdd9af7ca7fe12c41d4a5841a4107f59d32cf64fb"
+	},
+	"knee_endpoint_error_px": 0.0,
+	"max_endpoint_error_px": 0.0,
+	"max_weight_error": 0.0000000000000049960036108132,
+	"mesh_parts": 5,
+	"nude_reference_available": false,
+	"pass": true,
+	"posed_endpoint_error_px": 0.0,
+	"triangles": 7688,
+	"version": "0.1.0",
+	"vertices": 4553
+}

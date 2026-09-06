@@ -1,0 +1,9 @@
+Tool: Codex built-in image_gen, reference-image edit
+Date: 2026-09-06
+Reference: female-rig-unitard-v02.png
+Output: male-rig-reference-v01.png
+Use: Proportion and face/hair guide. The neutral body is separately painted in Aseprite; source garment pixels are not used as body texture.
+
+Create the adult MALE counterpart of the supplied game character, as a full-body animation reference. Same refined Chinese historical pixel-art aesthetic, same three-quarter camera facing image-left, same square framing. A handsome adult Chinese male warrior aged about 28, dark topknot with a short tail and red tie, angular masculine face, straight brows. Athletic lean masculine proportions: broader shoulders and chest than the female reference, modest V taper, narrower pelvis, solid but not bulky limbs, long legs. Fully clothed in a plain opaque matte slate-grey athletic unitard with long sleeves covering torso and limbs, no armour, belt, accessories or loose fabric. Bare feet visible for joint placement. Neutral practical technical pose: image-left arm hangs down with hand visibly separated from thigh, image-right elbow bent outward and hand near waist. Preserve the reference's overall body placement and pose, head top around4% height and soles at95%. One full-body figure, actual transparent background, no ground shadow, no text, no grids or bone lines. Restrained polished pixel shading, readable joints and crisp contours, not a photorealistic person.
+
+Actual output has a baked checkerboard. The Aseprite build removes bright neutral background pixels before creating the contour and head layers.

@@ -1,0 +1,13 @@
+127.0.0.1 - - [06/Sep/2026 09:14:33] "GET /library/ HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2026 09:14:33] "GET /library/characters/human-female-base/1.0.0/runtime/assets/body-v03-preview.png HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2026 09:14:33] "GET /library/characters/human-male-base/0.1.0/runtime/assets/male-body-v01-preview.png HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2026 09:15:05] "GET /library/characters/human-male-base/0.1.0/previews/rest.png HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2026 09:15:12] "GET /library/characters/human-male-base/0.1.0/asset.json HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2026 09:15:56] "GET /library/catalog.json HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2026 09:15:56] "GET /library/characters/human-female-base/1.0.0/asset.json HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2026 09:15:56] "HEAD /library/characters/human-female-base/1.0.0/source/female-body-contour-v03.aseprite HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2026 09:15:56] "GET /library/characters/human-male-base/0.1.0/asset.json HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2026 09:15:56] "HEAD /library/characters/human-male-base/0.1.0/source/male-body-contour-v01.aseprite HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2026 09:15:56] code 404, message File not found
+127.0.0.1 - - [06/Sep/2026 09:15:56] "GET /library/..%5cREADME.md HTTP/1.1" 404 -
+127.0.0.1 - - [06/Sep/2026 09:38:47] "GET /library/characters/human-male-base/0.1.0/asset.json HTTP/1.1" 200 -

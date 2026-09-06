@@ -1,0 +1,17 @@
+[
+  {
+    "Algorithm": "SHA256",
+    "Hash": "BDA90C9CD7AEF06626D5CAF5EB262A81D96CB48759C260DCFDF5B14E8FD6D031",
+    "Path": "C:\\Users\\f7212\\OneDrive\\文件\\遊戲開發\\godot-client\\assets\\body-v03-master.png"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "BE61B0212BCD23739F86F7C5114C7FC560EE0450C83D5D6E3D6BE0D6B4975A93",
+    "Path": "C:\\Users\\f7212\\OneDrive\\文件\\遊戲開發\\godot-client\\assets\\body-v03-preview.png"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "0C41D4ACC57871CBE394080A7A574B416D2D66C800CEBC8961BB231E1C54634C",
+    "Path": "C:\\Users\\f7212\\OneDrive\\文件\\遊戲開發\\godot-client\\assets\\body-head.png"
+  }
+]

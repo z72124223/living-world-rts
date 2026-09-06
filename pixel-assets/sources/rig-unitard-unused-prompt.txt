@@ -1,0 +1,6 @@
+Built-in image_gen edit; intermediate image, not the delivered body mesh.
+The user rejected clothing as an anatomical calibration base. The delivered
+neutral featureless mesh is authored directly in build_rig_mesh.lua.
+
+Edit the supplied fictional adult female warrior game character into a fully clothed animation rig calibration version. She wears a plain opaque matte light slate-grey athletic unitard, fully covering her from the neck to wrists and ankles, plus flat thin grey shoes. No armour, belts, bracers, weapons or loose garments. This is a practical modest full coverage motion-capture outfit, no transparency, no body paint, no cleavage.
+Keep the SAME adult woman's face, black ponytail with red tie, same three-quarter camera, same body pose: image-left arm hangs down, image-right elbow is out and hand rests near waist. Same face, head size, limb proportions, foot positions and figure scale as the reference. Fit the unitard naturally so shoulders/elbows/pelvis/knees/ankles are visible as normal joint contours, with realistic modest adult athletic proportions. Do not make the hips or chest exaggerated. Sharp polished pixel art style matching the original. One full body figure only, same square canvas and placement hair top at 4% and feet at95% height. True transparent background, no shadows or checkerboard, no labels or skeleton.

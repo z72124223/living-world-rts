@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-09-06T09:17:29.0473827+08:00",
+  "browser": "Codex In-app Browser",
+  "male_rest_visible": true,
+  "male_knee_slider_degrees": 25,
+  "male_mesh_deformed": true,
+  "female_switch_visible": true,
+  "returned_to_male": true,
+  "library_cards_visible": 2,
+  "library_catalog_http_status": 200,
+  "female_native_http_status": 200,
+  "male_native_http_status": 200,
+  "library_traversal_http_status": 404,
+  "pass": true
+}

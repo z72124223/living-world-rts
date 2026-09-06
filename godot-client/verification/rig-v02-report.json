@@ -1,0 +1,13 @@
+{
+	"bones": 17,
+	"elbow_changes_hand": true,
+	"has_garment_mesh": false,
+	"knee_endpoint_error_px": 0.0,
+	"max_endpoint_error_px": 0.0,
+	"max_weight_error": 0.0,
+	"mesh_parts": 6,
+	"pass": true,
+	"posed_endpoint_error_px": 0.0,
+	"triangles": 528,
+	"vertices": 360
+}

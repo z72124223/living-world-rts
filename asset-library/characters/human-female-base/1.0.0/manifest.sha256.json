@@ -1,0 +1,33 @@
+{
+  "algorithm": "SHA-256",
+  "files": {
+    "asset.json": "3b975af304d881829f17f4e883f9592d55c1131e809d4931a777239779bad7a9",
+    "previews/elbow.png": "bceb8da2d5d7be4630aaae7992b62b9273ee2dbfda40b2ecea62c328b5ce05db",
+    "previews/knee.png": "9a585f61493b2e32a633eec144d70a04b637998162f8d805e6ff2d13c45c6dcb",
+    "previews/rest.png": "3cf1ad8626905203cc36e9b790d05b9d9bf54ecb000c0e569e38df94f8d30553",
+    "README.md": "61eb72f75a85b39f7b830a95d297d763ca55940a196dabe8a018631ba21f08c0",
+    "runtime/assets/body-head.png": "8bbcc409733eafa0961ad0c2f32576dbe4b71f9093c96d553f52de7df6da84a1",
+    "runtime/assets/body-v03-far_arm.png": "5d279a156b5e23ed88dc37238e73a9cfe19a9df4ec42893cfef032fa896d623b",
+    "runtime/assets/body-v03-far_leg.png": "45dceda6c4e58bed89c44a950371ad30838e0bb908ef7e208ecc56f6c3a41d1e",
+    "runtime/assets/body-v03-master.png": "bda90c9cd7aef06626d5caf5eb262a81d96cb48759c260dcfdf5b14e8fd6d031",
+    "runtime/assets/body-v03-mesh.json": "c96b6e64fe3a3a6ff477f08d3adf06156ddd48623ced3e6a67d338b199bdf997",
+    "runtime/assets/body-v03-near_arm.png": "6881bdffcc098813dc59a02edf67ff8a16834c4b2e0fb4a106e59bd76dbecf93",
+    "runtime/assets/body-v03-near_leg.png": "88337da5213edc737f0fbb3ff103e532ebdc753233b9bfab9a5eb985275dc2fc",
+    "runtime/assets/body-v03-preview.png": "be61b0212bcd23739f86f7c5114c7fc560ee0450c83d5d6e3d6be0d6b4975a93",
+    "runtime/assets/body-v03-rig.json": "503ed2c982c65c94716c61e218a4689161d1e2c7d099790c5ae79f24a5e283fe",
+    "runtime/assets/body-v03-torso_pelvis.png": "94e4308428a31048a869e4fa40d9785f8a348998db3f7e8dfcde2e2b3ca5ab19",
+    "runtime/assets/FONT-LICENSE.txt": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+    "runtime/assets/ui-font.otf": "5bab0cb3c1cf89dde07c4a95a4054b195afbcfe784d69d75c340780712237537",
+    "runtime/body_rig.gd": "39c91b5b813ad64b9982c1951b5b4bcb0c2ac169d927fc9f7c03fbeae4943891",
+    "source/female-body-contour-v03.aseprite": "b0662df0b03fb803ba7f8de9e1fcca21046952cb713fb88855dab5b396354bd3",
+    "source/references/female-armoured-reference.png": "51bd99a3ca46bee22d5b61319b10afa77796a0af7860f5529aff90a403873e2d",
+    "source/references/female-rig-unitard-v02.png": "b483221a9e54c108ec6675979273740d6d65568ba0847bfb2d79e984ae951b9a",
+    "source/references/prompts.txt": "7373f3f0dce4e63b65c511afbe054cdc1635c30b527be4e33a33c4dc4e449a4d",
+    "source/scripts/build_body_contour_v03.lua": "a695e2cde20ccd2abe78c69f5f2d23b6a9946d5ddc304511ac1b519d81c7f4c4",
+    "source/scripts/rig_landmarks.lua": "4ded9ef17cee1dcef4a9538669a14ec11542ca61c258d9e9b2dc6018e624cbb8",
+    "verification/aseprite-build.log": "d156a1732fc7ff2f1aeca03af993a28ea1699cb69e13b2833f56ec825fd6f55d",
+    "verification/gpu-mask.png": "962afbb2f17848a436e50d579fb6d6a788038436e5c6dc6b1d8a8c67513f9a12",
+    "verification/mask-difference.png": "9b8c0fb55362cdcb2a04b7f52c99aeca590ed88f30b95821b36ec15e8ec819de",
+    "verification/report.json": "f96a2d33c0a39a3413d46fda64b7439f6940ab09c5417588b9945fa254d66e8e"
+  }
+}

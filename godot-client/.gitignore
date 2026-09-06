@@ -1,0 +1,9 @@
+.godot/
+web/*.wasm
+web/*.pck
+web/*.js
+web/*.html
+web/*.png
+web/*.json
+web/*.import
+build/

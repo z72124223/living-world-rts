@@ -1,0 +1,1 @@
+{"bones":17,"version":"1.3.18.3-dev","frames":18,"character_source":"AI reference segmented and keyed in Aseprite","layers":21,"art_approved":false,"tool":"Aseprite","variants":["armour_sword","armour_spear","armour_none","cloth_sword","cloth_spear","cloth_none"],"animation_method":"Modular cutout keyframes rasterized into native Aseprite cels; same keys drive Godot Bone2D"}
