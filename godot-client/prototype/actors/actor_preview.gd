@@ -26,6 +26,7 @@ var equipment_buttons: Dictionary = {}
 var gallery_labels: Array[Control] = []
 var demo_button: Button
 var benchmark_mode := false
+var review_mode := false
 var verification_mode := false
 
 
@@ -200,13 +201,21 @@ func set_benchmark_view(enabled: bool) -> void:
 	refresh_labels()
 
 
+func set_review_view(enabled: bool) -> void:
+	review_mode = enabled
+	ui.visible = not enabled
+	actor_root.visible = not enabled
+	actor_root.process_mode = Node.PROCESS_MODE_DISABLED if enabled else Node.PROCESS_MODE_INHERIT
+	queue_redraw()
+
+
 func _process(delta: float) -> void:
 	if auto_demo and not verification_mode:
 		demo_time += delta
 		if demo_time >= 3.0:
 			demo_time = 0.0
 			apply_motion({"idle": "walk", "walk": "run", "run": "idle"}[motion])
-	if not benchmark_mode:
+	if not benchmark_mode and not review_mode:
 		refresh_labels()
 
 
@@ -225,6 +234,8 @@ func _unhandled_key_input(event: InputEvent) -> void:
 
 
 func _draw() -> void:
+	if review_mode:
+		return
 	draw_rect(Rect2(928, 0, 352, 800), Color("14252a"))
 	draw_line(Vector2(927, 0), Vector2(927, 800), Color("365055"), 1)
 	draw_line(Vector2(32, 107), Vector2(888, 107), Color("33494e"), 1)

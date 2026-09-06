@@ -1,2 +1,2 @@
-NATIVE ROUNDTRIP PASS female layers=13 frames=80 tags=12 cels=1040 pixel_difference=0
-NATIVE ROUNDTRIP PASS male layers=13 frames=80 tags=12 cels=1040 pixel_difference=0
+NATIVE ROUNDTRIP PASS female layers=13 frames=80 tags=12 cels=1040 pixel_difference=0 source_rgba_bytes=14784640
+NATIVE ROUNDTRIP PASS male layers=13 frames=80 tags=12 cels=1040 pixel_difference=0 source_rgba_bytes=16490880

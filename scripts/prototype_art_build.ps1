@@ -10,7 +10,7 @@ $reportPath = Join-Path $actorRoot 'prototype/reports/actors'
 foreach ($executable in @($GodotExe, $AsepriteExe)) {
     if (-not (Test-Path -LiteralPath $executable -PathType Leaf)) { throw "Missing executable: $executable" }
 }
-foreach ($directory in @('prototype/reports/actors','pixel-assets/prototype-actors/baked-layers','pixel-assets/prototype-actors/source-textures','pixel-assets/prototype-actors/native','godot-client/prototype/actors/atlases')) {
+foreach ($directory in @('prototype/reports/actors','pixel-assets/prototype-actors/baked-layers','pixel-assets/prototype-actors/source-textures','pixel-assets/prototype-actors/native','pixel-assets/prototype-actors/previews','godot-client/prototype/actors/layers')) {
     New-Item -ItemType Directory -Force -Path (Join-Path $actorRoot $directory) | Out-Null
 }
 function Invoke-ActorProcess {
@@ -42,6 +42,7 @@ if (-not $VerifyOnly) {
     Invoke-ActorLua 'prototype_art_export.lua' 'aseprite-roundtrip' 'NATIVE ROUNDTRIP PASS male'
 }
 Invoke-ActorLua 'prototype_art_verify.lua' 'aseprite-pixel-check' 'ASEPRITE PIXEL CHECK PASS'
+Invoke-ActorProcess $GodotExe @('--path',$projectPath,'--headless','--script',(Join-Path $PSScriptRoot 'prototype_art_gait_verify.gd')) 'gait-validation' 'GAIT VALIDATION PASS'
 $sourceResults = @()
 foreach ($manifestRelative in @('asset-library/characters/human-female-base/1.0.0/manifest.sha256.json','asset-library/characters/human-male-base/0.1.0/manifest.sha256.json')) {
     $manifestPath = Join-Path $actorRoot $manifestRelative

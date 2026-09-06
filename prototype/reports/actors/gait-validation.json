@@ -1,0 +1,458 @@
+{
+	"checks": [
+		{
+			"evidence": {
+				"cycle": "female/sw/walk",
+				"far_hand_range_world_px": [
+					16.2001342773438,
+					4.26341247558594
+				],
+				"near_hand_range_world_px": [
+					14.7373046875,
+					3.78781127929688
+				]
+			},
+			"name": "female/sw/walk wrists travel through the full cycle",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"cycle": "female/sw/run",
+				"far_hand_range_world_px": [
+					17.3103637695313,
+					15.3183288574219
+				],
+				"near_hand_range_world_px": [
+					16.5157432556152,
+					12.2290267944336
+				]
+			},
+			"name": "female/sw/run wrists travel through the full cycle",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"cycle": "female/se/walk",
+				"far_hand_range_world_px": [
+					16.2001342773438,
+					4.26341247558594
+				],
+				"near_hand_range_world_px": [
+					14.7373008728027,
+					3.78781127929688
+				]
+			},
+			"name": "female/se/walk wrists travel through the full cycle",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"cycle": "female/se/run",
+				"far_hand_range_world_px": [
+					17.3103637695313,
+					15.3183288574219
+				],
+				"near_hand_range_world_px": [
+					16.5157432556152,
+					12.2290267944336
+				]
+			},
+			"name": "female/se/run wrists travel through the full cycle",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"cycle": "female/nw/walk",
+				"far_hand_range_world_px": [
+					16.2001342773438,
+					4.26341247558594
+				],
+				"near_hand_range_world_px": [
+					14.7373046875,
+					3.78781127929688
+				]
+			},
+			"name": "female/nw/walk wrists travel through the full cycle",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"cycle": "female/nw/run",
+				"far_hand_range_world_px": [
+					17.3103637695313,
+					15.3183288574219
+				],
+				"near_hand_range_world_px": [
+					16.5157432556152,
+					12.2290267944336
+				]
+			},
+			"name": "female/nw/run wrists travel through the full cycle",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"cycle": "female/ne/walk",
+				"far_hand_range_world_px": [
+					16.2001342773438,
+					4.26341247558594
+				],
+				"near_hand_range_world_px": [
+					14.7373008728027,
+					3.78781127929688
+				]
+			},
+			"name": "female/ne/walk wrists travel through the full cycle",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"cycle": "female/ne/run",
+				"far_hand_range_world_px": [
+					17.3103637695313,
+					15.3183288574219
+				],
+				"near_hand_range_world_px": [
+					16.5157432556152,
+					12.2290267944336
+				]
+			},
+			"name": "female/ne/run wrists travel through the full cycle",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"cycle": "male/sw/walk",
+				"far_hand_range_world_px": [
+					18.616283416748,
+					4.85173416137695
+				],
+				"near_hand_range_world_px": [
+					15.4590225219727,
+					3.97558212280273
+				]
+			},
+			"name": "male/sw/walk wrists travel through the full cycle",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"cycle": "male/sw/run",
+				"far_hand_range_world_px": [
+					19.4929943084717,
+					17.9756088256836
+				],
+				"near_hand_range_world_px": [
+					16.8501052856445,
+					13.3360748291016
+				]
+			},
+			"name": "male/sw/run wrists travel through the full cycle",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"cycle": "male/se/walk",
+				"far_hand_range_world_px": [
+					18.616283416748,
+					4.85173416137695
+				],
+				"near_hand_range_world_px": [
+					15.4590225219727,
+					3.97558212280273
+				]
+			},
+			"name": "male/se/walk wrists travel through the full cycle",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"cycle": "male/se/run",
+				"far_hand_range_world_px": [
+					19.4929885864258,
+					17.9756088256836
+				],
+				"near_hand_range_world_px": [
+					16.8501052856445,
+					13.3360748291016
+				]
+			},
+			"name": "male/se/run wrists travel through the full cycle",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"cycle": "male/nw/walk",
+				"far_hand_range_world_px": [
+					18.616283416748,
+					4.85173416137695
+				],
+				"near_hand_range_world_px": [
+					15.4590225219727,
+					3.95800018310547
+				]
+			},
+			"name": "male/nw/walk wrists travel through the full cycle",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"cycle": "male/nw/run",
+				"far_hand_range_world_px": [
+					19.4929943084717,
+					17.9756088256836
+				],
+				"near_hand_range_world_px": [
+					16.8501052856445,
+					13.3360748291016
+				]
+			},
+			"name": "male/nw/run wrists travel through the full cycle",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"cycle": "male/ne/walk",
+				"far_hand_range_world_px": [
+					18.616283416748,
+					4.85173416137695
+				],
+				"near_hand_range_world_px": [
+					15.4590225219727,
+					3.95800018310547
+				]
+			},
+			"name": "male/ne/walk wrists travel through the full cycle",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"cycle": "male/ne/run",
+				"far_hand_range_world_px": [
+					19.4929885864258,
+					17.9756088256836
+				],
+				"near_hand_range_world_px": [
+					16.8501052856445,
+					13.3360748291016
+				]
+			},
+			"name": "male/ne/run wrists travel through the full cycle",
+			"passed": true
+		},
+		{
+			"evidence": 16,
+			"name": "all eight keys in each of sixteen moving cycles",
+			"passed": true
+		},
+		{
+			"evidence": 0.00001348542277274,
+			"name": "IK ankle reach error below 0.05 world pixels",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"contact_pairs": 80,
+				"max_world_drift_px": 0.0000192662282643141
+			},
+			"name": "planted ankle stays fixed as root advances at 32/56 speed",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"samples": 4608,
+				"uncovered": []
+			},
+			"name": "rendered arm silhouette covers shoulder elbow wrist paths",
+			"passed": true
+		},
+		{
+			"evidence": {
+				"failures": [],
+				"samples": 128
+			},
+			"name": "near hands stay visible over torso and waist in all moving keys",
+			"passed": true
+		}
+	],
+	"hand_motion_ranges": [
+		{
+			"cycle": "female/sw/walk",
+			"far_hand_range_world_px": [
+				16.2001342773438,
+				4.26341247558594
+			],
+			"near_hand_range_world_px": [
+				14.7373046875,
+				3.78781127929688
+			]
+		},
+		{
+			"cycle": "female/sw/run",
+			"far_hand_range_world_px": [
+				17.3103637695313,
+				15.3183288574219
+			],
+			"near_hand_range_world_px": [
+				16.5157432556152,
+				12.2290267944336
+			]
+		},
+		{
+			"cycle": "female/se/walk",
+			"far_hand_range_world_px": [
+				16.2001342773438,
+				4.26341247558594
+			],
+			"near_hand_range_world_px": [
+				14.7373008728027,
+				3.78781127929688
+			]
+		},
+		{
+			"cycle": "female/se/run",
+			"far_hand_range_world_px": [
+				17.3103637695313,
+				15.3183288574219
+			],
+			"near_hand_range_world_px": [
+				16.5157432556152,
+				12.2290267944336
+			]
+		},
+		{
+			"cycle": "female/nw/walk",
+			"far_hand_range_world_px": [
+				16.2001342773438,
+				4.26341247558594
+			],
+			"near_hand_range_world_px": [
+				14.7373046875,
+				3.78781127929688
+			]
+		},
+		{
+			"cycle": "female/nw/run",
+			"far_hand_range_world_px": [
+				17.3103637695313,
+				15.3183288574219
+			],
+			"near_hand_range_world_px": [
+				16.5157432556152,
+				12.2290267944336
+			]
+		},
+		{
+			"cycle": "female/ne/walk",
+			"far_hand_range_world_px": [
+				16.2001342773438,
+				4.26341247558594
+			],
+			"near_hand_range_world_px": [
+				14.7373008728027,
+				3.78781127929688
+			]
+		},
+		{
+			"cycle": "female/ne/run",
+			"far_hand_range_world_px": [
+				17.3103637695313,
+				15.3183288574219
+			],
+			"near_hand_range_world_px": [
+				16.5157432556152,
+				12.2290267944336
+			]
+		},
+		{
+			"cycle": "male/sw/walk",
+			"far_hand_range_world_px": [
+				18.616283416748,
+				4.85173416137695
+			],
+			"near_hand_range_world_px": [
+				15.4590225219727,
+				3.97558212280273
+			]
+		},
+		{
+			"cycle": "male/sw/run",
+			"far_hand_range_world_px": [
+				19.4929943084717,
+				17.9756088256836
+			],
+			"near_hand_range_world_px": [
+				16.8501052856445,
+				13.3360748291016
+			]
+		},
+		{
+			"cycle": "male/se/walk",
+			"far_hand_range_world_px": [
+				18.616283416748,
+				4.85173416137695
+			],
+			"near_hand_range_world_px": [
+				15.4590225219727,
+				3.97558212280273
+			]
+		},
+		{
+			"cycle": "male/se/run",
+			"far_hand_range_world_px": [
+				19.4929885864258,
+				17.9756088256836
+			],
+			"near_hand_range_world_px": [
+				16.8501052856445,
+				13.3360748291016
+			]
+		},
+		{
+			"cycle": "male/nw/walk",
+			"far_hand_range_world_px": [
+				18.616283416748,
+				4.85173416137695
+			],
+			"near_hand_range_world_px": [
+				15.4590225219727,
+				3.95800018310547
+			]
+		},
+		{
+			"cycle": "male/nw/run",
+			"far_hand_range_world_px": [
+				19.4929943084717,
+				17.9756088256836
+			],
+			"near_hand_range_world_px": [
+				16.8501052856445,
+				13.3360748291016
+			]
+		},
+		{
+			"cycle": "male/ne/walk",
+			"far_hand_range_world_px": [
+				18.616283416748,
+				4.85173416137695
+			],
+			"near_hand_range_world_px": [
+				15.4590225219727,
+				3.95800018310547
+			]
+		},
+		{
+			"cycle": "male/ne/run",
+			"far_hand_range_world_px": [
+				19.4929885864258,
+				17.9756088256836
+			],
+			"near_hand_range_world_px": [
+				16.8501052856445,
+				13.3360748291016
+			]
+		}
+	],
+	"limits": "Stance drift is measured at authored key times before final nearest-pixel display; between keys 8/12fps stepping may show up to one frame of relative motion. Rendered alpha/skin samples and full-cycle GPU contact sheets accompany the numeric checks; aesthetic approval remains pending.",
+	"passed": true
+}
