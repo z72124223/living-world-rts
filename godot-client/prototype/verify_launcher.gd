@@ -34,6 +34,10 @@ func run() -> void:
 	if connected:
 		check(not launcher.game.demo_mode,"bundle uses persistent world")
 		check(launcher.game.map.points.size()==3,"export contains map JSON and dynamic resources")
+		var visible_frames := true
+		for actor in launcher.game.actors.values():
+			if actor._sprite.texture==null or not actor._sprite.texture.get_image().get_used_rect().has_area(): visible_frames=false
+		check(visible_frames,"all four runtime actors render nonempty frames from exported layers")
 		var expected_path := OS.get_environment("RTS_EXPECTED_SNAPSHOT")
 		if not expected_path.is_empty():
 			var expected: Dictionary=JSON.parse_string(FileAccess.get_file_as_string(expected_path))
@@ -44,6 +48,19 @@ func run() -> void:
 			launcher.game.toggle_equipment("armor")
 		if expected_path.is_empty():
 			check(await wait_for(func(): return launcher.game.snapshot.characters[3].loadout.armor=="chest"),"equipment is persisted across process restart" if phase=="restore" else "real player equipment command succeeds")
+		if phase=="create":
+			var actor: Node2D=launcher.game.actors["4"]
+			var start: Vector2=actor.position
+			launcher.game.running=true
+			check(launcher.game.order_move(start+Vector2(96,0)),"new actor receives a real movement route")
+			check(await wait_for(func(): return actor.get_visual_state().motion=="run"),"exported modular actor switches to run animation")
+			await get_tree().create_timer(0.7).timeout
+			check(actor.position.distance_to(start)>8,"new actor follows authoritative world motion")
+			launcher.game.stop_selected()
+			check(await wait_for(func(): return actor.get_visual_state().motion=="idle"),"new actor returns to idle on real stop")
+			launcher.game.toggle_equipment("weapon")
+			check(await wait_for(func(): return launcher.game.snapshot.characters[3].loadout.weapon=="sword" and actor.get_visual_state().loadout.weapon=="sword"),"equipment and cached actor frame update together")
+		launcher.game.select_all()
 		launcher.game._send({"type":"save","slot":"slot-1"})
 		check(await wait_for(func(): return launcher.game.bridge._queue.is_empty() and launcher.game.bridge._inflight.is_empty()),"queued save completes before close")
 		if DisplayServer.get_name()!="headless":

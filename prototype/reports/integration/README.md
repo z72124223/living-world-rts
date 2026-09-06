@@ -8,7 +8,10 @@
 - 流程包含四人、換胸甲與武器、分隊、走牆口、停止、兩組分別往北方及東方、四名隊員各自記錄觀察、返回營地、合流、集合、slot-1 存讀檔恢复人物／隊伍／位置／裝備／歷史。
 - `launcher-create.json`、`launcher-restore.json`：已匯出的 Windows 遊戲自動啟動世界、動態地圖素材載入、換裝、保存、正常關閉，再開啟讀回皆通過。兩次測試後遊戲與子程序均已退出，8793 無 listener；8780 原樣保留。
 - `native-full-world-restart.json`：最新 Windows 套件重新開啟完整探路測試存檔，全部人物／隊伍／位置／裝備／觀察歷史與關閉前快照相同，6 項檢查全過；原先受命令自動審查阻擋的獨立重啟驗證，已改從遊戲入口完成。`native-full-world-restart.png` 可直接核對原生畫面。
-- `01-integrated-camp.png`、`02-integrated-scout.png`、`03-integrated-return.png` 是原生 Godot Viewport 截圖。這一輪使用第一版角色；新版衣甲、動作與快取需後續接入。
+- `01-integrated-camp.png`、`02-integrated-scout.png`、`03-integrated-return.png` 是原生 Godot Viewport 截圖。完整路線檢查使用第一版角色；修正版的接入結果如下。
+- 角色增量 `dbfeddd` 已接入，重新匯出實際 Windows 套件。`final-actor-create.json` 的 12 項與 `final-actor-restore.json` 的 7 項全部通過，包含 26 張分層來源與 manifest 的匯出讀取、四名非空角色畫格、真實移動／跑步／停止／換裝，以及保存關閉後重啟。兩次 stderr 都空白，遊戲與自己啟動的世界程序均已退出。`final-game.png` 為最後原生套件畫面。
+
+已交付 `C:/Users/f7212/OneDrive/文件/遊戲開發/playable/four-person-prototype-20260906/`，兩個執行檔複製後 SHA-256 與實測套件一致。資料夾包含遊戲、世界核心、操作說明、實際畫面與 build-hashes.json。執行檔約 111 MiB；不需要安裝開發工具。新美術依然是待使用者審美確認的版本。
 
 整合修正：正式模式缺橋接時不回退 mock；各人物各自保留探路目的地，兩組探路不再互相覆蓋；移動或停止只取消被選人物的探路意圖；到達後逐人保存觀察。紀錄介面顯示觀察者姓名。
 
