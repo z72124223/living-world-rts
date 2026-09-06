@@ -1,18 +1,27 @@
 extends Node2D
 var kind := "tree"
 var footprint := Vector2(40, 32)
+var texture: Texture2D
 
 func setup(data: Dictionary) -> void:
 	kind = data.kind
 	var rect: Rect2 = data.rect
 	position = Vector2(rect.get_center().x, rect.end.y)
 	footprint = rect.size
+	var art_path := "res://prototype/map/art/%s.png" % kind
+	if ResourceLoader.exists(art_path): texture=load(art_path)
 	queue_redraw()
 
 func poly(points: Array, color: String) -> void:
 	draw_colored_polygon(PackedVector2Array(points), Color(color))
 
 func _draw() -> void:
+	if texture:
+		var image_size := texture.get_size()
+		if kind=="wall": image_size=Vector2(80,footprint.y+32)
+		if kind=="rock": image_size=Vector2(footprint.x+24,footprint.y+48)
+		draw_texture_rect(texture,Rect2(Vector2(-image_size.x/2,-image_size.y+7),image_size),false)
+		return
 	var w := footprint.x / 2
 	var h := footprint.y
 	if kind == "tree":

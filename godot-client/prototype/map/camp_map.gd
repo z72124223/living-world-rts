@@ -4,6 +4,7 @@ const SIZE := Vector2(2048, 1536)
 const CELL := 32
 const CLEARANCE := 12.0
 var points: Dictionary = {}
+var terrain_texture: Texture2D
 var grid := AStarGrid2D.new()
 var obstacles: Array[Rect2] = []
 var props: Array[Dictionary] = []
@@ -13,6 +14,7 @@ var ground_paths: Array[PackedVector2Array] = [
 	PackedVector2Array([Vector2(336, 848), Vector2(336, 1200), Vector2(624, 1392)])]
 
 func _ready() -> void:
+	terrain_texture=load("res://prototype/map/art/terrain.png")
 	var config: Dictionary = JSON.parse_string(FileAccess.get_file_as_string("res://prototype/map/map_config.json"))
 	for key in config.event_positions:
 		var p: Array = config.event_positions[key]
@@ -149,6 +151,9 @@ func route(start: Vector2, target: Vector2) -> PackedVector2Array:
 	return smooth
 
 func _draw() -> void:
+	if terrain_texture:
+		draw_texture_rect(terrain_texture,Rect2(Vector2.ZERO,SIZE),false)
+		return
 	draw_rect(Rect2(Vector2.ZERO, SIZE), Color("354b3b"))
 	var rng := RandomNumberGenerator.new()
 	rng.seed = 937
