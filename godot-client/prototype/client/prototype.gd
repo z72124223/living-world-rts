@@ -16,7 +16,7 @@ var actors: Dictionary = {}
 var snapshot: Dictionary = {}
 var selected: Array[String] = []
 var rendered_routes: Dictionary = {}
-var pending_interaction: Dictionary = {}
+var pending_interaction: Dictionary = {} # character ID -> assigned event key
 var camera_speed := 650.0
 var running := false
 var demo_mode := false
@@ -69,17 +69,18 @@ func _ready() -> void:
 	_layout_ui()
 	var args := OS.get_cmdline_user_args()
 	var force_demo := args.has("--demo")
-	var force_world := args.has("--world")
 	var bridge_path := "res://prototype/bridge/world_bridge.gd"
 	if not force_demo and ResourceLoader.exists(bridge_path):
 		bridge = load(bridge_path).new()
-	else:
-		if force_world:
-			mode_label.text = "本機世界尚未連線"
-			_status("世界元件尚未安裝，請完成整合後重新開啟。")
-			return
+	elif force_demo:
 		demo_mode = true
 		bridge = MockWorld.new()
+	else:
+		mode_label.text = "本機世界尚未連線"
+		_status("世界元件尚未安裝，請使用完整遊戲資料夾重新開啟。")
+		save_button.disabled = true
+		load_button.disabled = true
+		return
 	add_child(bridge)
 	bridge.snapshot_received.connect(_receive_snapshot)
 	bridge.command_failed.connect(_command_failed)
@@ -284,7 +285,6 @@ func _unhandled_input(event: InputEvent) -> void:
 				if world.distance_to(map.points[key]) < 38:
 					order_event(key)
 					return
-			pending_interaction.clear()
 			order_move(world)
 	if event is InputEventMouseMotion:
 		if panning:
@@ -391,7 +391,11 @@ func _receive_snapshot(value: Dictionary) -> void:
 	if event_key!=event_history:
 		event_history=event_key
 		log_label.text=""
-		for i in range(maxi(0,events.size()-6),events.size()): log_label.append_text("· %s\n" % events[i].text)
+		for i in range(maxi(0,events.size()-6),events.size()):
+			var author := ""
+			for person in snapshot.characters:
+				if str(person.id)==str(events[i].get("character_id","")): author=str(person.name)+"："
+			log_label.append_text("· %s%s\n" % [author,events[i].text])
 	mini.snapshot=snapshot
 	_update_selection()
 	_check_interaction()
@@ -440,20 +444,20 @@ func order_move(target: Vector2) -> bool:
 		commands.append({"character_id":id,"points":points})
 		planned[id]=path
 	for id in planned: rendered_routes[id]=planned[id]
+	_cancel_selected_interactions()
 	_send({"type":"move","routes":commands,"pace":"run" if running else "walk"})
 	_status("%d 人%s前往目的地。" % [selected.size(),"跑步" if running else "步行"])
 	return true
 
 func stop_selected() -> void:
 	if selected.is_empty(): return
-	pending_interaction.clear()
+	_cancel_selected_interactions()
 	for id in selected: rendered_routes.erase(id)
 	_send({"type":"stop","character_ids":selected.duplicate()})
 	_status("已下令停止。")
 
 func gather_selected() -> void:
 	if selected.is_empty(): return
-	pending_interaction.clear()
 	var centre: Vector2 = actors[selected[0]].position
 	order_move(centre)
 
@@ -489,22 +493,34 @@ func order_event(key: String) -> void:
 	if selected.is_empty():
 		_status("請先選取要探路或返回的隊員。")
 		return
-	pending_interaction.clear()
 	if order_move(map.points[key]):
-		pending_interaction = {"key":key,"ids":selected.duplicate()}
+		for id in selected: pending_interaction[id]=key
 		_check_interaction()
+
+func _cancel_selected_interactions() -> void:
+	for id in selected: pending_interaction.erase(id)
 
 func _check_interaction() -> void:
 	if pending_interaction.is_empty(): return
-	var key: String = pending_interaction.key
-	var target: Vector2 = map.points[key]
-	# A return is acknowledged only after every commanded member reaches camp.
-	for id in pending_interaction.ids:
-		if not actors.has(id) or actors[id].position.distance_to(target)>64: return
-	var actor_id: String = pending_interaction.ids[0]
-	pending_interaction.clear()
-	_send({"type":"interact","character_id":actor_id,"event_key":key})
-	_status("已到達並記錄觀察。")
+	var groups: Dictionary={}
+	for id in pending_interaction.keys():
+		if not actors.has(id):
+			pending_interaction.erase(id)
+			continue
+		var key: String=pending_interaction[id]
+		if not groups.has(key): groups[key]=[]
+		groups[key].append(id)
+	for key in groups:
+		var target: Vector2=map.points[key]
+		var arrived := true
+		# Different destinations progress independently; all members assigned here must arrive.
+		for id in groups[key]:
+			if actors[id].position.distance_to(target)>64: arrived=false
+		if not arrived: continue
+		for id in groups[key]: pending_interaction.erase(id)
+		for id in groups[key]:
+			_send({"type":"interact","character_id":str(id),"event_key":key})
+		_status("已到達，正在記錄隊員觀察。")
 
 func focus_selected() -> void:
 	if selected.is_empty(): return

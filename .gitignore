@@ -1,0 +1,4 @@
+/target/
+/dist/
+/prototype/reports/integration/run-*/
+/prototype/reports/integration/latest-run.txt

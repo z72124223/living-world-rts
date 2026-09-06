@@ -1,0 +1,33 @@
+{
+	"checks": [
+		{
+			"check": "bundled game automatically starts and connects its world",
+			"passed": true
+		},
+		{
+			"check": "bundle uses persistent world",
+			"passed": true
+		},
+		{
+			"check": "export contains map JSON and dynamic resources",
+			"passed": true
+		},
+		{
+			"check": "equipment is persisted across process restart",
+			"passed": true
+		},
+		{
+			"check": "queued save completes before close",
+			"passed": true
+		},
+		{
+			"check": "native bundle screenshot saved",
+			"passed": true
+		}
+	],
+	"executable": "C:/Users/f7212/.codex/worktrees/rts-squad-integration/遊戲開發/dist/four-person-prototype/林間營地.exe",
+	"failed": 0,
+	"phase": "restore",
+	"save_directory": "C:\\Users\\f7212\\.codex\\worktrees\\rts-squad-integration\\遊戲開發\\prototype\\reports\\integration\\run-bundle-20260906-1050\\saves",
+	"world_pid": 20204
+}

@@ -1,0 +1,149 @@
+{
+	"checks": [
+		{
+			"check": "formal client uses real bridge",
+			"passed": true
+		},
+		{
+			"check": "real pixel actor replaces stand-in",
+			"passed": true
+		},
+		{
+			"check": "stable four identity records",
+			"passed": true
+		},
+		{
+			"check": "formal save/load controls enabled",
+			"passed": true
+		},
+		{
+			"check": "actual Tab input selects four",
+			"passed": true
+		},
+		{
+			"check": "capture 01-integrated-camp.png",
+			"passed": true
+		},
+		{
+			"check": "UI equipment reaches Rust and actor",
+			"passed": true
+		},
+		{
+			"check": "weapon command persists in world",
+			"passed": true
+		},
+		{
+			"check": "client splits real squad",
+			"passed": true
+		},
+		{
+			"check": "split preserves identity",
+			"passed": true
+		},
+		{
+			"check": "map finds route through wall opening",
+			"passed": true
+		},
+		{
+			"check": "Rust advances real-time movement",
+			"passed": true
+		},
+		{
+			"check": "keyboard stop halts world",
+			"passed": true
+		},
+		{
+			"check": "position stays fixed after stop",
+			"passed": true
+		},
+		{
+			"check": "two scout destinations retain independent arrival tracking",
+			"passed": true
+		},
+		{
+			"check": "distant destination does not reveal observation",
+			"passed": true
+		},
+		{
+			"check": "real route reaches north and records observation",
+			"passed": true
+		},
+		{
+			"check": "each scouting member records their own observation",
+			"passed": true
+		},
+		{
+			"check": "other squad independently reaches east and records both observers",
+			"passed": true
+		},
+		{
+			"check": "capture 02-integrated-scout.png",
+			"passed": true
+		},
+		{
+			"check": "real route returns with observation history",
+			"passed": true
+		},
+		{
+			"check": "each returning observer reports their own information",
+			"passed": true
+		},
+		{
+			"check": "returned members finish their routes",
+			"passed": true
+		},
+		{
+			"check": "merge input explicitly selects source members",
+			"passed": true
+		},
+		{
+			"check": "real squads merge from player control",
+			"passed": true
+		},
+		{
+			"check": "gather acknowledged by real world",
+			"passed": true
+		},
+		{
+			"check": "gather finishes with separate standing positions",
+			"passed": true
+		},
+		{
+			"check": "formal slot save response succeeds",
+			"passed": true
+		},
+		{
+			"check": "world changes after save",
+			"passed": true
+		},
+		{
+			"check": "formal slot load acknowledged",
+			"passed": true
+		},
+		{
+			"check": "load restores saved equipment",
+			"passed": true
+		},
+		{
+			"check": "load restores positions identities squads and history",
+			"passed": true
+		},
+		{
+			"check": "all sampled real-world positions avoid map obstacles",
+			"passed": true
+		},
+		{
+			"check": "no unexpected bridge command failures",
+			"passed": true
+		},
+		{
+			"check": "capture 03-integrated-return.png",
+			"passed": true
+		}
+	],
+	"elapsed_ms": 53372,
+	"errors": [],
+	"failed": 0,
+	"mock": false,
+	"position_samples": 1148
+}

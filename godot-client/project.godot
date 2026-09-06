@@ -2,8 +2,8 @@
 config_version=5
 
 [application]
-config/name="武將人體・曲線與骨架"
-run/main_scene="res://scenes/body_contour.tscn"
+config/name="林間營地・四人小隊"
+run/main_scene="res://prototype/launch.tscn"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 
 [display]

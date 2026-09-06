@@ -1,0 +1,40 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 576.88 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1080 Ti
+
+INTEGRATION_CHECK formal client uses real bridge
+INTEGRATION_CHECK real pixel actor replaces stand-in
+INTEGRATION_CHECK stable four identity records
+INTEGRATION_CHECK formal save/load controls enabled
+INTEGRATION_CHECK actual Tab input selects four
+INTEGRATION_CHECK capture 01-integrated-camp.png
+INTEGRATION_CHECK UI equipment reaches Rust and actor
+INTEGRATION_CHECK weapon command persists in world
+INTEGRATION_CHECK client splits real squad
+INTEGRATION_CHECK split preserves identity
+INTEGRATION_CHECK map finds route through wall opening
+INTEGRATION_CHECK Rust advances real-time movement
+INTEGRATION_CHECK keyboard stop halts world
+INTEGRATION_CHECK position stays fixed after stop
+INTEGRATION_CHECK two scout destinations retain independent arrival tracking
+INTEGRATION_CHECK distant destination does not reveal observation
+INTEGRATION_CHECK real route reaches north and records observation
+INTEGRATION_CHECK each scouting member records their own observation
+INTEGRATION_CHECK other squad independently reaches east and records both observers
+INTEGRATION_CHECK capture 02-integrated-scout.png
+INTEGRATION_CHECK real route returns with observation history
+INTEGRATION_CHECK each returning observer reports their own information
+INTEGRATION_CHECK returned members finish their routes
+INTEGRATION_CHECK merge input explicitly selects source members
+MERGE_INPUT {"people":[{"gender":"female","id":"1","loadout":{"armor":"chest","clothing":"cloth","weapon":"sword"},"name":"林岑","position":[304.0,816.0],"squad_id":"squad-2","velocity":[0.0,0.0]},{"gender":"male","id":"2","loadout":{"armor":"none","clothing":"cloth","weapon":"none"},"name":"陳岳","position":[368.0,816.0],"squad_id":"squad-2","velocity":[0.0,0.0]},{"gender":"female","id":"3","loadout":{"armor":"none","clothing":"cloth","weapon":"none"},"name":"蘇禾","position":[304.0,880.0],"squad_id":"squad-1","velocity":[0.0,0.0]},{"gender":"male","id":"4","loadout":{"armor":"none","clothing":"cloth","weapon":"none"},"name":"周衡","position":[368.0,880.0],"squad_id":"squad-1","velocity":[0.0,0.0]}],"selected":["1","2","3","4"],"target_index":0}
+INTEGRATION_CHECK real squads merge from player control
+INTEGRATION_CHECK gather acknowledged by real world
+INTEGRATION_CHECK gather finishes with separate standing positions
+INTEGRATION_CHECK formal slot save response succeeds
+INTEGRATION_CHECK world changes after save
+INTEGRATION_CHECK formal slot load acknowledged
+INTEGRATION_CHECK load restores saved equipment
+INTEGRATION_CHECK load restores positions identities squads and history
+INTEGRATION_CHECK all sampled real-world positions avoid map obstacles
+INTEGRATION_CHECK no unexpected bridge command failures
+INTEGRATION_CHECK capture 03-integrated-return.png
+INTEGRATION_RESULT failed=0 position_samples=1148
