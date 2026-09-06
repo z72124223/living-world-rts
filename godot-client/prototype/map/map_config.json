@@ -1,0 +1,8 @@
+{
+  "world_size": [2048, 1536],
+  "cell_size": 32,
+  "actor_clearance": 12,
+  "interaction_radius": 64,
+  "spawn_positions": [[304, 816], [352, 816], [304, 864], [352, 864]],
+  "event_positions": {"return-camp": [336, 848], "scout-north": [1040, 304], "scout-east": [1712, 848]}
+}
