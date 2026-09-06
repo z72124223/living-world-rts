@@ -1,2 +1,5 @@
-# Keep pinned third-party asset bytes stable for the source hash manifest.
-/blender-assets/sources/makehuman-a8bc2d5/** -text
+# Preserve byte-for-byte asset and verification hashes across Windows worktrees.
+asset-library/** -text
+pixel-assets/** -text
+godot-client/** -text
+scripts/*.lua -text
