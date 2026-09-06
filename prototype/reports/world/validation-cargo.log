@@ -1,0 +1,72 @@
+   Compiling world-core v0.1.0 (C:\Users\f7212\.codex\worktrees\f872\遊戲開發\crates\world-core)
+   Compiling world-prototype v0.1.0 (C:\Users\f7212\.codex\worktrees\f872\遊戲開發\crates\world-prototype)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 2.92s
+     Running unittests src\lib.rs (target\debug\deps\world_core-f2bf0c845c7b4107.exe)
+
+running 16 tests
+test character::tests::characters_receive_unique_ids ... ok
+test character::tests::conscious_alive_online_character_can_directly_command ... ok
+test character::tests::player_and_npc_share_the_same_character_model ... ok
+test character::tests::dead_character_cannot_directly_command ... ok
+test character::tests::invalid_character_data_is_rejected ... ok
+test character::tests::unconscious_character_cannot_directly_command ... ok
+test character::tests::offline_character_cannot_directly_command ... ok
+test prototype::tests::duplicate_json_identity_keys_are_rejected ... ok
+test prototype::tests::hierarchy_rejects_cycles_duplicate_parent_and_flat_merge ... ok
+test prototype::tests::join_leave_references_and_commander_eligibility_are_explicit ... ok
+test prototype::tests::invalid_commands_leave_every_character_and_history_unchanged ... ok
+test prototype::tests::simulation_route_corners_speed_stop_and_frame_independence ... ok
+test prototype::tests::corrupt_saved_graph_allocator_and_observations_are_rejected ... ok
+test prototype::tests::observed_information_and_return_events_are_persistent_and_not_duplicated ... ok
+test prototype::tests::save_restores_identity_allocators_and_existing_character_model ... ok
+test prototype::tests::split_merge_preserve_four_character_records_and_history ... ok
+
+test result: ok. 16 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+     Running unittests src\lib.rs (target\debug\deps\world_prototype-7cdf445deb54b7e1.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src\main.rs (target\debug\deps\world_prototype-5ebe55decda5f4cf.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests\http_process.rs (target\debug\deps\http_process-c474c7862b7a3054.exe)
+
+running 4 tests
+HTTP_BOUNDARY_PASS loopback-only options, Host/Origin, framing, bounded body, errors preserve world
+test actual_http_rejects_cross_origin_host_streams_and_oversized_requests ... ok
+test delayed_client_bytes_work_with_nonblocking_windows_listener ... ok
+HTTP_RESTART_PASS four-person IDs, split/merge, timed move, stop, equipment, slots, request replay, corrupt load, new IDs 5 then 6
+test actual_http_split_merge_move_stop_save_restart_and_new_character ... ok
+HTTP_SCOUT_RETURN_PASS actual timed travel north and back, proximity gate, event deduplication, restart history
+test actual_http_observation_requires_arrival_and_return_survives_restart ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 32.58s
+
+     Running tests\persistence.rs (target\debug\deps\persistence-88c626d971950597.exe)
+
+running 5 tests
+test corrupt_current_is_reported_without_silent_reset_and_directory_is_locked ... ok
+test slot_load_rejects_valid_json_with_unsafe_identity_allocator ... ok
+test corrupted_slots_and_failed_atomic_replace_do_not_damage_current_world ... ok
+test save_load_restart_new_id_and_receipt_replay ... ok
+test versioned_save_keeps_routes_equipment_and_observation_return_history ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.07s
+
+   Doc-tests world_core
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests world_prototype
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
