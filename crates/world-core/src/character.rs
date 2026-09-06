@@ -1,19 +1,55 @@
+use serde::{Deserialize, Serialize};
 use std::fmt;
 use std::sync::atomic::{AtomicU64, Ordering};
 
 static NEXT_CHARACTER_ID: AtomicU64 = AtomicU64::new(1);
 
 /// 世界內人物的穩定唯一識別。
-#[derive(Debug, Clone, Copy, PartialEq, Eq, Hash, PartialOrd, Ord)]
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Hash, PartialOrd, Ord, Serialize, Deserialize)]
+#[serde(try_from = "String", into = "String")]
 pub struct CharacterId(u64);
 
 impl CharacterId {
     pub fn new() -> Self {
-        Self(NEXT_CHARACTER_ID.fetch_add(1, Ordering::Relaxed))
+        Self(
+            NEXT_CHARACTER_ID
+                .fetch_update(Ordering::Relaxed, Ordering::Relaxed, |next| {
+                    next.checked_add(1)
+                })
+                .expect("character ID space exhausted"),
+        )
     }
 
     pub fn get(self) -> u64 {
         self.0
+    }
+
+    pub(crate) fn restore(value: u64) -> Result<Self, String> {
+        if value == 0 || value == u64::MAX {
+            return Err("invalid character ID".into());
+        }
+        Ok(Self(value))
+    }
+
+    pub(crate) fn reserve_through(value: u64) {
+        NEXT_CHARACTER_ID.fetch_max(value.saturating_add(1), Ordering::Relaxed);
+    }
+}
+
+impl TryFrom<String> for CharacterId {
+    type Error = String;
+    fn try_from(value: String) -> Result<Self, Self::Error> {
+        let number: u64 = value.parse().map_err(|_| "invalid character ID")?;
+        if number.to_string() != value {
+            return Err("noncanonical character ID".into());
+        }
+        Self::restore(number)
+    }
+}
+
+impl From<CharacterId> for String {
+    fn from(id: CharacterId) -> Self {
+        id.0.to_string()
     }
 }
 
@@ -26,25 +62,25 @@ impl Default for CharacterId {
 /// 人物目前由真人玩家或 NPC 控制。
 ///
 /// 這只是控制來源，不代表玩家與 NPC 使用不同的人物模型。
-#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize)]
 pub enum ControllerKind {
     Player,
     Npc,
 }
 
-#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize)]
 pub enum Presence {
     Online,
     Offline,
 }
 
-#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize)]
 pub enum Consciousness {
     Conscious,
     Unconscious,
 }
 
-#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize)]
 pub enum LifeState {
     Alive,
     Dead,
@@ -54,7 +90,8 @@ pub enum LifeState {
 ///
 /// `martial`（武力）與 `intellect`（智力）目前只是能力尺度；
 /// 不在此處提前寫死戰鬥、傷害或成長公式。
-#[derive(Debug, Clone, PartialEq)]
+#[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
+#[serde(deny_unknown_fields)]
 pub struct Character {
     id: CharacterId,
     name: String,
@@ -67,6 +104,37 @@ pub struct Character {
 }
 
 impl Character {
+    pub(crate) fn with_persistent_id(id: u64, name: String) -> Result<Self, String> {
+        let value = Self {
+            id: CharacterId::restore(id)?,
+            name,
+            controller: ControllerKind::Npc,
+            martial: 5.0,
+            intellect: 5.0,
+            presence: Presence::Online,
+            consciousness: Consciousness::Conscious,
+            life_state: LifeState::Alive,
+        };
+        value.validate()?;
+        Ok(value)
+    }
+
+    pub(crate) fn validate(&self) -> Result<(), String> {
+        if self.name.trim().is_empty()
+            || self.name.len() > 256
+            || self.name.chars().any(char::is_control)
+            || !self.martial.is_finite()
+            || self.martial < 0.0
+            || !self.intellect.is_finite()
+            || self.intellect < 0.0
+            || (self.life_state == LifeState::Dead
+                && self.consciousness != Consciousness::Unconscious)
+        {
+            return Err("invalid saved character".into());
+        }
+        Ok(())
+    }
+
     pub fn new(
         name: impl Into<String>,
         controller: ControllerKind,
