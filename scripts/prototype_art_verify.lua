@@ -9,7 +9,7 @@ local function json(v)
  elseif type(v)=='boolean' then return v and 'true' or 'false' else return tostring(v) end
 end
 for _,gender in ipairs({'female','male'}) do
- local atlas=Image{fromFile=root..'/godot-client/prototype/actors/atlases/'..gender..'-111.png'}
+ local atlas=Image{fromFile=root..'/pixel-assets/prototype-actors/previews/'..gender..'-all.png'}
  local direction_differences={}
  for _,pair in ipairs({{0,1},{2,3},{0,2},{1,3}}) do
   local difference=192*192;local reflected=pair[2]-pair[1]==1
@@ -41,15 +41,21 @@ for _,gender in ipairs({'female','male'}) do
  end end
  assert(edge_pixels==0,'Clipped actor frame')
  local distinct_equipment=0;local prior={}
+ local native=app.open(root..'/pixel-assets/prototype-actors/native/'..gender..'-actor.aseprite')
  for cloth=0,1 do for armor=0,1 do for weapon=0,1 do
   local name=cloth..armor..weapon
-  local im=Image{fromFile=root..'/godot-client/prototype/actors/atlases/'..gender..'-'..name..'.png'}
+  for _,layer in ipairs(native.layers) do
+   local n=layer.name
+   layer.isVisible=(not n:find('cloth_') or cloth==1) and (n~='chest' or armor==1) and (n~='sword' or weapon==1)
+  end
+  local im=Image(192,192);im:drawSprite(native,1)
   for _,other in ipairs(prior) do
    local diff=0;for y=0,191 do for x=0,191 do if im:getPixel(x,y)~=other:getPixel(x,y) then diff=diff+1 end end end
    assert(diff>0,'Two equipment variants have identical pixels')
   end
   prior[#prior+1]=im;distinct_equipment=distinct_equipment+1
  end end end
+ native:close()
  local approved=root..'/asset-library/characters/human-'..gender..'-base/'..(gender=='male' and '0.1.0' or '1.0.0')..'/runtime/assets/'..(gender=='male' and 'male-body-head.png' or 'body-head.png')
  local src=Image{fromFile=approved};local dst=Image{fromFile=root..'/pixel-assets/prototype-actors/source-textures/'..gender..'-sw-head.png'}
  local head_difference=0;for y=0,255 do for x=0,255 do if src:getPixel(x,y)~=dst:getPixel(x,y) then head_difference=head_difference+1 end end end

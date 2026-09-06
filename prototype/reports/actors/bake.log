@@ -9,4 +9,4 @@ BAKED male sw
 BAKED male se
 BAKED male nw
 BAKED male ne
-ACTOR BAKE COMPLETE
+ACTOR BAKE COMPLETE max_ik_error_world_px=0.00001348542277
