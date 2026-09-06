@@ -1,0 +1,222 @@
+[
+  {
+    "path": "asset-library\\characters\\human-female-base\\1.0.0\\asset.json",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-female-base\\1.0.0\\previews\\elbow.png",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-female-base\\1.0.0\\previews\\knee.png",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-female-base\\1.0.0\\previews\\rest.png",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-female-base\\1.0.0\\README.md",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-female-base\\1.0.0\\runtime\\assets\\body-head.png",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-female-base\\1.0.0\\runtime\\assets\\body-v03-far_arm.png",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-female-base\\1.0.0\\runtime\\assets\\body-v03-far_leg.png",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-female-base\\1.0.0\\runtime\\assets\\body-v03-master.png",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-female-base\\1.0.0\\runtime\\assets\\body-v03-mesh.json",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-female-base\\1.0.0\\runtime\\assets\\body-v03-near_arm.png",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-female-base\\1.0.0\\runtime\\assets\\body-v03-near_leg.png",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-female-base\\1.0.0\\runtime\\assets\\body-v03-preview.png",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-female-base\\1.0.0\\runtime\\assets\\body-v03-rig.json",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-female-base\\1.0.0\\runtime\\assets\\body-v03-torso_pelvis.png",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-female-base\\1.0.0\\runtime\\assets\\FONT-LICENSE.txt",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-female-base\\1.0.0\\runtime\\assets\\ui-font.otf",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-female-base\\1.0.0\\runtime\\body_rig.gd",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-female-base\\1.0.0\\source\\female-body-contour-v03.aseprite",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-female-base\\1.0.0\\source\\references\\female-armoured-reference.png",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-female-base\\1.0.0\\source\\references\\female-rig-unitard-v02.png",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-female-base\\1.0.0\\source\\references\\prompts.txt",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-female-base\\1.0.0\\source\\scripts\\build_body_contour_v03.lua",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-female-base\\1.0.0\\source\\scripts\\rig_landmarks.lua",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-female-base\\1.0.0\\verification\\aseprite-build.log",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-female-base\\1.0.0\\verification\\gpu-mask.png",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-female-base\\1.0.0\\verification\\mask-difference.png",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-female-base\\1.0.0\\verification\\report.json",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-male-base\\0.1.0\\asset.json",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-male-base\\0.1.0\\previews\\elbow.png",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-male-base\\0.1.0\\previews\\knee.png",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-male-base\\0.1.0\\previews\\rest.png",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-male-base\\0.1.0\\README.md",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-male-base\\0.1.0\\runtime\\assets\\FONT-LICENSE.txt",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-male-base\\0.1.0\\runtime\\assets\\male-body-head.png",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-male-base\\0.1.0\\runtime\\assets\\male-body-v01-far_arm.png",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-male-base\\0.1.0\\runtime\\assets\\male-body-v01-far_leg.png",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-male-base\\0.1.0\\runtime\\assets\\male-body-v01-master.png",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-male-base\\0.1.0\\runtime\\assets\\male-body-v01-mesh.json",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-male-base\\0.1.0\\runtime\\assets\\male-body-v01-near_arm.png",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-male-base\\0.1.0\\runtime\\assets\\male-body-v01-near_leg.png",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-male-base\\0.1.0\\runtime\\assets\\male-body-v01-preview.png",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-male-base\\0.1.0\\runtime\\assets\\male-body-v01-rig.json",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-male-base\\0.1.0\\runtime\\assets\\male-body-v01-torso_pelvis.png",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-male-base\\0.1.0\\runtime\\assets\\ui-font.otf",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-male-base\\0.1.0\\runtime\\body_rig.gd",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-male-base\\0.1.0\\source\\male-body-contour-v01.aseprite",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-male-base\\0.1.0\\source\\references\\male-rig-reference-v01.png",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-male-base\\0.1.0\\source\\references\\male-rig-reference-v01.prompt.txt",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-male-base\\0.1.0\\source\\scripts\\build_body_contour_v03.lua",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-male-base\\0.1.0\\source\\scripts\\male_rig_landmarks.lua",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-male-base\\0.1.0\\verification\\aseprite-build.log",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-male-base\\0.1.0\\verification\\gpu-mask.png",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-male-base\\0.1.0\\verification\\mask-difference.png",
+    "passed": true
+  },
+  {
+    "path": "asset-library\\characters\\human-male-base\\0.1.0\\verification\\report.json",
+    "passed": true
+  }
+]

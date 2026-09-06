@@ -1,0 +1,5 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 576.88 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1080 Ti
+
+ACTOR_ACCEPTANCE PASS | checks=59 | report=C:/Users/f7212/.codex/worktrees/ee20/遊戲開發/prototype/reports/actors/actor-runtime-report.json
+ACTOR_PERFORMANCE {"actors":32,"body_world_height_px":64,"display_scale":1.5,"draw_calls_last_frame":124.0,"engine_max_fps":0,"engine_process_time_monitor_ms":{"max":5.937,"mean":5.929,"min":5.927,"p95":5.937},"equipment":"cloth + chest armor + sword","estimated_fps_from_mean_interval":169.989488983264,"frame_interval_ms":{"max":6.011,"mean":5.88271666666667,"min":5.769,"p95":5.951},"hidden_preview_actors_process_disabled":true,"measured":true,"motions":"mixed walk/run, four diagonal directions","rendered_objects_last_frame":270.0,"sample_frames":240,"scope":"Small native desktop viewport sample; no large RTS capacity conclusion.","static_memory_bytes":52432898.0,"visible_actors":32,"vsync_mode":1,"warmup_frames":343,"warmup_seconds":2.004761}
