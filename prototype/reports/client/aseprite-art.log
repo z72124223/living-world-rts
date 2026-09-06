@@ -1,0 +1,8 @@
+tent: 194x180 native_roundtrip=true
+tree: 130x170 native_roundtrip=true
+rock: 146x134 native_roundtrip=true
+crate: 104x92 native_roundtrip=true
+wall: 80x304 native_roundtrip=true
+hearth: 92x76 native_roundtrip=true
+pond: 432x240 native_roundtrip=true
+terrain: 1024x768 -> 2048x1536 world native_roundtrip=true

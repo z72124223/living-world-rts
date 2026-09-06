@@ -173,6 +173,7 @@ func run() -> void:
 	check(client.snapshot.events.size()==event_count+1,"remote direct interaction is rejected by mock")
 	client.camera.position=Vector2(1180,500)
 	client._zoom_to(1.05)
+	client._status("北方路標已觀察，準備前往東方溪岸。")
 	await screenshot("03-north-observed.png")
 	client.order_event("scout-east")
 	advance(50)
@@ -215,6 +216,24 @@ func run() -> void:
 		var control: Control=client.ui_root.get_node(name)
 		if control.position.x+control.size.x>root.size.x+2 or control.position.y+control.size.y>root.size.y+2: ui_bounds=false
 	check(ui_bounds,"all UI panels fit actual 1280 by 800 viewport")
+	# A material-dependent visibility regression: walk a selected actor behind a canopy.
+	await key(KEY_1)
+	var canopy_found := false
+	for tree in client.canopy:
+		var point: Vector2=client.map.nearest_free(tree.position-Vector2(0,80))
+		var relative: Vector2=point-tree.position
+		if absf(relative.x)>=60 or relative.y>=0 or relative.y<=-140: continue
+		if not client.order_move(point): continue
+		advance(70)
+		await frames()
+		if tree.modulate.a<0.5:
+			canopy_found=true
+			client.focus_selected()
+			client._zoom_to(1.3)
+			client._status("選取隊員位於樹後，樹冠淡化以保持可見。")
+			await screenshot("05-canopy-visibility.png")
+			break
+	check(canopy_found,"new tree sprite fades over a selected actor reached by a valid route")
 	var result := {"godot":Engine.get_version_info().string,"backend":"explicit_mock_only","formal_rust_integration":"NOT_RUN_missing_owned_bridge","checks":checks,"failed":failures,"sampled_authoritative_positions":sampled_positions,"random_routes_found":random_count,"screenshots":captured,"viewport":[root.size.x,root.size.y]}
 	var suffix := "headless" if DisplayServer.get_name()=="headless" else "rendered"
 	var file := FileAccess.open(output.path_join("verification-"+suffix+".json"),FileAccess.WRITE)

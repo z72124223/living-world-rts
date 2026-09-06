@@ -128,13 +128,17 @@
     {
       "check": "all UI panels fit actual 1280 by 800 viewport",
       "passed": true
+    },
+    {
+      "check": "new tree sprite fades over a selected actor reached by a valid route",
+      "passed": true
     }
   ],
   "failed": 0,
   "formal_rust_integration": "NOT_RUN_missing_owned_bridge",
   "godot": "4.6.3-stable (official)",
   "random_routes_found": 120,
-  "sampled_authoritative_positions": 16480,
+  "sampled_authoritative_positions": 22080,
   "screenshots": [],
   "viewport": [
     1280,
