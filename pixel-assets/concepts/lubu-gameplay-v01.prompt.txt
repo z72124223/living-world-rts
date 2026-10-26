@@ -1,0 +1,63 @@
+呂布遊戲戰鬥畫面概念 v01
+日期：2026-09-06
+工具：Codex 內建圖像生成
+狀態：模擬遊戲截圖的美術概念，尚非實機截圖、已實作規則或效能證據。
+使用者修正：要求正常遊玩尺度的戰鬥畫面，先前角色高光插畫不符合本次需求。
+輸出：lubu-gameplay-v01.png
+
+初次生成提示詞：
+
+Use case: ui-mockup.
+Asset type: ONE simulated in-game RTS battle screenshot, not promotional art. This distinction is the most important requirement.
+Primary request: The user corrected the previous image because it showed a large cinematic Lü Bu hero illustration. They need to see HOW LÜ BU LOOKS WHILE ACTUALLY PLAYING the game, in ordinary small-unit tactical combat. Generate a faithful gameplay-view concept, continuing the supplied approved hand-drawn ink battle reference.
+
+Input reference role: visual style and GAMEPLAY SCALE reference. Use ONLY the TOP battlefield panel of the supplied image as a guide to its simple 2D hand-drawn soldiers, pale courtyard, fixed elevated camera and controlled ink slash. Do not reproduce the bottom close-up panels or the board layout. Output one unified widescreen 16:9 battlefield screenshot, ideally 1920x1080.
+
+ABSOLUTE COMPOSITION RULES:
+- High fixed tactical camera, looking downward roughly 55 degrees toward the ground, near-orthographic / isometric game perspective.
+- No horizon or sky. All ground and figures obey one common tactical camera.
+- NO giant foreground character, NO portrait, NO cinematic close-up, NO character splash art, NO montage, NO comic panels, NO title poster.
+- Lü Bu is a small playable unit of NORMAL game scale, about 65 to 85 pixels head-to-foot on a 1080px-high canvas, approximately 7 percent of screen height. Ordinary infantry are about 60 to 75 pixels tall. His body is at most 15 percent taller than an ordinary soldier beside him. His plumes and polearm add silhouette, not giant body scale.
+- The whole battlefield is visible and dominant. Leave enough space between people to read combat. Do not zoom in until the hero fills the frame.
+- Every on-field character is a small sprite-like 2D hand-drawn unit, with details simplified for gameplay. Nearby foreground soldiers must NOT become large cinematic figures.
+
+ENVIRONMENT:
+A playable rectangular ancient Chinese fortress courtyard and gate approach, pale ivory-grey flagstone ground, simple plaster walls and tiled gate at the top edge, a couple of trees along the edges, crates and training equipment grouped at the margins. Ground shapes and tile details are restrained, low contrast and reusable-looking. Plenty of unobstructed navigable space. No enormous painterly cityscape, sunset, dramatic atmospheric fog or environmental visual noise.
+
+BATTLE:
+About 32 to 40 small soldiers in two readable groups distributed across the yard, several engaged pairs and a few advancing with space between them. Teal-cloth soldiers are on one side, brick-red-cloth soldiers on the other. Spear infantry, shield infantry and a few sword infantry use repeated practical outfit patterns with varied believable combat poses, not identical clones in a perfect grid. Do not imply gore.
+Lü Bu stands near centre, slightly right of centre, wearing charcoal armour with red cloth, paired long pheasant plumes and wielding one recognizable 方天畫戟 with a straight spear point and crescent side blade forms. His attire and plume silhouette identify him while remaining small and simplified. This is an original conventional portrayal, not an existing franchise costume.
+Catch him mid-sweep during active combat against three nearby opponents within realistic polearm reach. Both hands visibly grip the same shaft. A SINGLE short, bold, tapered black-and-ivory ink arc traces his halberd swing, only about 1.5 to 2 body heights wide. It must not become a giant screen-wide special attack. One compact gold-white spark at one enemy shield marks the contact; a few tiny ink flecks are enough. That opponent recoils/braces naturally. The other nearby soldiers are attacking or guarding, not all magically launched away. Battle continues elsewhere simultaneously.
+The visual focal point is the local cluster of tiny units around Lü Bu, drawn clearly with contrast and a restrained selection ring, not by inflating his size. His weapon, moving plumes, grounded attacking pose, contact spark and short brush arc are how the player recognizes his powerful strike.
+
+GAME UI:
+An understated narrow game-control strip at the bottom, around 8 percent of image height, in warm ivory and ink-dark borders with clear Traditional Chinese text.
+Left: selected-unit name exactly "呂布" with a small simple halberd icon, NO large portrait.
+Right: three compact command buttons, exact text "移動", "攻擊", "停止".
+Small readable name "呂布" above the selected unit on the actual battlefield, and a thin teal selection ring under his feet.
+A small unobtrusive top-left label exactly "戰鬥畫面概念".
+No English, Latin abbreviations, decorative calligraphy title, subtitles, damage numbers, HP bars, invented stats, cooldowns, skill descriptions, ability names, minimap or irrelevant controls. Do not imply implemented gameplay rules through UI. No logos or watermarks.
+
+STYLE:
+Match the approved economical 2D hand-drawn plus restrained dry-ink combat look. Clean strong contour lines, grouped flat colours, two or three value levels per material, pale parchment-toned background, dark charcoal, muted teal, brick red, tiny warm-gold impact accent. Simple small-unit silhouettes, grouped armour plates, no intricate engraved ornament. Illustration should look like plausible production game assets arranged in an engine. NOT photorealistic, NOT 3D CGI, NOT pixel art, NOT detailed oil painting, NOT an expensive standalone hero illustration.
+Gameplay readability and honest small character scale take priority over cinematic beauty. The result must instantly read as: 'I am looking at a strategy game while controlling Lü Bu in a battle.'
+
+角色辨識與尺度修正提示詞：
+
+Use case: precise-object-edit.
+Edit IMAGE 1, the RTS battle gameplay concept. IMAGE 2 is ONLY a character-design reference for Lü Bu. Do not adopt image 2's cinematic camera, large character size, dense detail or composition.
+
+Preserve IMAGE 1's entire fixed elevated tactical camera, courtyard, all other soldiers, UI, labels, colours, ground, environment, frame and small-unit gameplay scale. Modify ONLY the selected central character named "呂布", his held weapon, and the immediately attached slash/contact effect as necessary.
+
+Problem to correct: the selected character currently reads like a generic ponytailed woman or slender young warrior. It must clearly read as the original adult MALE Lü Bu shown in IMAGE 2, reduced to a simplified small RTS unit:
+- strongly built adult man, broad shoulders, masculine jaw and brows; head tied dark hair.
+- the unmistakable paired long pheasant plumes mounted on a compact headpiece, TWO clear thin curved reddish-brown feathers arcing backward, distinctly separate from black hair. Preserve a readable paired-feather silhouette at small size.
+- dark armour and crimson cloth, grouped simple shapes and very little ornament.
+- one clearly recognizable 方天畫戟: long shaft, central pointed spearhead and crescent side blades. Both hands hold one connected shaft. Make the distinct halberd blade visible beside the existing point of contact.
+- powerful two-handed lateral sweeping pose with grounded feet.
+
+CRITICAL SIZE: Keep his body similar to the surrounding infantry. His head-to-foot height should be only 5 to 15 percent greater than the shield soldier immediately to his right, ignoring the long feathers and weapon. Do not enlarge him into a boss or hero illustration. Reduce the current oversized body slightly if needed. Maintain centre position and selection ring.
+
+Keep the small existing ink arc and one compact impact spark at the enemy shield, not a large magical ability. Keep all user-facing text in IMAGE 1 exactly: "戰鬥畫面概念", "呂布", "移動", "攻擊", "停止".
+Maintain the simple limited-colour 2D hand-drawn + ink gameplay asset look of IMAGE 1. The hero reference supplies only identity and silhouette, not illustration detail. No other changes.
+

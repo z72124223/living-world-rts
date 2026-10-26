@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "projectName": "異域",
+  "codexProjectId": "e0b30698-7406-443d-81d6-56810d9f1d81",
+  "latticeProjectId": "e8e9d77c-1c05-4864-ad3e-80152a9919a1",
+  "setupTaskRef": "b45e382a2f9b6feb1736d00eecde01c44641ff9355ce96ed505be4d908c42431",
+  "sourceWorkspace": "C:/Users/f7212/OneDrive/文件/遊戲開發",
+  "sidebarSectionId": null,
+  "executionMode": "on_demand",
+  "roles": [
+    {
+      "role": "control",
+      "title": "異域 BOT｜總控",
+      "hostId": "local",
+      "threadId": "01a075c1-9709-7a62-9b66-93130d71c702",
+      "clientThreadId": "client-new-thread:2d2e96c8-31ac-49ff-8d4a-492cf879ecc3",
+      "activationStatus": "READY",
+      "worktree": "C:\\Users\\f7212\\.codex\\worktrees\\8e4f\\遊戲開發",
+      "verifiedTurnId": "01a075c1-b904-78c0-9632-819205f8c3f4",
+      "verifiedCompletedAt": 1788682121
+    },
+    {
+      "role": "engineering",
+      "title": "異域 BOT｜程式開發",
+      "hostId": "local",
+      "threadId": "01a075c1-9719-7200-a5ea-b3ff4396f408",
+      "clientThreadId": "client-new-thread:023a7d74-ba4d-493c-addc-52f7628b9260",
+      "activationStatus": "READY",
+      "worktree": "C:\\Users\\f7212\\.codex\\worktrees\\fb25\\遊戲開發",
+      "verifiedTurnId": "01a075c1-b8b8-76a2-9a55-16e60d892c86",
+      "verifiedCompletedAt": 1788682143
+    },
+    {
+      "role": "art",
+      "title": "異域 BOT｜美術製作與核對",
+      "hostId": "local",
+      "threadId": "01a075c1-9b25-71b3-9830-d07bd0b238a1",
+      "clientThreadId": "client-new-thread:2d8a1718-3bf8-48a4-89dd-5609cba202d4",
+      "activationStatus": "READY",
+      "worktree": "C:\\Users\\f7212\\.codex\\worktrees\\e43b\\遊戲開發",
+      "verifiedTurnId": "01a075c1-bc48-70c1-abe1-f69aee5148dc",
+      "verifiedCompletedAt": 1788682147
+    },
+    {
+      "role": "qa",
+      "title": "異域 BOT｜實機測試",
+      "hostId": "local",
+      "threadId": "01a075c1-9c9f-77d3-b400-64bc7cefd342",
+      "clientThreadId": "client-new-thread:c730d5ba-a653-4b6b-bfc9-0ab48fb5872f",
+      "activationStatus": "READY",
+      "worktree": "C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發",
+      "verifiedTurnId": "01a075c1-bcb8-7973-86d5-f663a13e405f",
+      "verifiedCompletedAt": 1788682150
+    }
+  ],
+  "updatedAt": "2026-09-06T16:23:22.5723559+08:00"
+}

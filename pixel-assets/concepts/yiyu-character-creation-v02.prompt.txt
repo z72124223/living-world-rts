@@ -1,0 +1,46 @@
+Use case: ui-mockup, correcting the rejected character-creation concept.
+Asset type: ONE cohesive 16:9 in-game FIRST character-creation screen concept for 《異域》, ideally 2560x1440.
+
+REFERENCE AND MOST IMPORTANT CORRECTION:
+The attached image is the game's LOCKED 2D hand-drawn art direction. Follow its economical linework, flat muted color blocks, simplified adult anatomy, and sprite-friendly shapes closely. It is a STYLE reference only: DO NOT copy its ancient courtyard, armor, swords, combat scene or multipanel layout.
+The approved production direction is simple 2D hand-drawn characters + localized ink-brush hit effects during combat + reusable animation shapes. This creation screen is idle, so there are NO attacks and NO ink-hit effects.
+The previous photorealistic male and character customization interface were WRONG. This image must have ZERO appearance customization. No face presets, no face thumbnails, no hairstyle options, no hair/skin color swatches, no sliders, no gender selector, no random-appearance button, no equipment selector, no model rotation controls. Do not replace them with other appearance controls.
+
+SETTING:
+A protected inhabited stone-and-wood terrace INSIDE an immense cavern fortress in a dangerous other world. Humans from Earth take refuge here. Small warm lamps and compact timber dwellings are deeply sheltered by great rock walls. A defended distant narrow cave entrance shows cool muted daylight, mountain shapes, a tiny faraway dragon silhouette. Match the same cave-refuge world as the game's approved login, but render EVERYTHING with the attached simple hand-drawn 2D art language, NOT realistic cave photography or realistic 3D lighting. Background uses a few clean layered rock silhouettes and architectural color groups, light restrained paper grain, muted ink gray, moss/jade green, warm ivory and earthy amber. Empty space and subdued background detail keep the interface readable.
+
+CHARACTER:
+One entirely hand-drawn, clearly adult male example character with short black hair, about 6.5-head-tall simplified mature proportions, expressive but sparingly drawn face, coherent clean dark outlines, FLAT colors and at most ONE flat shadow tone. No soft volumetric render or detailed skin. He wears only plain contemporary everyday clothing: a muted blue-green casual zip jacket over an ivory T-shirt, simple charcoal trousers and ordinary gray sneakers. Empty hands, no backpack, no weapon, no armor, no food, no phone, no jewelry. Relaxed neutral idle stance, full body visible. Use very few clothing folds and broad consistent shapes that could be split into reusable 2D animation parts. This must look like an achievable actual 2D game sprite enlarged for an RPG view, not a promotional painting or a realistic portrait.
+
+COMPOSITION AND UI:
+One single integrated screenshot, NO collage and NO sequence panels.
+A readable restrained warm-ivory/dark-ink interface, thin muted bronze rules, elegant legible Traditional Chinese type. Clean hierarchy with real game controls, not a poster.
+Header: small title "異域", main title "創建角色". Upper right compact sample status badges "身分驗證已完成" and "智慧服務已連線". These are mockup-only status indicators; reveal no real identity data, model IDs or API keys.
+Left ~35% of screen: one spacious parchment-toned or subtly darkened form panel.
+Right ~65%: the environment and the large full-body 2D character, with no editing widgets around him. A small label can read "角色預覽", and a restrained lock-caption "外貌不可調整".
+Bottom-right inside a SMALL non-interactive bordered view labelled "戰場預覽": the SAME 2D adult modern-clothed character at RTS size, seen from an elevated three-quarter camera on a simple stone ground tile. Identical haircut, clothing colors and silhouette to the large character. This is one display of the same character at game scale, NOT a selectable portrait/preset. No controls, no stats and no combat.
+
+Left form exact Traditional Chinese text:
+section "入世方式"
+selected card "首次傳送"
+description "以現代人的身分，誤入異域。"
+disabled card "隨機投胎"
+disabled reason "目前沒有符合條件的子女"
+section "角色姓名"
+two input fields, label "姓氏" with sample value "林", label "名字" with sample value "知遠"
+button "智慧取名"
+small status "姓名審核通過"
+read-only locked row "性別：男"
+small explanation "依實名驗證資料登記"
+link or small button "命名規範"
+checked checkbox "我已閱讀並同意命名規範"
+
+Footer has ONLY normal navigation buttons: quiet "返回" at left and prominent "確認入世" at right.
+The naming-policy link would open a warning modal in the future working UI; keep that modal closed in this main-screen preview.
+
+STRICT CONSTRAINTS:
+All visible language must be correct Traditional Chinese; no English, fake glyphs, age fields, real ID number, birth date, API key, country choice, class, skills, level, attribute points, background history, inventory, starting items, child management or inheritance-law controls.
+NO appearance selection or modification of ANY kind.
+NO photorealism, NO 3D render, NO digital glossy character painting, NO realistic skin, NO elaborate clothing texture, NO dramatic combat posture, NO chibi, NO pixel art, NO screen-wide ink splashes.
+The art must match the economical attached hand-drawn reference, while the clothing and cavern setting match this modern-human otherworld story.
+No browser or desktop frame, no watermark, no production notes.

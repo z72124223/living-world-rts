@@ -1,0 +1,28 @@
+《異域》登入畫面美術稿 v01
+日期：2026-09-06
+工具：Codex 內建圖像生成
+來源：使用者已選定山腹聚落登入畫面，提出《異域》名稱，並在本回合同意製作。
+狀態：已整合名稱的美術稿，尚未接入遊戲或實作登入功能。
+底圖：login-cavern-refuge-v01.png
+輸出：yiyu-login-v01.png
+
+實際生成提示詞：
+
+Use case: precise-object-edit.
+Asset type: finalized-title version of the user-approved game login-screen visual concept.
+
+Edit the supplied mountain-cavern refuge login image. The user has approved this exact visual direction and chosen the Traditional Chinese game name "異域". Add that name to the screen. Strictly preserve the approved cavern, settlement, people, lighting, dragon, entrance, architecture, camera, composition, menu and palette. Do not redesign the illustration.
+
+Exact change:
+Place the exact two Traditional Chinese characters "異域" in the natural dark negative space in the UPPER LEFT, above the existing fine decorative divider and the login menu. Use a beautiful bespoke Chinese stone-inscription-inspired title treatment: powerful mature forms, correct readable strokes, warm weathered-ivory stone colour, very subtle worn/chipped edges and shallow engraved relief. Refined and confident rather than ornate; not glossy gold, not neon, not pixelated. Make the title large enough to anchor the screen, approximately the width of the current main login button or slightly narrower, with generous spacing and breathing room. Align its optical centre with the existing left-side menu column. Keep every stroke fully inside the frame with a generous top margin. Do not add any other words or subtitle. It must say exactly "異域", not simplified Chinese and not other similar characters.
+
+Preserve existing interface verbatim:
+"登入遊戲"
+"設定"
+"離開遊戲"
+Preserve the highlighted main button, its thin border, amber diamond, divider, menu positions and readable Chinese typography. Do not add account fields, server choices, logos, slogan, English, genre labels, copyright footer, watermark or concept caption.
+
+Preserve all artwork:
+Deep mountain cavern overhead, warm human community and timber galleries inside, underground stream, people from different Earth periods, distant guarded access route and small cold outside sky with a passing dragon. The title should sit naturally on the dark rock at left and never obscure the people, lanterns or gate.
+Retain the original widescreen aspect ratio and dimensions. This is a precise title integration into an approved login-screen concept, not a new scene.
+

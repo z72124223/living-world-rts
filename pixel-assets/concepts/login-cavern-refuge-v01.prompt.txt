@@ -1,0 +1,42 @@
+山腹人類聚落登入美術提案 v01
+日期：2026-09-06
+工具：Codex 內建圖像生成
+狀態：山洞庇護方向的美術概念候選，尚未定案，非實機畫面或建築防禦驗證。
+來源：使用者指出先前露天人類據點難以抵禦龍，提出巨大山洞作為更合理的居所，並要求新登入畫面。
+輸出：login-cavern-refuge-v01.png
+
+實際生成提示詞：
+
+Use case: ui-mockup.
+Asset type: one finished cinematic PC game login-screen concept, widescreen 16:9, target 1920x1080 or higher.
+
+User-confirmed story:
+Humans from different Earth eras have inexplicably arrived in an extremely dangerous other world. Outside human defended positions and refuges they may easily die. Dragons fly overhead. The previous exposed fortress looked unable to survive a dragon, and the user now wants the corrected mountain-cavern refuge login image.
+
+PRIMARY DESIGN PROBLEM:
+Show believable shelter INSIDE a massive mountain. A large internal cavern houses the settlement, but the route to the outside is narrow, fortified and indirect. The dragon is FAR OUTSIDE, beyond the restricted cave exit. Do not draw a gigantic open cave mouth through which the dragon could simply fly. This physical relationship must be legible, even though this is evocative fictional art.
+
+Composition and camera:
+View from within a deep, immense limestone-and-basalt cavern, on an upper interior walkway looking downward and outward across the inhabited chamber. The cavern roof is clearly visible overhead and thick rock frames the scene. The settlement fills lower-centre and right, with terraced dwellings, timber galleries, stairs and rope rails built along the walls of the chamber. Warm windows and hanging lamps form a few purposeful clusters. A narrow dark underground stream runs along one side, with a small bridge and water collection area; a communal courtyard, work area and stored provisions suggest ordinary life. Shelter interiors feel functional, adapted and welcoming rather than luxurious royal architecture.
+The left quarter is a naturally shadowed broad rock buttress with subtle strata and just a little reflected warm light, providing calm negative space for a login menu.
+At the upper-centre/right in the FAR distance, the settlement's narrow access route passes through a heavily fortified gate between thick stone shoulders, then bends around a rock buttress before reaching the exterior. Use overlapping rock walls and a visible offset outer watch opening to imply a dogleg entrance with no straight-line exposure of the living area to the outside. The actual cold daylight exit is SMALL relative to the immense internal chamber. This is an interior mountain refuge, not an open crater, cliffside village or city inside an enormous arch.
+Through the small distant outer opening, show a limited patch of cold cloudy sky and distant peaks, with ONE small but unmistakably huge-in-the-world dragon silhouette passing across that sky. Its wingspan visibly exceeds the accessible entrance width; it is outside and cannot fit into the approach. It should be a contextual reminder of danger, not the central oversized monster illustration. Do not put a dragon within the cavern, through the roof or above exposed houses. No dragon attack, flames, magical force field, battle or collapsing refuge.
+
+Human life:
+Several small groups of clearly adult human inhabitants, normal believable scale, going about ordinary tasks. Near the centre-right foreground, two people carry a crate toward stores, one in a present-day simple jacket and trousers, the other in old-fashioned woven traveller clothing. A modern shirt/backpack, an old tailored coat and practical older robes among other small figures subtly communicate people from different Earth periods collaborating. No huge foreground portrait, famous historical character, celebrity, uniform single-era ancient Chinese city, cosplay line-up or imported tanks/cars. No visible portal or explanation for their arrival.
+Practical defenders guard the narrow approach from protected recesses. Main homes sit deep inside beneath thick rock, away from the gate. A small upward smoke flue cut into the roof over a workshop can hint at ventilation; no choking smoke filling the cave. Secondary paths disappear deeper into the rock, implying more settlement beyond this view without specifying unconfirmed lore.
+
+Art and atmosphere:
+Premium mature stylized cinematic game artwork with sculpted readable forms and a restrained painterly finish. Tactile rough stone, hand-built timber, worn cloth, warm inhabited windows, subtle moisture on rock. Beautiful deliberate shape and value grouping, calm negative spaces, architectural scale and layered depth. Not photorealistic horror, no pixel art, no parchment ink-wash style, no glossy toy plastic, no anime glamour. Avoid uniformly over-detailed visual noise.
+Palette: deep charcoal and cool mineral blue cavern shadows, weathered timber brown and ivory cloth, amber and soft orange human lights. Cold pale blue outside. A little reflected light reveals roofs and paths without making the cave uniformly bright. Warm human life is the emotional focus; the remote exit is a second small cold focal point. Epic interior volume but intimate humane atmosphere. Humidity and fine atmospheric haze are subtle, not thick fog or excessive bloom.
+
+Login interface, all Traditional Chinese:
+Do not invent a game name. Use generous clean title-area negative space, a single restrained thin divider, and a comfortable vertical menu on the left rock shadow. Exact text:
+"登入遊戲"
+"設定"
+"離開遊戲"
+The selected main item has a fine weathered-ivory border around a subtle translucent dark-blue panel and one small amber diamond marker. Other menu items are clear ivory text without large boxes. Elegant readable Chinese typography. Keep interface margins and consistent spacing. No English, slogans, genre labels, concept captions, account fields, server selectors, stats, minimap, HP bars, logos or watermark.
+
+Final quality criterion:
+The viewer should immediately understand: 'People of many Earth eras live together deep inside this mountain. The guarded narrow way out leads into an immense dangerous world where dragons roam.' The image must solve the exposed-fortress shelter problem through geography and believable architecture. One complete beautiful game login screen, not a technical diagram or multiple panels.
+

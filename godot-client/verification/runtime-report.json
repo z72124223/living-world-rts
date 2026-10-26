@@ -1,0 +1,35 @@
+{
+	"animation_frames": 18,
+	"attack_hit": true,
+	"bone_count": 17,
+	"cloth_hides_armour": true,
+	"frame_mode_visible": true,
+	"movement": true,
+	"part_count": 21,
+	"pass": true,
+	"snapshot": {
+		"bone_angles": {
+			"far_forearm": 0.00000000000000030616169978684,
+			"far_shin": 0.0,
+			"far_thigh": 11.0,
+			"far_upper_arm": -9.0,
+			"near_forearm": -0.00000000000000024492935982947,
+			"near_shin": 15.0,
+			"near_thigh": -11.0,
+			"near_upper_arm": 7.0,
+			"sash": 3.5103302475615,
+			"torso": 1.5
+		},
+		"bones": 17,
+		"frame": 6,
+		"mode": "bones",
+		"motion": "walk",
+		"outfit": "armour",
+		"position": [
+			626.166381835938,
+			555.0
+		],
+		"weapon": "sword"
+	},
+	"spear_visible": true
+}

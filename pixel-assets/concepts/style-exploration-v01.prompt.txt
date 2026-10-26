@@ -1,0 +1,27 @@
+美術方向大跨度探索 v01
+日期：2026-09-06
+工具：Codex 內建圖像生成
+狀態：候選風格比較，尚未定案。使用者要求跳離原像素美術方向。
+輸出：style-exploration-v01.png
+
+實際生成提示詞：
+
+Use case: stylized-concept.
+Asset type: one art-direction comparison board for an original ancient-Chinese-inspired RTS plus RPG game.
+Primary request: The user dislikes the previous detailed pixel-art direction and explicitly asks for a LARGE leap to other styles. Create three extremely different, confident, professionally art-directed alternatives. No pixel art anywhere. This is exploration, not a finalized game identity.
+
+Format: one high-resolution portrait board with THREE wide cinematic 16:9 game title-screen concept panels stacked vertically. Target board ratio about 9:16 to 10:18, each panel itself widescreen, generous enough to judge. Thin neutral charcoal separators. Each panel should feel like a complete distinct game, not a swatch or character design sheet. Use only minimal exact Traditional Chinese labels in a small clear corner capsule: top "甲｜水墨留白"; middle "乙｜明亮手繪"; bottom "丙｜史詩油畫". No English, no other lettering, no invented game names, no paragraph explanations, no logos or watermarks. Leave a naturally quiet area on the left of each scene suitable for a future Chinese game title and login menu, but do not render menus in this comparison.
+
+Common subject and visual storytelling in all three alternatives: the same original clearly adult Chinese female warrior, natural mature proportions, dark hair in a high tied style, practical ancient lamellar/light armour, a crimson sash and sheathed straight sword, shown prominently on the right in a three-quarter waist-up or knee-up cinematic view, with small soldiers and civilian travellers inhabiting an ancient town and valley behind her. This should communicate an RTS world of small people and a close-up RPG protagonist. She is one grounded person within a continuous scene, not a giant ghost portrait floating above a map. Keep broad camera framing similar to allow comparison; mood, mark-making, palette, shape language and facial rendering should differ dramatically.
+
+TOP / 甲｜水墨留白:
+Bold sophisticated contemporary Chinese ink-wash game art on warm off-white rice paper. Extreme visual economy, broad gestural black brushwork, dry brush textures, pale grey wash mountains, foggy negative space covering much of the composition, just a few forceful vermilion accents on sash, banners and seal-like square accents without text. Woman rendered with confident economical black ink contours, expressive mature face, flowing brush-shaped hair and garment folds. Armour suggested with a few precise shapes rather than hundreds of tiny scales. Town roofs, bridge, road, soldiers and trees resolved into lyrical black silhouettes and sparse ink strokes. Authentic hand-painted paper/ink feeling, visually bold and spacious, not merely a normal painting with a watercolor filter, no golden sunset, no ornate gold trim.
+
+MIDDLE / 乙｜明亮手繪:
+Luminous premium 2D hand-drawn animated adventure-film game look. Clear purposeful outlines, rounded yet mature appealing shapes, simplified large colour areas, clean two- or three-tone cel shading on characters, painterly simplified background. Cheerful blue sky, puffy white clouds, jade-green terraces, blue river, cream walls and terracotta roofs, generous daylight, lively welcoming inhabited town. Woman is charismatic, expressive and clearly adult, natural proportion, beautiful readable face; stylized anatomy but no chibi, no sexualized outfit. Teal cloth and scarlet accent, ivory and warm leather armour details, bright natural palette. Small soldiers and travellers feel like distinct appealing animated people. This panel must feel fresh, friendly, human and playful, not gritty, not washed in brown, not dark medieval, not pixelated.
+
+BOTTOM / 丙｜史詩油畫:
+A dramatic museum-quality figurative oil painting reimagined as an ambitious historical strategy/RPG game title artwork. Large visible impasto strokes, painterly edges that alternate lost and found, expressive sculptural adult anatomy, textured weathered steel and cloth, rich deep indigo and burgundy shadows, a concentrated shaft of warm light through a storm front. Woman reads as an experienced composed military leader, grounded and dignified, same high tied dark hair and understated sword. Monumental fortress architecture and valley depth, small organised soldiers and civilian carts show the breadth of the world. Restrained scale, not excessive armies. Romantic historical epic with strong atmospheric perspective and sophisticated chiaroscuro, not photorealistic CGI, no smooth plastic 3D surfaces, no pixel clusters, no generic glossy mobile-game splash.
+
+Quality requirements: each panel must have an obviously different visual grammar even viewed as a thumbnail. Avoid rendering all three in the same detailed digital concept-art style. Anatomically credible hands and faces, coherent single-scene perspective, readable hierarchy, beautiful complete compositions. The first is SPARSE AND GRAPHIC INK, the second is BRIGHT CLEAN ANIMATION, the third is TACTILE DRAMATIC OIL PAINT. Make the stylistic leap unmistakable.
+

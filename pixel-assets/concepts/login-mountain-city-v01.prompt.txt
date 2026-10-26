@@ -1,0 +1,38 @@
+山城暮色登入美術提案 v01
+日期：2026-09-06
+工具：Codex 內建圖像生成
+狀態：使用者要求重新自由發想的登入美術候選，尚未定案。
+「山河之間」為這張概念的暫用名稱，非正式遊戲命名。
+本次清空設定依語境解讀為重置創作限制；未刪除專案設定或既有素材。
+輸出：login-mountain-city-v01.png
+
+實際生成提示詞：
+
+Use case: ui-mockup.
+Asset type: one original premium PC game login/title screen, landscape 16:9, target 1920x1080 or higher.
+Creative reset: The user explicitly discarded the previous art brief and asks for a completely fresh login screen chosen by the art director. Generate from scratch with no image references. Deliver one beautifully finished, cohesive, evocative screen, not a presentation board.
+
+Art direction:
+A lovingly handcrafted, stylized miniature world at blue hour. Sculpted diorama architecture, tactile painted wood, softly bevelled stone and tiles, simple elegant shapes, beautifully controlled physically plausible lighting with a subtle painted finish. High-end whimsical realism with mature taste. Not photorealism, not pixel art, not ink-wash, not sepia parchment, not anime character illustration. Deep indigo and petrol blue shadows, muted jade vegetation, weathered cream walls, restrained terracotta roofs and warm amber lantern light. Saturated accents are carefully controlled. A sophisticated boutique strategy-adventure game, peaceful but full of possibility.
+
+Main visual:
+A small ancient East-Asian-inspired hillside river city viewed from an elevated three-quarter perspective at dusk. Architecture climbs a rocky headland from a quiet river harbour to a walled upper district and a graceful watchtower. An arched bridge leads toward the city gate, with a clear readable path winding through a modest market square and up the hill. Small lanterns and shop windows light up in irregular human patterns. A few tiny travellers cross the bridge, a porter carries goods, two guard figures walk near the gate, and one small boat with a warm cabin light drifts under the bridge. The inhabitants are small and never featured as portraits. Dark wooded hills and a misty river bend frame the scene. One or two warm cloud bands retain the last light after sunset. Trees have appealing grouped canopies, roofs have sculpted grouped tiles rather than overwhelming tiny detail, water has calm graphic reflections and ripples.
+The entire composition tells a story of a world that goes on living after dark. A welcoming place with layers to explore. No battle, no hero character in front, no throne, no weapon display, no armies, no dramatic apocalypse, no floating island cutout, no toy-like plastic gloss.
+
+Composition:
+World as the protagonist. City and warm lights occupy the right 65 percent and flow toward the centre. The bridge curves from the lower centre into the city, giving a strong invitation to enter. The left 30 percent naturally falls into softly shaded blue-green forest silhouettes and quiet river mist, creating an elegant legible area for title and login menu. Do not simply darken half the image with a huge black rectangle. Keep enough architectural silhouette against sky to read at thumbnail size. Scene remains sharp and delightful where it matters, with subtle depth but no excessive tilt-shift blur.
+A complete immersive widescreen screen, no external device mockup or decorative page border. Every detail supports hierarchy; avoid filling all negative space with objects.
+
+Typography and UI, all Traditional Chinese:
+Provisional original concept title, exact text "山河之間". Set as a graceful four-character Chinese title in warm ivory, with confident elegant brush-calligraphy or refined Song-style strokes, not weathered enormous gold letters. Upper-left with generous breathing room. The title is a creative working name, not an assertion of a final approved game name.
+Below it, a short thin muted-bronze divider and ample breathing room, then a compact vertical menu with EXACT text:
+"登入遊戲"
+"設定"
+"離開遊戲"
+The main "登入遊戲" item is selected: a modest translucent ink-blue rounded or gently squared button with a fine warm-ivory border and a tiny amber diamond marker, understated and modern. The remaining menu items have no large boxes, just clean warm-white typography with subtle hierarchy. Interface feels bespoke, calm and usable, avoids generic medieval UI clutter and ornate gold filigree.
+No English, subtitles, slogans, genre labels, login credentials, server selectors, account details, counters, real studio logos, watermarks, fake review quotes or extra interface panels. Traditional Chinese text must be clear and correct.
+
+Visual quality:
+Exceptional art direction through light, colour and arrangement. Believable stone, wood, leaves and water expressed with stylized efficient shape design. Tiny warm lights are concentrated into a few focal clusters rather than evenly scattered. Atmospheric gradients are deep but preserve readable dark shapes. The view should immediately make someone want to enter this little world and discover what happens there.
+This is a login-screen visual concept, not an actual implemented game screenshot. Do not add any concept-board labels to the image.
+

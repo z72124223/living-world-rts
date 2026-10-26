@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-Hant">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>女性輕甲 · 2D 與 3D 像素比較</title>
+<style>
+:root{color-scheme:light;--ink:#26363b;--muted:#657477;--line:#d5dad8;--accent:#2f6467}
+*{box-sizing:border-box}body{margin:0;background:#edf0ee;color:var(--ink);font:15px/1.55 'Microsoft JhengHei',system-ui,sans-serif}
+main{max-width:1100px;margin:0 auto;padding:24px 24px 22px}
+.eyebrow{font-size:11px;font-weight:700;letter-spacing:.2em;color:var(--accent);margin:0 0 7px}
+h1{font-size:29px;line-height:1.3;letter-spacing:.02em;margin:0 0 10px;font-weight:700}p{margin:0}
+.sub{color:var(--muted);font-size:14px}
+.toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:21px 0 17px}.toolbar span{font-size:12px;color:var(--muted);margin-right:5px}
+button,a.link{font:inherit;font-size:13px;border:1px solid var(--line);border-radius:6px;background:#fff;color:var(--ink);padding:7px 12px;cursor:pointer;text-decoration:none}
+button[aria-pressed=true]{background:var(--accent);color:#fff;border-color:var(--accent)}button:focus-visible,a:focus-visible{outline:3px solid #d48b5e;outline-offset:3px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.card{background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.card header{display:flex;align-items:center;justify-content:space-between;padding:15px 19px;border-bottom:1px solid var(--line)}h2{font-size:18px;margin:0}.badge{font-size:11px;background:#edf2ee;color:#55706b;border-radius:4px;padding:3px 7px}
+.stage{height:min(43vw,380px);display:grid;place-items:center;background:#ded7c8;overflow:hidden}
+canvas{width:100%;height:100%;object-fit:contain;image-rendering:pixelated;display:block}.actual canvas{width:var(--native);height:var(--native)}
+.caption{padding:13px 18px 15px;min-height:83px;font-size:13px;color:var(--muted)}.caption strong{display:block;color:var(--ink);font-weight:500;margin-bottom:2px}
+.extras{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;padding:12px 0}.views{display:flex;gap:6px;align-items:center}.views span{font-size:12px;color:var(--muted)}
+.note{margin-top:8px;padding-top:15px;border-top:1px solid var(--line);font-size:12px;color:var(--muted)}
+.loading{color:#88462a;margin-top:8px;font-size:13px;min-height:20px}.footer{display:flex;gap:18px;margin-top:10px;font-size:12px}.footer a{color:var(--accent)}
+@media(max-width:650px){main{padding:22px 14px}.grid{grid-template-columns:1fr}h1{font-size:24px}.card header{padding:12px 15px}.caption{min-height:0}.stage{height:min(85vw,380px)}}
+</style>
+<main>
+<p class="eyebrow">CHARACTER STUDY / 01</p>
+<h1>同一位女性武將，兩種製作方式</h1>
+<p class="sub">沿用已認可的輕甲概念 · 黑髮、青衣、黑甲、紅腰帶與佩劍</p>
+<div class="toolbar" aria-label="比較顯示設定">
+ <span>預覽尺寸</span><button data-size="256" aria-pressed="true">256 × 256</button><button data-size="128" aria-pressed="false">128 × 128</button>
+ <span style="margin-left:12px">顯示</span><button id="fill" aria-pressed="true">放大比較</button><button id="actual" aria-pressed="false">原尺寸</button>
+</div>
+<div class="grid">
+ <article class="card"><header><h2>A · 直接製作 2D</h2><span class="badge">AI 圖片生成</span></header>
+  <div class="stage" id="stage2d"><canvas id="canvas2d" width="256" height="256" aria-label="直接生成的女性輕甲 2D 像素風格角色"></canvas></div>
+  <div class="caption"><strong>從概念參考直接生成像素風格圖。</strong>本頁縮至共同預覽尺寸；原始 PNG 另存。這張圖尚未製作動畫或分層換裝。</div>
+ </article>
+ <article class="card"><header><h2>B · 3D 模型轉像素</h2><span class="badge">Blender 實際渲染</span></header>
+  <div class="stage" id="stage3d"><canvas id="canvas3d" width="256" height="256" aria-label="實際 Blender 女性輕甲模型的像素渲染"></canvas></div>
+  <div class="caption"><strong>獨立幾何零件、固定相機與分階配色。</strong>從 Blender 輸出；沒有用生成圖片重繪模型。衣甲尚未完成動畫綁定。</div>
+ </article>
+</div>
+<div class="extras">
+ <div><a class="link" href="2d-direct.png" target="_blank" rel="noopener">查看 2D 原圖 ↗</a> <button id="download">儲存並排比較圖</button></div>
+ <div class="views"><span>3D 視角</span><button data-view="quarter" aria-pressed="true">斜側面</button><button data-view="front" aria-pressed="false">正面</button><button data-view="back" aria-pressed="false">背面</button></div>
+</div>
+<p class="note">比較範圍：單一靜態造型。原始素材的解析度與製作方式不同；本頁使用相同預覽格及最近鄰取樣。128 像素的 3D 斜側面是原生渲染，其他視角由 256 像素預覽縮小。這次結果不能直接代表完整動畫製作效率。</p>
+<div class="footer"><a href="3d-pixel-source.blend" download>Blender 原檔</a><a href="../../concepts/female-character-b-v01.png" id="reference" target="_blank" rel="noopener">原始概念參考</a><a href="3d-build-report.json" target="_blank" rel="noopener">3D 來源紀錄</a></div>
+<p class="loading" id="status" role="status">正在載入兩個版本…</p>
+</main>
+<script>
+const images = new Map(); let size=256, view='quarter', actual=false, revision=0;
+const imagePaths={two:'2d-direct.png',quarter:'3d-pixel-256.png',quarter128:'3d-pixel-128.png',front:'3d-front-256.png',back:'3d-back-256.png'};
+function getImage(key){if(!images.has(key)){images.set(key,new Promise((resolve,reject)=>{const im=new Image();im.onload=()=>resolve(im);im.onerror=()=>reject(new Error('圖片讀取失敗：'+imagePaths[key]));im.src=imagePaths[key];}));}return images.get(key);}
+async function paint(){const token=++revision;try{const [a,b]=await Promise.all([getImage('two'),getImage(view==='quarter'&&size===128?'quarter128':view)]);if(token!==revision)return;
+ for(const [id,im] of [['canvas2d',a],['canvas3d',b]]){const c=document.getElementById(id);c.width=size;c.height=size;const ctx=c.getContext('2d');ctx.imageSmoothingEnabled=false;ctx.drawImage(im,0,0,size,size);c.parentElement.classList.toggle('actual',actual);c.parentElement.style.setProperty('--native',size+'px');}
+ document.querySelectorAll('[data-size]').forEach(b=>b.setAttribute('aria-pressed',Number(b.dataset.size)===size));document.querySelectorAll('[data-view]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.view===view));
+ document.getElementById('fill').setAttribute('aria-pressed',!actual);document.getElementById('actual').setAttribute('aria-pressed',actual);document.getElementById('status').textContent='';window.comparisonReady=true;
+ }catch(e){document.getElementById('status').textContent=e.message;window.comparisonReady=false;}}
+document.querySelectorAll('[data-size]').forEach(b=>b.addEventListener('click',()=>{size=Number(b.dataset.size);paint();}));document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>{view=b.dataset.view;paint();}));
+document.getElementById('fill').addEventListener('click',()=>{actual=false;paint();});document.getElementById('actual').addEventListener('click',()=>{actual=true;paint();});
+document.getElementById('download').addEventListener('click',()=>{const c=document.createElement('canvas');c.width=1080;c.height=680;const x=c.getContext('2d');x.fillStyle='#edf0ee';x.fillRect(0,0,1080,680);x.fillStyle='#26363b';x.font='bold 23px "Microsoft JhengHei", sans-serif';x.fillText('A · 直接製作 2D',28,40);x.fillText('B · 3D 模型轉像素',560,40);x.imageSmoothingEnabled=false;x.drawImage(document.getElementById('canvas2d'),28,62,492,492);x.drawImage(document.getElementById('canvas3d'),560,62,492,492);x.font='16px "Microsoft JhengHei", sans-serif';x.fillText('AI 圖片生成 · 原圖縮至共同預覽尺寸',28,589);x.fillText('Blender 實際幾何渲染 · '+({quarter:'斜側面',front:'正面',back:'背面'})[view],560,589);x.fillStyle='#657477';x.font='15px "Microsoft JhengHei", sans-serif';x.fillText('同一女性輕甲概念 / '+size+' × '+size+' 預覽 / 最近鄰放大',28,632);x.fillText('靜態外觀樣品 · 尚未完成動畫與換裝',28,656);c.toBlob(blob=>{const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='female-pixel-ab-comparison.png';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);},'image/png');});
+paint();
+</script>
+</html>

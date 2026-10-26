@@ -1,0 +1,153 @@
+{
+	"checks": [
+		{
+			"check": "login initially has keyboard focus",
+			"passed": true
+		},
+		{
+			"check": "render captured: 01-login",
+			"passed": true
+		},
+		{
+			"check": "accepted login settings still open",
+			"passed": true
+		},
+		{
+			"check": "Escape closes settings",
+			"passed": true
+		},
+		{
+			"check": "login enters native registration",
+			"passed": true
+		},
+		{
+			"check": "title buttons hidden behind registration",
+			"passed": true
+		},
+		{
+			"check": "render captured: 02-account",
+			"passed": true
+		},
+		{
+			"check": "empty child pool is disabled",
+			"passed": true
+		},
+		{
+			"check": "unverified creation is disabled",
+			"passed": true
+		},
+		{
+			"check": "no sex or appearance selection",
+			"passed": true
+		},
+		{
+			"check": "render captured: 03-creation-pending",
+			"passed": true
+		},
+		{
+			"check": "password input is masked",
+			"passed": true
+		},
+		{
+			"check": "HTTP request finished",
+			"passed": true
+		},
+		{
+			"check": "registration creates authenticated session over HTTP",
+			"passed": true
+		},
+		{
+			"check": "render captured: 04-identity",
+			"passed": true
+		},
+		{
+			"check": "HTTP request finished",
+			"passed": true
+		},
+		{
+			"check": "HTTP request finished",
+			"passed": true
+		},
+		{
+			"check": "fixture government sex locks female character",
+			"passed": true
+		},
+		{
+			"check": "render captured: 05-ai",
+			"passed": true
+		},
+		{
+			"check": "HTTP request finished",
+			"passed": true
+		},
+		{
+			"check": "API connection stored through backend fixture",
+			"passed": true
+		},
+		{
+			"check": "API input cleared after request",
+			"passed": true
+		},
+		{
+			"check": "HTTP request finished",
+			"passed": true
+		},
+		{
+			"check": "exact reviewed name enables creation",
+			"passed": true
+		},
+		{
+			"check": "render captured: 06-creation-reviewed",
+			"passed": true
+		},
+		{
+			"check": "editing reviewed name blocks creation",
+			"passed": true
+		},
+		{
+			"check": "naming policy popup opens",
+			"passed": true
+		},
+		{
+			"check": "render captured: 07-policy",
+			"passed": true
+		},
+		{
+			"check": "popup can cancel without creating",
+			"passed": true
+		},
+		{
+			"check": "HTTP request finished",
+			"passed": true
+		},
+		{
+			"check": "fixture creates persisted character through HTTP",
+			"passed": true
+		},
+		{
+			"check": "render captured: 08-created",
+			"passed": true
+		},
+		{
+			"check": "render captured: 09-small-window",
+			"passed": true
+		},
+		{
+			"check": "return restores accepted login",
+			"passed": true
+		},
+		{
+			"check": "re-enter registration without duplicate screen",
+			"passed": true
+		},
+		{
+			"check": "Escape returns from registration",
+			"passed": true
+		}
+	],
+	"engine": "4.6.3-stable (official)",
+	"external_services_called": false,
+	"failures": 0,
+	"fixture": "success",
+	"passed": true
+}

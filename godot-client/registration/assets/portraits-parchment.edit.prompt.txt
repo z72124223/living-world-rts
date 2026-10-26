@@ -1,0 +1,9 @@
+Built-in image generation / image editing tool. Applied separately to the already generated male and female full-body assets.
+
+Edit this game character asset only. Preserve the exact simplified 2D hand drawn adult character, face, modern casual clothing, full body, flat limited colors and linework. Replace the ENTIRE fake white gray checkerboard background with an opaque seamless SOLID warm parchment beige background color #d9c9a5 with only extremely subtle paper grain. NO CHECKERBOARD anywhere. NO transparency. NO additional objects, letters or UI. Keep large blank margin and all head, shoes and hands fully inside canvas. This is a framed character portrait printed on warm parchment for a game UI. Uniform parchment fills all space around character edge.
+
+Final male source: C:/Users/f7212/.codex/generated_images/01a074b8-04d3-7e80-a83d-6bf2e7995a78/exec-6abce8f2-c71a-4968-98ab-58a26c6d59df.png
+Final female source: C:/Users/f7212/.codex/generated_images/01a074b8-04d3-7e80-a83d-6bf2e7995a78/exec-80b5f6dc-c442-46e9-9742-cd0ce6deab12.png
+Final background source: C:/Users/f7212/.codex/generated_images/01a074b8-04d3-7e80-a83d-6bf2e7995a78/exec-b3ef577e-6027-42a9-a1f1-57dd77205a5a.png
+
+Inspection: first character outputs contained a baked checkerboard and were not used in the game. Final assets intentionally use opaque parchment within native read-only portrait frames. No raster editing or background-removal script was used. Game controls and text are native Godot UI, not baked into these assets.

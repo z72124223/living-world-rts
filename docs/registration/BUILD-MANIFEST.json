@@ -1,0 +1,54 @@
+{
+  "headlessExportComponents": 54,
+  "type": "local-registration-with-isolated-demo",
+  "date": "2026-09-06",
+  "liveOpenAICallVerified": false,
+  "nativeLaunchStatus": "NOT_RUN_POLICY_REJECTION",
+  "files": [
+    {
+      "file": "異域.exe",
+      "sha256": "bb955da0e632def78b39448d14bb6c3b437f7580186ef3d53226a657cc33e3db"
+    },
+    {
+      "file": "Start-Yiyu.ps1",
+      "sha256": "3cc0016ed398bd7ba5d70293a6e13e47afe4f69a125c706ecf07dd86656d4378"
+    },
+    {
+      "file": "啟動異域.cmd",
+      "sha256": "fb40534cc28709bdb0830237145917bb29a0c42154ffa9c0a4b3e4995a7d7f07"
+    },
+    {
+      "file": "測試創建角色.cmd",
+      "sha256": "0d38c5f14177f82a3c174882782698f19a368cf94f5359e4444dc71f8698921e"
+    },
+    {
+      "file": "service/server.mjs",
+      "sha256": "6636968ed69b5713dc77358fc19ddc6d4768f77f3324bc5fa2776616f7673c5d"
+    },
+    {
+      "file": "service/core.mjs",
+      "sha256": "95b2f585b125b9c1e6b708feb4e9e586ea7dc4ac994ae2e4fc259fcf9b098598"
+    },
+    {
+      "file": "service/providers.mjs",
+      "sha256": "27fc4ed93d1fa1b6396973041c52eeb1b038acfb0ebb567692f21fc586a8d344"
+    },
+    {
+      "file": "service/vault.mjs",
+      "sha256": "4e7db9d3ea0f95107849ffc5e6f23c12fc5fe5e7a29b09cb623d3fd9a75bdb7c"
+    },
+    {
+      "file": "service/demo.mjs",
+      "sha256": "3e06189d0ea7c4380c3a244fb42204ceb712f4928a351a3064bc39bb9d81545e"
+    },
+    {
+      "file": "runtime/node.exe",
+      "sha256": "b3094d0b49f9ad602262a9921551737bb97637c05dd357a06ae98188d7290aa3"
+    }
+  ],
+  "nativeLaunchVerified": false,
+  "externalIdentityVerified": false,
+  "recordedAt": "2026-09-06T18:45:51.0830797+08:00",
+  "feature": "child appearance inheritance",
+  "evidence": "godot-client/registration/verification/appearance-inheritance/feature-result.json"
+}

@@ -1,0 +1,19 @@
+{
+  "origin": "Actual evaluated 3D geometry rendered in Blender. No generated image applied to model.",
+  "blender": "5.1.2",
+  "reference": "female-character-b-v01.png, centre light armour",
+  "source_model": "../female-light-armour-v01/female-light-armour.blend",
+  "revision": "Reproportioned geometry, smaller facial features, individually chosen hue-shifted palettes",
+  "resolutions": [
+    128,
+    256
+  ],
+  "animation_ready": false,
+  "art_approved": false,
+  "separate_mesh_objects": 715,
+  "rendered_views": [
+    "three-quarter",
+    "front",
+    "back"
+  ]
+}

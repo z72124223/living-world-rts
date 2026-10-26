@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "name": "Living World RTS 素材庫",
+  "updated_at": "2026-09-06T09:36:58+08:00",
+  "assets": [
+    {
+      "id": "human-female-base",
+      "name": "女性人體・曲線／網格／骨架",
+      "version": "1.0.0",
+      "status": "approved",
+      "record": "characters/human-female-base/1.0.0/asset.json",
+      "native": "characters/human-female-base/1.0.0/source/female-body-contour-v03.aseprite",
+      "preview": "characters/human-female-base/1.0.0/runtime/assets/body-v03-preview.png",
+      "files": 28,
+      "sample_url": "/?character=female"
+    },
+    {
+      "id": "human-male-base",
+      "name": "男性人體・曲線／網格／骨架",
+      "version": "0.1.0",
+      "status": "approved",
+      "record": "characters/human-male-base/0.1.0/asset.json",
+      "native": "characters/human-male-base/0.1.0/source/male-body-contour-v01.aseprite",
+      "preview": "characters/human-male-base/0.1.0/runtime/assets/male-body-v01-preview.png",
+      "files": 27,
+      "sample_url": "/?character=male"
+    }
+  ]
+}

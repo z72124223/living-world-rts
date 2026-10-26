@@ -1,0 +1,34 @@
+Use case: ui-mockup
+Asset type: ONE polished in-game character-creation screen concept for the Traditional Chinese PC game 《異域》, landscape 16:9, target 2560x1440.
+Input image role: the supplied login screen is the approved visual/style reference. Transform its login interface into the next screen in the same game, preserving the believable dark cavern refuge world, warm lantern light, cold daylight through the defended distant cave entrance, understated antique-gold rules and readable ivory Traditional Chinese typography. This is a game UI screenshot, not promotional poster art, not a website or a presentation.
+
+Scene: a safe stone terrace inside the vast inhabited cave, with wooden railings, small warm settlement lights and immense rock architecture behind it. A tiny dragon may remain far outside beyond the defended entrance; the refuge is sheltered, never exposed directly to the dragon. Background should support the character and remain legible behind a restrained interface.
+
+Main subject: a fully clothed, clearly ADULT male character about 28 in apparent appearance, ordinary East Asian appearance, short black hair, natural proportions, calm neutral expression, empty hands. Full body including shoes visible, warmly lit and visually sharp. He wears an unbranded charcoal modern casual zip jacket over a muted shirt, ordinary denim trousers and everyday sneakers. ONLY clothing: absolutely no backpack, weapons, armor, phone, food, inventory items or accessories. This is an example character, not a portrait of any real user. No age is displayed.
+
+Layout: sophisticated spacious PC RPG character creation, balanced three regions, modest header and a clear footer. Narrow dark translucent left panel for entry mode and name; the character is the large center focal point with most of the cave visible; a narrower dark translucent right panel for appearance choices. Thin muted gold borders, understated tactile controls, no elaborate gilded clutter, no saturated neon. Title and action buttons must be large, high contrast and readable.
+Header left small game title "異域" then main title "創建角色".
+Header right two compact illustrative status chips, "身分驗證已完成" and "智慧服務已連線". No real identity details or credentials anywhere.
+
+Left panel, from top to bottom:
+section title "入世方式"
+selected entry card "首次傳送", with one small line "以現代人的身分，誤入異域。"
+second card "隨機投胎" visibly disabled; explanatory line "目前沒有符合條件的子女". This is an illustrative empty-pool state, not a real service reading.
+section title "角色姓名"
+two separate clean input boxes: label "姓氏", value "林"; label "名字", value "知遠".
+button "智慧取名"; subtle success text "姓名審核通過".
+locked informational row "性別：男" and smaller line "依實名驗證資料登記". NO gender toggle or dropdown.
+a small clearly clickable "命名規範" link, with a modest notice icon. The full moderation warning belongs to a modal accessed through this control; DO NOT show a modal on top of the character in this main-screen concept.
+checked acknowledgment text "我已閱讀並同意命名規範".
+
+Right panel:
+section title "外貌設定"
+three tasteful ADULT male face preset thumbnail buttons, one selected.
+labels "髮型", "髮色", "膚色", with a restrained handful of thumbnail/swatch choices.
+button "隨機外貌".
+small lower preview titled "戰場預覽": show the SAME modern-clothed male as a small, simplified, readable isometric RTS unit standing alone on a tiny stone-ground preview, without weapon or combat effects. The small unit must retain the same hair, clothing silhouette and colors as the central character.
+
+Footer: quiet left button "返回"; prominent warm gold-outlined right button "確認入世".
+Small rotation arrow controls can sit beneath the central full-body character.
+
+All player-facing prose must be Traditional Chinese only, with excellent exact glyph rendering. Do not add English, fake Latin, age numbers, model names, API keys, ID card numbers, personal data, character statistics, classes, professions, skills, starting inventory choices, country options, genealogy management, inheritance-law controls or the post-death succession interface. No browser frame, no desktop window chrome, no watermark, no developer annotations. One coherent screenshot, no collage. The result should immediately feel like the next screen of the supplied approved cave-fortress login artwork.

@@ -1,0 +1,40 @@
+{
+	"checks": [
+		{
+			"check": "native exported capture 01-login",
+			"passed": true
+		},
+		{
+			"check": "packaged login enters registration",
+			"passed": true
+		},
+		{
+			"check": "native exported capture 02-account",
+			"passed": true
+		},
+		{
+			"check": "packaged unverified creation remains disabled",
+			"passed": true
+		},
+		{
+			"check": "packaged child pool remains empty",
+			"passed": true
+		},
+		{
+			"check": "native exported capture 03-creation",
+			"passed": true
+		},
+		{
+			"check": "native exported capture 04-small-window",
+			"passed": true
+		},
+		{
+			"check": "packaged return restores title",
+			"passed": true
+		}
+	],
+	"executable": "C:/Users/f7212/AppData/Local/Microsoft/WinGet/Packages/GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe/Godot_v4.6.3-stable_win64.exe",
+	"external_services_called": false,
+	"passed": true,
+	"source": "exported executable resources"
+}

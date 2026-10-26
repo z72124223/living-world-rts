@@ -1,0 +1,32 @@
+簡化手繪與水墨打擊概念預覽 v01
+日期：2026-09-06
+工具：Codex 內建圖像生成
+狀態：美術概念預覽；不是實機畫面或已驗證動畫。未作效能測試。
+輸出：combat-ink-handdrawn-v01.png
+
+實際生成提示詞：
+
+Use case: stylized-concept.
+Asset type: one immediately understandable GAMEPLAY art-direction preview for an original ancient Chinese RTS plus RPG. This is a concept image, not a running game screenshot. The user wants the fastest visual preview of a proposed efficient style: simple limited-colour 2D hand-drawn characters with reusable animation shapes and short ink-brush combat effects.
+
+Create ONE crisp landscape 16:9 image, about 1920x1080, divided into a LARGE UPPER gameplay panel occupying 60 percent of the height, and THREE equal small LOWER action panels occupying the remaining 40 percent. Thin unobtrusive separators. The upper panel MUST dominate as an actual game-view composition, not a poster. All captions in Traditional Chinese only, correct and legible. No English, no logo, no invented game name, no paragraph explanation. Minimal upper-left caption "戰場全景". Lower captions in reading order "蓄勢", "命中", "收招". A small unobtrusive footer "美術概念預覽".
+
+ART STYLE, most important:
+Economical, attractive hand-drawn 2D animation art with deliberately simplified shapes, clean confident brush outlines, flat colour groups, only one shadow tone and one occasional highlight. Predominantly warm ivory paper, ink charcoal, muted jade green, earthy terracotta, restrained crimson accents. Big readable silhouette and lively gestures, NOT dense illustration. Dry-brush ink texture confined to selected edges and effects. No pixel art or mosaic filter, no photorealism, no 3D, no complicated surface texture, no individually drawn thousands of armour scales, no elaborate glossy lighting or magical glow. The same simplified character model must remain visibly consistent in all four panels. Look like achievable production game sprites and a simple reusable tile-based environment, not a gorgeous expensive key-art painting disguised as gameplay.
+
+UPPER gameplay panel:
+Fixed elevated three-quarter tactical camera looking across a compact ancient Chinese town-edge training/battle courtyard. Simple white plaster wall and grey tiled gate at back, two stylised trees, a few crates, pale flagstone ground with restrained patterns and lots of clear open fighting space. Use consistent camera and ground perspective for all characters.
+Show about 12 to 16 small original adult soldiers in readable separated groups; two groups identifiable by crimson versus muted blue-green cloth and distinct small pennants. A female swordswoman in teal and crimson is the focus near centre-right, caught landing a single sword slash against an adult armoured opponent. One bold, short black-and-ivory brushstroke arc describes the sword's swing, a small sharp golden contact spark, and 4 to 6 tiny ink flecks. Nearby units remain visible. Minimal gameplay cue: one thin broken selection ring under the protagonist; no health bars, numbers, meters or big HUD. This should read as RTS scale with small animated people in a real playable space. Keep enough empty ground between units to read actions.
+
+SAME heroine in every panel:
+Clearly adult East Asian woman with high-tied dark hair, naturally mature proportions slightly simplified for animation, practical ivory and teal wrapped clothing, dark simple lamellar breastplate shown as a few grouped panels, crimson waist sash, boots, ordinary straight sword. Attractive readable face in close-up, determined rather than smiling. Practical modest outfit. No hyper-detailed clothing, no chibi and no huge fantasy weapon.
+
+LOWER panels:
+Show the SAME protagonist and SAME opponent at medium-close RPG combat scale, full bodies completely visible, facing each other on the SAME courtyard ground, with less background detail, consistent view and proportion across the three frames.
+Left "蓄勢": grounded bent knees, hips and shoulders wound for a diagonal cut, sword drawn back, clear tension and anticipation, opponent preparing to guard. No active slash effect yet.
+Middle "命中": protagonist lunges and extends through the diagonal cut, both hands correctly gripping the same single sword, blade meeting opponent's raised guard with a compact ivory/gold impact star. One beautifully designed bold tapered ink arc follows the blade trajectory, sparse flying ink droplets, strong readable contrasting silhouettes, opponent torso reacting backward. Non-graphic combat, no injury detail or blood. Arc must follow the sword and not obscure bodies. This frame is the strongest dramatic focal point of the lower strip.
+Right "收招": protagonist completes the swing in balanced follow-through, sword lowered diagonally, sash settling; opponent has recoiled a step. Ink flecks fading. Show a genuinely different motion phase, not the same pose copied three times.
+
+Anatomy and continuity: consistent face, hair, outfit and weapon across all panels, one sword per combatant, credible hands, real foot contact, no extra limbs, no disconnected weapons. Design effects so their shape and contrast create the excitement without filling the screen with particles.
+Overall: clear, immediately appealing proof of the proposed game art style and an attack sequence. Spend visual detail on the expressive action poses and appealing silhouette, not surface ornament.
+

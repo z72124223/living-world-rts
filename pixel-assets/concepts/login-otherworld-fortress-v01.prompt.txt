@@ -1,0 +1,46 @@
+異世界人類堡壘登入美術提案 v01
+日期：2026-09-06
+工具：Codex 內建圖像生成
+狀態：依本回合故事背景製作的視覺候選，未定案，尚非實機畫面。
+使用者本回合提供的故事背景：人類從不同的地球時間中，不知原因傳送到這個世界。世界非常危險，離開人類防禦陣地或堡壘很可能死在外面，天上甚至有龍飛過。
+畫面中的具體服裝、建材、氣候、地形及構圖是本圖創作選擇，並非使用者已確認的世界規則。
+輸出：login-otherworld-fortress-v01.png
+
+實際生成提示詞：
+
+Use case: ui-mockup.
+Asset type: one compelling original widescreen PC game login/title-screen visual concept, 16:9, target 1920x1080 or higher.
+
+FOUNDATIONAL STORY, authoritative:
+Human beings from DIFFERENT TIMES IN EARTH'S HISTORY have inexplicably been transported to this other world. Nobody knows why. This world is extraordinarily dangerous. Outside defended human positions and fortresses, humans can easily die. Dragons sometimes fly overhead. Human beings do not control this world.
+Do not add an explanation for the transport, a visible portal, a summoning god, a chosen-one hero, a dragon invasion or a confirmed enemy faction. The dragon is part of the dangerous world and is passing in the sky, not necessarily attacking. Do not assume the world is ancient China, medieval Europe, post-apocalyptic Earth or a normal cosy historical kingdom.
+The user supplied this story after rejecting previous art directions. Invent a new coherent visual identity that expresses THIS premise rather than reusing an earlier ancient-Chinese theme.
+
+CORE EMOTION:
+A fragile pool of human warmth and solidarity amid an immense, beautiful and lethal unknown. 'Beyond these walls is a world you desperately want to explore, but may not return from.' An adventure with consequential danger, not hopeless horror or cheerful city building. The contrast between the human refuge and the indifferent wild world is the whole composition.
+
+SCENE AND COMPOSITION:
+A unified cinematic game login screen, viewed from a slightly elevated position INSIDE the upper edge of a human fortress at blue hour. The lower right and middle right show a densely inhabited but modest defensible refuge clinging to a rocky ridge. Fortifications are practical layered rough stone walls, timber braces, a narrow heavy gate, watch platforms and a small protected courtyard. Robust, built and repeatedly repaired by survivors, not an ornate fantasy royal palace or generic Chinese tiled city.
+Inside the walls: a few carefully grouped amber lamps, communal cooking fire, weathered shelters, a workbench, water containers and people performing useful small tasks. A path leads toward the guarded gate and stops visually at the vast dark exterior. Structures look adapted and reused rather than uniform architecture from one Earth dynasty. All survival props remain plausible simple fabricated items; no imported cars, tanks, aircraft or impossible technology.
+A small group near a parapet provides the time-displaced human storytelling: one clearly adult person in recognizable present-day plain jacket or hoodie and trousers; an adult traveller in older wrapped woven clothing; another adult in a long old-fashioned tailored coat; a practical contemporary shirt and backpack on a newly arrived person. Different Earth periods are indicated by clothes and silhouettes, NOT a silly cosplay parade, stereotyped racial caricatures, celebrity likenesses or famous franchise costumes. They share the same human scene, looking outward or working together. No single huge portrait dominates. The buildings and people must feel small compared with the world.
+Beyond the diagonal defensive wall: a steep ravine, unfamiliar colossal trees and rock formations, long dark ridges swallowed by cold mist, a barely discernible broken trail. The refuge's lights clearly end at the perimeter. Communicate danger through scale, distance, limited visibility and human vigilance; no gratuitous gore, monsters surrounding every wall, overblown battle or burning settlement.
+HIGH IN THE RIGHT/CENTRE SKY: one huge distant dragon with believable broad wings and long tail glides past the gap in the clouds. It is large enough to notice instantly but not a foreground dragon poster. Its anatomy and silhouette are readable against a paler opening in the cold clouds. Its scale against the ridges conveys that humans are not the dominant force. People on the lookout subtly direct attention toward it. No fire breathing or attack.
+
+Reserve the LEFT 28 percent for the login interface, using natural dark cliff, cool clouds and sparse mist as quiet negative space. Do not cover the art with a large opaque black form. Make the right-side refuge, its precarious boundary and the passing dragon the three connected focal elements. Intentional visual hierarchy with breathing room, not an over-detailed wallpaper.
+
+ART DIRECTION:
+Premium stylized cinematic game art with sculpted simple forms and painterly material treatment, mature grounded illustration, beautiful broad colour grouping, sharp readable silhouettes and controlled detail. The visual polish of an ambitious survival-adventure/strategy game's own art direction. Neither photorealistic horror nor comic-book caricature. No pixel art, no sepia ink-wash paper, no anime glamour, no gold-heavy historical costume illustration, no miniature toy plastic.
+Colour structure: deep slate blue, desaturated forest green and charcoal outside; concentrated amber, muted rust and weathered ivory within the refuge. A pale silver-blue opening in the sky silhouettes the dragon. Warm light is scarce and meaningful. Keep enough value separation that fortress structures and humans remain visible even in dusk. Subtle atmospheric depth, no excessive blur, bloom or detailed particles.
+
+UI AND TEXT:
+All visible UI text in Traditional Chinese, immaculate and legible. No invented final game name: leave the title area as visually elegant negative space with a very small abstract simple divider, and use the login menu itself as the left-side text focal point.
+Three exact menu items, vertically arranged at comfortable spacing:
+"登入遊戲"
+"設定"
+"離開遊戲"
+Selected "登入遊戲": a restrained ink-blue translucent panel, thin weathered-ivory outline and one tiny warm amber marker. Other items are simple ivory text. Mature readable Chinese typography, no giant flashy gold calligraphy, no ornamental medieval filigree. No English, slogans, subtitle, account fields, server selector, made-up stats, resource counters, genre abbreviations, watermark or studio branding.
+No decorative caption explaining the story. The image itself must tell it.
+
+FINISH:
+One whole, emotionally specific login screen. Show a viable human refuge, wary people from different Earth eras, the stark boundary of safety, and a dragon crossing an overwhelmingly dangerous alien world. This is a visual concept, not evidence of implemented game systems.
+

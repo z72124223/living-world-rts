@@ -1,0 +1,117 @@
+{
+	"checks": [
+		{
+			"check": "demo start appears only in demo: false",
+			"passed": true
+		},
+		{
+			"check": "real password absent in demo: false",
+			"passed": true
+		},
+		{
+			"check": "reject opposite service mode: false",
+			"passed": true
+		},
+		{
+			"check": "real key absent in demo: false",
+			"passed": true
+		},
+		{
+			"check": "saved key does not display connected after failed verification",
+			"passed": true
+		},
+		{
+			"check": "demo suggestion works without a key; production requires a key: false",
+			"passed": true
+		},
+		{
+			"check": "empty child pool remains disabled: false",
+			"passed": true
+		},
+		{
+			"check": "unreviewed name remains disabled: false",
+			"passed": true
+		},
+		{
+			"check": "no mutable gender or appearance: false",
+			"passed": true
+		},
+		{
+			"check": "exact compound-name review permits client action: false",
+			"passed": true
+		},
+		{
+			"check": "changed name invalidates client action: false",
+			"passed": true
+		},
+		{
+			"check": "child cannot be renamed or incur unnecessary naming request: false",
+			"passed": true
+		},
+		{
+			"check": "eligible child permits client action: false",
+			"passed": true
+		},
+		{
+			"check": "identity revocation blocks client action: false",
+			"passed": true
+		},
+		{
+			"check": "demo start appears only in demo: true",
+			"passed": true
+		},
+		{
+			"check": "real password absent in demo: true",
+			"passed": true
+		},
+		{
+			"check": "reject opposite service mode: true",
+			"passed": true
+		},
+		{
+			"check": "real key absent in demo: true",
+			"passed": true
+		},
+		{
+			"check": "demo suggestion works without a key; production requires a key: true",
+			"passed": true
+		},
+		{
+			"check": "empty child pool remains disabled: true",
+			"passed": true
+		},
+		{
+			"check": "unreviewed name remains disabled: true",
+			"passed": true
+		},
+		{
+			"check": "no mutable gender or appearance: true",
+			"passed": true
+		},
+		{
+			"check": "exact compound-name review permits client action: true",
+			"passed": true
+		},
+		{
+			"check": "changed name invalidates client action: true",
+			"passed": true
+		},
+		{
+			"check": "child cannot be renamed or incur unnecessary naming request: true",
+			"passed": true
+		},
+		{
+			"check": "eligible child permits client action: true",
+			"passed": true
+		},
+		{
+			"check": "identity revocation blocks client action: true",
+			"passed": true
+		}
+	],
+	"http_executed": false,
+	"passed": true,
+	"real_identity_or_ai": false,
+	"type": "headless component fixtures",
+	"visual_verified": false
+}

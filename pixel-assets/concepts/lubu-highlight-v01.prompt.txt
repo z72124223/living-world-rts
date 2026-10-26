@@ -1,0 +1,28 @@
+呂布角色高光概念 v01
+日期：2026-09-06
+工具：Codex 內建圖像生成
+狀態：角色高光美術概念，尚非實機動畫或效能驗收。
+風格參考：combat-ink-handdrawn-v01.png
+輸出：lubu-highlight-v01.png
+
+實際生成提示詞：
+
+Use case: stylized-concept.
+Asset type: one spectacular widescreen character-highlight gameplay concept for an ancient Chinese RTS plus RPG.
+Primary request: The user loved the supplied simplified 2D hand-drawn + ink-brush combat preview and now asks for ONE image of Lü Bu (呂布). Create an original depiction of the familiar legendary Three Kingdoms warrior in EXACTLY that approved visual direction. One unified full-bleed 16:9 composition, target about 1920x1080, no storyboard panels, no comparison board.
+
+Input image role: STYLE REFERENCE ONLY. Preserve its clear brush outlines, simple grouped shapes, warm ivory paper ground, restricted earth/teal/crimson palette, limited flat cel shadows, approachable production-game character treatment, and bold sparse ink-slash effects. Do not copy its woman, sword, courtyard arrangement or panel layout.
+
+Main subject: an original, clearly adult Lü Bu in his thirties, tall and powerfully built, commanding mature East Asian face, sharp focused eyes, strong jaw, swept-back dark hair, iconic tall paired pheasant-plume headdress, practical yet imposing dark iron ancient armour with broad readable grouped panels, restrained antique bronze fittings, deep crimson sash and a short crimson cloth drape. Powerful proportions without grotesque muscles, compact silhouette with distinctive long plumes. Recognizable as the traditional legendary character, not copied from any game's specific costume or actor. No glossy gacha detailing, massive fantasy pauldrons or thousands of tiny individually painted scales.
+
+Weapon: ONE exceptionally clear 方天畫戟, a long straight substantial shaft, a straight central spearhead and symmetrical crescent side blades mounted close to the tip. Physically connected head and shaft, both hands gripping the same shaft correctly, plausible leverage and hand spacing. The entire distinctive weapon head and most of the shaft must be visible inside the frame.
+
+Action and composition: a dynamic close-up RPG highlight from a slightly elevated three-quarter gameplay camera. Lü Bu occupies the centre-right, full body visible, planted in a strong low stance, hips and shoulders driving a forceful sweeping halberd strike. Weapon sweeps diagonally across the foreground. Show a powerful readable pose with natural joints, feet firmly on the ground, crimson cloth and long plumes trailing along the motion. Exactly one nearby adult enemy soldier braces and recoils from the impact on his raised shield, with credible distance and weapon contact. A sharply designed crescent of charcoal and ivory dry-brush ink follows the halberd arc; one compact golden-white contact flash, sparse flying ink flecks and a small puff of ground dust. No gore or injury detail. The visual punch comes from pose, timing implied by stretched cloth and weapon path, high-contrast brush shapes and recoil, not clouds of glowing particles. Effects must not obscure Lü Bu's face or the weapon silhouette.
+
+Environment: simple ancient fortress approach / open flagstone battlefield, a low fortress gate and pennants in the middle distance, two small separated groups of red- and blue-green-clad soldiers further back indicating the ongoing RTS battle. Small distant units share the same simplified illustration style. Keep the environment lightly drawn and quiet so the protagonist dominates. Warm parchment air, cool grey stone, limited terracotta and desaturated green, selective red flags. No sunset wash or monumental ornate painting.
+
+Style controls: clearly 2D hand-drawn game illustration, economical contours, 2-3 colour values per material, selectively rough ink edges, simplified expressive anatomy, cinematic action but achievable game-asset aesthetic. Avoid dense painterly texture, intricate armour ornament, photorealism, 3D/CGI, pixel art, mosaic filtering, neon bloom, motion blur that hides the pose, overly cartoonish chibi, smooth anime promotional splash and mobile-game rarity UI. Maintain the approved preview's visual grammar.
+
+Text: optional minimal character label at upper-left, exact Traditional Chinese "呂布", confident black brush calligraphy with a small restrained crimson accent, positioned in natural negative space. Small exact footer "角色高光概念". No other text, English, titles, slogans, labels, stats, health bars, watermark or logos.
+Quality: a beautiful immediately exciting image that proves this SAME approved style can deliver a charismatic legendary leading man and a heavy, satisfying combat highlight.
+

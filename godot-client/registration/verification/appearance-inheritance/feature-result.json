@@ -1,0 +1,22 @@
+{
+  "feature": "server-owned child appearance display",
+  "recordedAt": "2026-09-06T18:45:51.0830797+08:00",
+  "backend": {
+    "passed": 26,
+    "tests": 26,
+    "command": "node --test registration-service/tests/demo.test.mjs registration-service/tests/qa-session.test.mjs",
+    "realProviders": false,
+    "failed": 0,
+    "evidence": "current Codex tool output; 1258.1775 ms"
+  },
+  "sourceComponents": "source-components.json",
+  "exportComponents": "export-components.json",
+  "nativeInputAndScreenshots": {
+    "status": "NOT_RUN_POLICY_REJECTION",
+    "action": "Start isolated demo service and native Godot input-driven verifier",
+    "reason": "blocked by policy",
+    "workaroundAttempted": false
+  },
+  "newArtHumanApproved": false,
+  "latticeSynchronized": false
+}

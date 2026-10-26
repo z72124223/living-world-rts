@@ -1,0 +1,105 @@
+{
+	"checks": [
+		{
+			"check": "login initially has keyboard focus",
+			"passed": true
+		},
+		{
+			"check": "render captured: 01-login",
+			"passed": true
+		},
+		{
+			"check": "accepted login settings still open",
+			"passed": true
+		},
+		{
+			"check": "Escape closes settings",
+			"passed": true
+		},
+		{
+			"check": "login enters native registration",
+			"passed": true
+		},
+		{
+			"check": "title buttons hidden behind registration",
+			"passed": true
+		},
+		{
+			"check": "character illustration fits its frame",
+			"passed": true
+		},
+		{
+			"check": "render captured: 02-account",
+			"passed": true
+		},
+		{
+			"check": "empty child pool is disabled",
+			"passed": true
+		},
+		{
+			"check": "unverified creation is disabled",
+			"passed": true
+		},
+		{
+			"check": "no sex or appearance selection",
+			"passed": true
+		},
+		{
+			"check": "render captured: 03-creation-pending",
+			"passed": true
+		},
+		{
+			"check": "password input is masked",
+			"passed": true
+		},
+		{
+			"check": "HTTP request finished",
+			"passed": true
+		},
+		{
+			"check": "registration creates authenticated session over HTTP",
+			"passed": true
+		},
+		{
+			"check": "render captured: 04-identity",
+			"passed": true
+		},
+		{
+			"check": "HTTP request finished",
+			"passed": true
+		},
+		{
+			"check": "unconfigured identity provider shown honestly",
+			"passed": true
+		},
+		{
+			"check": "unconfigured provider never grants verified state",
+			"passed": true
+		},
+		{
+			"check": "render captured: 05-service-not-configured",
+			"passed": true
+		},
+		{
+			"check": "render captured: 09-small-window",
+			"passed": true
+		},
+		{
+			"check": "return restores accepted login",
+			"passed": true
+		},
+		{
+			"check": "re-enter registration without duplicate screen",
+			"passed": true
+		},
+		{
+			"check": "Escape returns from registration",
+			"passed": true
+		}
+	],
+	"engine": "4.6.3-stable (official)",
+	"external_services_called": false,
+	"failures": 0,
+	"fixture": "unconfigured",
+	"passed": true
+}

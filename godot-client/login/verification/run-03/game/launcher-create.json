@@ -1,0 +1,57 @@
+{
+	"checks": [
+		{
+			"check": "bundled game automatically starts and connects its world",
+			"passed": true
+		},
+		{
+			"check": "bundle uses persistent world",
+			"passed": true
+		},
+		{
+			"check": "export contains map JSON and dynamic resources",
+			"passed": true
+		},
+		{
+			"check": "all four runtime actors render nonempty frames from exported layers",
+			"passed": true
+		},
+		{
+			"check": "real player equipment command succeeds",
+			"passed": true
+		},
+		{
+			"check": "new actor receives a real movement route",
+			"passed": true
+		},
+		{
+			"check": "exported modular actor switches to run animation",
+			"passed": true
+		},
+		{
+			"check": "new actor follows authoritative world motion",
+			"passed": true
+		},
+		{
+			"check": "new actor returns to idle on real stop",
+			"passed": true
+		},
+		{
+			"check": "equipment and cached actor frame update together",
+			"passed": true
+		},
+		{
+			"check": "queued save completes before close",
+			"passed": true
+		},
+		{
+			"check": "native bundle screenshot saved",
+			"passed": true
+		}
+	],
+	"executable": "C:/Users/f7212/OneDrive/文件/遊戲開發/playable/four-person-prototype-20260906/林間營地.exe",
+	"failed": 0,
+	"phase": "create",
+	"save_directory": "C:\\Users\\f7212\\OneDrive\\文件\\遊戲開發\\godot-client\\login\\verification\\run-03/isolated-game-saves",
+	"world_pid": 25552
+}

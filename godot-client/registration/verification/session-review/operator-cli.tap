@@ -1,0 +1,17 @@
+TAP version 13
+# Subtest: operator CLI requires evidence, freezes only synthetic accounts, preserves tombstones and supports appeal restore
+ok 1 - operator CLI requires evidence, freezes only synthetic accounts, preserves tombstones and supports appeal restore
+  ---
+  duration_ms: 12670.4448
+  type: 'test'
+  ...
+# Only generated test directory used; synthetic settings are not real Persona activation; no network service started.
+1..1
+# tests 1
+# suites 0
+# pass 1
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 12771.8074

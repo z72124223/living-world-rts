@@ -1,0 +1,724 @@
+TAP version 13
+# Subtest: demo health and new run expose explicit mode with no identity, AI or stored key
+ok 1 - demo health and new run expose explicit mode with no identity, AI or stored key
+  ---
+  duration_ms: 88.2281
+  type: 'test'
+  ...
+# Subtest: identity and mock AI require separate explicit consent and preserve the fixed fictional sex
+ok 2 - identity and mock AI require separate explicit consent and preserve the fixed fictional sex
+  ---
+  duration_ms: 69.7943
+  type: 'test'
+  ...
+# Subtest: name suggestions retain compound surnames and still require a separate exact-name review
+ok 3 - name suggestions retain compound surnames and still require a separate exact-name review
+  ---
+  duration_ms: 63.1939
+  type: 'test'
+  ...
+# Subtest: mock review rejects the documented bad example and core rejects invalid name format and policy
+ok 4 - mock review rejects the documented bad example and core rejects invalid name format and policy
+  ---
+  duration_ms: 56.8614
+  type: 'test'
+  ...
+# Subtest: first arrival cannot receive client-selected sex, appearance, inventory or child
+ok 5 - first arrival cannot receive client-selected sex, appearance, inventory or child
+  ---
+  duration_ms: 53.0356
+  type: 'test'
+  ...
+# Subtest: random reincarnation uses only eligible fictional daughters and preserves parents names
+ok 6 - random reincarnation uses only eligible fictional daughters and preserves parents names
+  ---
+  duration_ms: 347.3267
+  type: 'test'
+  ...
+# Subtest: restart resets only its own memory run and revokes the old bearer token
+ok 7 - restart resets only its own memory run and revokes the old bearer token
+  ---
+  duration_ms: 163.0855
+  type: 'test'
+  ...
+# Subtest: ineligible child fixtures cannot satisfy reincarnation when both eligible children are occupied
+ok 8 - ineligible child fixtures cannot satisfy reincarnation when both eligible children are occupied
+  ---
+  duration_ms: 51.2154
+  type: 'test'
+  ...
+# Subtest: expired exact-name reviews and expired mock AI cannot authorize character creation
+ok 9 - expired exact-name reviews and expired mock AI cannot authorize character creation
+  ---
+  duration_ms: 65.8759
+  type: 'test'
+  ...
+# Subtest: AI removal invalidates review and creation; logout invalidates authentication
+ok 10 - AI removal invalidates review and creation; logout invalidates authentication
+  ---
+  duration_ms: 70.3416
+  type: 'test'
+  ...
+# Subtest: demo denies real registration, identity, key and moderation endpoints
+ok 11 - demo denies real registration, identity, key and moderation endpoints
+  ---
+  duration_ms: 86.3356
+  type: 'test'
+  ...
+# Subtest: HTTP rejects wrong Host, browser headers and missing native client marker
+ok 12 - HTTP rejects wrong Host, browser headers and missing native client marker
+  ---
+  duration_ms: 74.9352
+  type: 'test'
+  ...
+# Subtest: HTTP strictly validates bearer authentication, method, media type and bounded JSON objects
+ok 13 - HTTP strictly validates bearer authentication, method, media type and bounded JSON objects
+  ---
+  duration_ms: 89.0941
+  type: 'test'
+  ...
+# Subtest: demo keeps core simulated request limits and never stores a real key
+ok 14 - demo keeps core simulated request limits and never stores a real key
+  ---
+  duration_ms: 54.0457
+  type: 'test'
+  ...
+# Subtest: complete demo flow never calls real providers and leaves production-directory sentinels unchanged
+ok 15 - complete demo flow never calls real providers and leaves production-directory sentinels unchanged
+  ---
+  duration_ms: 127.6552
+  type: 'test'
+  ...
+# Subtest: Windows DPAPI vault and account survive process-independent reopen without plaintext secrets
+ok 16 - Windows DPAPI vault and account survive process-independent reopen without plaintext secrets
+  ---
+  duration_ms: 4782.3226
+  type: 'test'
+  ...
+# Subtest: OpenAI parses one assistant result even after a reasoning item
+ok 17 - OpenAI parses one assistant result even after a reasoning item
+  ---
+  duration_ms: 35.2039
+  type: 'test'
+  ...
+# Subtest: OpenAI preserves an explicit rejection and a complete name suggestion
+ok 18 - OpenAI preserves an explicit rejection and a complete name suggestion
+  ---
+  duration_ms: 2.1637
+  type: 'test'
+  ...
+# Subtest: OpenAI rejects null JSON
+ok 19 - OpenAI rejects null JSON
+  ---
+  duration_ms: 1.4753
+  type: 'test'
+  ...
+# Subtest: OpenAI rejects array JSON
+ok 20 - OpenAI rejects array JSON
+  ---
+  duration_ms: 0.7041
+  type: 'test'
+  ...
+# Subtest: OpenAI rejects boolean encoded as text
+ok 21 - OpenAI rejects boolean encoded as text
+  ---
+  duration_ms: 0.5992
+  type: 'test'
+  ...
+# Subtest: OpenAI rejects missing reason
+ok 22 - OpenAI rejects missing reason
+  ---
+  duration_ms: 0.524
+  type: 'test'
+  ...
+# Subtest: OpenAI rejects extra approval field
+ok 23 - OpenAI rejects extra approval field
+  ---
+  duration_ms: 0.5339
+  type: 'test'
+  ...
+# Subtest: OpenAI rejects missing explanation
+ok 24 - OpenAI rejects missing explanation
+  ---
+  duration_ms: 0.6424
+  type: 'test'
+  ...
+# Subtest: OpenAI rejects non-string explanation
+ok 25 - OpenAI rejects non-string explanation
+  ---
+  duration_ms: 0.889
+  type: 'test'
+  ...
+# Subtest: OpenAI rejects extra suggestion field
+ok 26 - OpenAI rejects extra suggestion field
+  ---
+  duration_ms: 0.6865
+  type: 'test'
+  ...
+# Subtest: OpenAI rejects invalid Han name
+ok 27 - OpenAI rejects invalid Han name
+  ---
+  duration_ms: 0.6102
+  type: 'test'
+  ...
+# Subtest: OpenAI rejects non-array output
+ok 28 - OpenAI rejects non-array output
+  ---
+  duration_ms: 0.5162
+  type: 'test'
+  ...
+# Subtest: OpenAI rejects null output item
+ok 29 - OpenAI rejects null output item
+  ---
+  duration_ms: 0.3948
+  type: 'test'
+  ...
+# Subtest: OpenAI rejects non-array content
+ok 30 - OpenAI rejects non-array content
+  ---
+  duration_ms: 0.3601
+  type: 'test'
+  ...
+# Subtest: OpenAI rejects non-assistant output
+ok 31 - OpenAI rejects non-assistant output
+  ---
+  duration_ms: 0.3667
+  type: 'test'
+  ...
+# Subtest: OpenAI rejects non-message output
+ok 32 - OpenAI rejects non-message output
+  ---
+  duration_ms: 0.49
+  type: 'test'
+  ...
+# Subtest: OpenAI rejects unfinished message
+ok 33 - OpenAI rejects unfinished message
+  ---
+  duration_ms: 0.428
+  type: 'test'
+  ...
+# Subtest: OpenAI rejects refusal only
+ok 34 - OpenAI rejects refusal only
+  ---
+  duration_ms: 0.4435
+  type: 'test'
+  ...
+# Subtest: OpenAI rejects refusal with approval text
+ok 35 - OpenAI rejects refusal with approval text
+  ---
+  duration_ms: 0.4164
+  type: 'test'
+  ...
+# Subtest: OpenAI rejects separate messages concatenated into JSON
+ok 36 - OpenAI rejects separate messages concatenated into JSON
+  ---
+  duration_ms: 0.3812
+  type: 'test'
+  ...
+# Subtest: OpenAI null envelope is a controlled failure
+ok 37 - OpenAI null envelope is a controlled failure
+  ---
+  duration_ms: 1.3852
+  type: 'test'
+  ...
+# Subtest: OpenAI maps HTTP 403 without disclosing the provider body
+ok 38 - OpenAI maps HTTP 403 without disclosing the provider body
+  ---
+  duration_ms: 0.3619
+  type: 'test'
+  ...
+# Subtest: OpenAI maps HTTP 404 without disclosing the provider body
+ok 39 - OpenAI maps HTTP 404 without disclosing the provider body
+  ---
+  duration_ms: 0.23
+  type: 'test'
+  ...
+# Subtest: OpenAI maps HTTP 500 without disclosing the provider body
+ok 40 - OpenAI maps HTTP 500 without disclosing the provider body
+  ---
+  duration_ms: 0.2075
+  type: 'test'
+  ...
+# Subtest: OpenAI malformed HTTP JSON is a controlled failure
+ok 41 - OpenAI malformed HTTP JSON is a controlled failure
+  ---
+  duration_ms: 0.3501
+  type: 'test'
+  ...
+# Subtest: provider network failure is sanitized
+ok 42 - provider network failure is sanitized
+  ---
+  duration_ms: 0.6592
+  type: 'test'
+  ...
+# Subtest: Persona returns a document-derived identity and canonical fingerprint input
+ok 43 - Persona returns a document-derived identity and canonical fingerprint input
+  ---
+  duration_ms: 3.386
+  type: 'test'
+  ...
+# Subtest: Persona unconfigured or sandbox credentials make no HTTP request
+ok 44 - Persona unconfigured or sandbox credentials make no HTTP request
+  ---
+  duration_ms: 0.6991
+  type: 'test'
+  ...
+# Subtest: Persona create, reuse and resume preserve account binding and encode session tokens
+ok 45 - Persona create, reuse and resume preserve account binding and encode session tokens
+  ---
+  duration_ms: 1.2604
+  type: 'test'
+  ...
+# Subtest: Persona create rejects wrong account
+ok 46 - Persona create rejects wrong account
+  ---
+  duration_ms: 0.496
+  type: 'test'
+  ...
+# Subtest: Persona create rejects wrong resource type
+ok 47 - Persona create rejects wrong resource type
+  ---
+  duration_ms: 0.3416
+  type: 'test'
+  ...
+# Subtest: Persona create rejects wrong template
+ok 48 - Persona create rejects wrong template
+  ---
+  duration_ms: 0.3552
+  type: 'test'
+  ...
+# Subtest: Persona reuse rejects wrong account
+ok 49 - Persona reuse rejects wrong account
+  ---
+  duration_ms: 0.2711
+  type: 'test'
+  ...
+# Subtest: Persona reuse rejects wrong resource type
+ok 50 - Persona reuse rejects wrong resource type
+  ---
+  duration_ms: 0.2467
+  type: 'test'
+  ...
+# Subtest: Persona reuse rejects wrong template
+ok 51 - Persona reuse rejects wrong template
+  ---
+  duration_ms: 0.255
+  type: 'test'
+  ...
+# Subtest: Persona resume rejects wrong account
+ok 52 - Persona resume rejects wrong account
+  ---
+  duration_ms: 0.5882
+  type: 'test'
+  ...
+# Subtest: Persona resume rejects wrong resource type
+ok 53 - Persona resume rejects wrong resource type
+  ---
+  duration_ms: 0.547
+  type: 'test'
+  ...
+# Subtest: Persona resume rejects wrong template
+ok 54 - Persona resume rejects wrong template
+  ---
+  duration_ms: 0.9231
+  type: 'test'
+  ...
+# Subtest: Persona check rejects wrong account
+ok 55 - Persona check rejects wrong account
+  ---
+  duration_ms: 0.3699
+  type: 'test'
+  ...
+# Subtest: Persona check rejects wrong resource type
+ok 56 - Persona check rejects wrong resource type
+  ---
+  duration_ms: 0.3434
+  type: 'test'
+  ...
+# Subtest: Persona check rejects wrong template
+ok 57 - Persona check rejects wrong template
+  ---
+  duration_ms: 0.2766
+  type: 'test'
+  ...
+# Subtest: Persona reuse rejects a mismatched inquiry id
+ok 58 - Persona reuse rejects a mismatched inquiry id
+  ---
+  duration_ms: 0.3919
+  type: 'test'
+  ...
+# Subtest: Persona resume rejects a mismatched inquiry id
+ok 59 - Persona resume rejects a mismatched inquiry id
+  ---
+  duration_ms: 0.4614
+  type: 'test'
+  ...
+# Subtest: Persona check rejects a mismatched inquiry id
+ok 60 - Persona check rejects a mismatched inquiry id
+  ---
+  duration_ms: 0.3443
+  type: 'test'
+  ...
+# Subtest: Persona holds mismatched document id for review
+ok 61 - Persona holds mismatched document id for review
+  ---
+  duration_ms: 0.4285
+  type: 'test'
+  ...
+# Subtest: Persona holds mismatched document type for review
+ok 62 - Persona holds mismatched document type for review
+  ---
+  duration_ms: 0.3616
+  type: 'test'
+  ...
+# Subtest: Persona holds mismatched selfie id for review
+ok 63 - Persona holds mismatched selfie id for review
+  ---
+  duration_ms: 0.3853
+  type: 'test'
+  ...
+# Subtest: Persona holds wrong verification inquiry for review
+ok 64 - Persona holds wrong verification inquiry for review
+  ---
+  duration_ms: 0.4059
+  type: 'test'
+  ...
+# Subtest: Persona holds wrong inquiry relationship type for review
+ok 65 - Persona holds wrong inquiry relationship type for review
+  ---
+  duration_ms: 0.4653
+  type: 'test'
+  ...
+# Subtest: Persona holds null relationship entry for review
+ok 66 - Persona holds null relationship entry for review
+  ---
+  duration_ms: 0.2074
+  type: 'test'
+  ...
+# Subtest: Persona holds non-array relationships for review
+ok 67 - Persona holds non-array relationships for review
+  ---
+  duration_ms: 0.2185
+  type: 'test'
+  ...
+# Subtest: Persona holds non-array checks for review
+ok 68 - Persona holds non-array checks for review
+  ---
+  duration_ms: 1.3844
+  type: 'test'
+  ...
+# Subtest: Persona holds null check for review
+ok 69 - Persona holds null check for review
+  ---
+  duration_ms: 0.4067
+  type: 'test'
+  ...
+# Subtest: Persona holds failed required check for review
+ok 70 - Persona holds failed required check for review
+  ---
+  duration_ms: 0.387
+  type: 'test'
+  ...
+# Subtest: Persona holds failed check of unknown requirement for review
+ok 71 - Persona holds failed check of unknown requirement for review
+  ---
+  duration_ms: 0.4904
+  type: 'test'
+  ...
+# Subtest: Persona holds blank identity number for review
+ok 72 - Persona holds blank identity number for review
+  ---
+  duration_ms: 0.3869
+  type: 'test'
+  ...
+# Subtest: Persona holds object identity number for review
+ok 73 - Persona holds object identity number for review
+  ---
+  duration_ms: 0.408
+  type: 'test'
+  ...
+# Subtest: Persona holds numeric identity number for review
+ok 74 - Persona holds numeric identity number for review
+  ---
+  duration_ms: 0.3867
+  type: 'test'
+  ...
+# Subtest: Persona holds missing id class for review
+ok 75 - Persona holds missing id class for review
+  ---
+  duration_ms: 0.3598
+  type: 'test'
+  ...
+# Subtest: Persona holds blank country for review
+ok 76 - Persona holds blank country for review
+  ---
+  duration_ms: 0.3698
+  type: 'test'
+  ...
+# Subtest: Persona holds invalid country type for review
+ok 77 - Persona holds invalid country type for review
+  ---
+  duration_ms: 0.5367
+  type: 'test'
+  ...
+# Subtest: Persona holds invalid expiration for review
+ok 78 - Persona holds invalid expiration for review
+  ---
+  duration_ms: 0.559
+  type: 'test'
+  ...
+# Subtest: Persona holds nonexistent expiration day for review
+ok 79 - Persona holds nonexistent expiration day for review
+  ---
+  duration_ms: 0.4617
+  type: 'test'
+  ...
+# Subtest: Persona holds expired document for review
+ok 80 - Persona holds expired document for review
+  ---
+  duration_ms: 0.3741
+  type: 'test'
+  ...
+# Subtest: Persona holds unknown document sex despite inquiry prefill for review
+ok 81 - Persona holds unknown document sex despite inquiry prefill for review
+  ---
+  duration_ms: 0.3413
+  type: 'test'
+  ...
+# Subtest: Persona holds missing liveness evidence for review
+ok 82 - Persona holds missing liveness evidence for review
+  ---
+  duration_ms: 0.3303
+  type: 'test'
+  ...
+# Subtest: Persona holds contradictory optional liveness evidence for review
+ok 83 - Persona holds contradictory optional liveness evidence for review
+  ---
+  duration_ms: 0.3509
+  type: 'test'
+  ...
+# Subtest: Persona holds multiple passing documents for review
+ok 84 - Persona holds multiple passing documents for review
+  ---
+  duration_ms: 0.4419
+  type: 'test'
+  ...
+# Subtest: Persona holds multiple passing documents despite untrusted second-document checks for review
+ok 85 - Persona holds multiple passing documents despite untrusted second-document checks for review
+  ---
+  duration_ms: 0.5849
+  type: 'test'
+  ...
+# Subtest: Persona holds failed retry-required check for review
+ok 86 - Persona holds failed retry-required check for review
+  ---
+  duration_ms: 0.437
+  type: 'test'
+  ...
+# Subtest: Persona holds oversized verification relationship list for review
+ok 87 - Persona holds oversized verification relationship list for review
+  ---
+  duration_ms: 0.2564
+  type: 'test'
+  ...
+# Subtest: Persona null response fails without a raw TypeError
+ok 88 - Persona null response fails without a raw TypeError
+  ---
+  duration_ms: 0.2834
+  type: 'test'
+  ...
+# Subtest: Persona accepts passing checks when the optional requirement field is absent
+ok 89 - Persona accepts passing checks when the optional requirement field is absent
+  ---
+  duration_ms: 0.5536
+  type: 'test'
+  ...
+# Subtest: Persona accepts a passed requires_retry check
+ok 90 - Persona accepts a passed requires_retry check
+  ---
+  duration_ms: 0.9704
+  type: 'test'
+  ...
+# Subtest: Persona accepts absent expiry only with otherwise passing document evidence
+ok 91 - Persona accepts absent expiry only with otherwise passing document evidence
+  ---
+  duration_ms: 0.6902
+  type: 'test'
+  ...
+# Subtest: Persona pending create includes the returned session token
+ok 92 - Persona pending create includes the returned session token
+  ---
+  duration_ms: 0.4263
+  type: 'test'
+  ...
+# Subtest: Persona pending create rejects missing or blank token
+ok 93 - Persona pending create rejects missing or blank token
+  ---
+  duration_ms: 0.7942
+  type: 'test'
+  ...
+# Subtest: Persona pending resume rejects missing or blank token
+ok 94 - Persona pending resume rejects missing or blank token
+  ---
+  duration_ms: 1.0065
+  type: 'test'
+  ...
+# Subtest: Persona non-JSON HTTP body and HTTP failure stay controlled and sanitized
+ok 95 - Persona non-JSON HTTP body and HTTP failure stay controlled and sanitized
+  ---
+  duration_ms: 0.6911
+  type: 'test'
+  ...
+# Subtest: Persona only replaces expired inquiries; terminal or completed inquiries make no new POST
+ok 96 - Persona only replaces expired inquiries; terminal or completed inquiries make no new POST
+  ---
+  duration_ms: 5.1247
+  type: 'test'
+  ...
+# Subtest: QA name format accepts compound/rare Han names and rejects non-name input without an AI call
+ok 97 - QA name format accepts compound/rare Han names and rejects non-name input without an AI call
+  ---
+  duration_ms: 2.5871
+  type: 'test'
+  ...
+# Subtest: QA no vacancy and ineligible children never create a character or consume a child
+ok 98 - QA no vacancy and ineligible children never create a character or consume a child
+  ---
+  duration_ms: 48.4375
+  type: 'test'
+  ...
+# Subtest: QA both registered sexes inherit the eligible child name and appearance despite forged client fields
+ok 99 - QA both registered sexes inherit the eligible child name and appearance despite forged client fields
+  ---
+  duration_ms: 81.932
+  type: 'test'
+  ...
+# Subtest: QA suggestions do not grant name approval, and AI rejection never freezes or deletes an account
+ok 100 - QA suggestions do not grant name approval, and AI rejection never freezes or deletes an account
+  ---
+  duration_ms: 39.6458
+  type: 'test'
+  ...
+# Subtest: QA an expired AI connection blocks creation even while the exact name review is current
+ok 101 - QA an expired AI connection blocks creation even while the exact name review is current
+  ---
+  duration_ms: 40.5581
+  type: 'test'
+  ...
+# Subtest: QA failed AI attempts consume the daily limit and do not call a provider again after exhaustion
+ok 102 - QA failed AI attempts consume the daily limit and do not call a provider again after exhaustion
+  ---
+  duration_ms: 40.0025
+  type: 'test'
+  ...
+# Subtest: QA HTTP register/login to creation obeys server-owned identity/name and protects session data
+ok 103 - QA HTTP register/login to creation obeys server-owned identity/name and protects session data
+  ---
+  duration_ms: 164.617
+  type: 'test'
+  ...
+# loopback random port: 56188
+# Subtest: QA failed reconnect of the saved AI key must revoke connected status and block creation
+ok 104 - QA failed reconnect of the saved AI key must revoke connected status and block creation
+  ---
+  duration_ms: 55.8699
+  type: 'test'
+  ...
+# {"connectedAfterFailure":false,"createOutcome":"AI_REQUIRED"}
+# Subtest: QA saved-key, replacement-key, incomplete and disapproved reconnects all invalidate old authority
+ok 105 - QA saved-key, replacement-key, incomplete and disapproved reconnects all invalidate old authority
+  ---
+  duration_ms: 192.6195
+  type: 'test'
+  ...
+# 4 reconnect failure variants verified with synthetic provider responses
+# Subtest: QA Persona incomplete trusted document fields must remain under review
+ok 106 - QA Persona incomplete trusted document fields must remain under review
+  ---
+  duration_ms: 1.7778
+  type: 'test'
+  ...
+# [{"label":"missing document type","status":"needs_review"},{"label":"blank document number","status":"needs_review"},{"label":"blank issuing country","status":"needs_review"}]
+# Subtest: QA malformed future child records cannot fall back to the incoming player name
+ok 107 - QA malformed future child records cannot fall back to the incoming player name
+  ---
+  duration_ms: 42.5031
+  type: 'test'
+  ...
+# rejected malformed record: NO_CHILD
+# {"created":false,"storedName":null}
+# Subtest: registration, password hashing, login, session expiry and logout
+ok 108 - registration, password hashing, login, session expiry and logout
+  ---
+  duration_ms: 141.8306
+  type: 'test'
+  ...
+# Subtest: unconfigured Persona never verifies; forged flags cannot create or bill AI
+ok 109 - unconfigured Persona never verifies; forged flags cannot create or bill AI
+  ---
+  duration_ms: 37.4515
+  type: 'test'
+  ...
+# Subtest: duplicate identity and identity blacklist prevent binding
+ok 110 - duplicate identity and identity blacklist prevent binding
+  ---
+  duration_ms: 89.1784
+  type: 'test'
+  ...
+# Subtest: fees require consent, request limits are enforced and vault binds owner
+ok 111 - fees require consent, request limits are enforced and vault binds owner
+  ---
+  duration_ms: 50.4586
+  type: 'test'
+  ...
+# Subtest: exact name review, policy, TTL, immutable sex and duplicate character constraints
+ok 112 - exact name review, policy, TTL, immutable sex and duplicate character constraints
+  ---
+  duration_ms: 48.6549
+  type: 'test'
+  ...
+# Subtest: expired reviews and rejected AI results cannot grant creation
+ok 113 - expired reviews and rejected AI results cannot grant creation
+  ---
+  duration_ms: 47.9667
+  type: 'test'
+  ...
+# Subtest: provider revocation prevents creation despite earlier verified status
+ok 114 - provider revocation prevents creation despite earlier verified status
+  ---
+  duration_ms: 50.3043
+  type: 'test'
+  ...
+# Subtest: same-sex eligible public child is atomically claimed, reserved and occupied excluded
+ok 115 - same-sex eligible public child is atomically claimed, reserved and occupied excluded
+  ---
+  duration_ms: 112.1611
+  type: 'test'
+  ...
+# Subtest: HTTP host, browser, auth, forged status and JSON gates
+ok 116 - HTTP host, browser, auth, forged status and JSON gates
+  ---
+  duration_ms: 110.3456
+  type: 'test'
+  ...
+# Subtest: OpenAI uses Luna Responses schema and rejects partial, quota and authorization failures
+ok 117 - OpenAI uses Luna Responses schema and rejects partial, quota and authorization failures
+  ---
+  duration_ms: 7.941
+  type: 'test'
+  ...
+# Subtest: Persona requires account binding, approved inquiry, document sex and live matching selfie
+ok 118 - Persona requires account binding, approved inquiry, document sex and live matching selfie
+  ---
+  duration_ms: 3.5225
+  type: 'test'
+  ...
+1..118
+# tests 118
+# suites 0
+# pass 118
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 4896.3566

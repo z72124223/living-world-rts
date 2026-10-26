@@ -1,0 +1,225 @@
+{
+	"checks": [
+		{
+			"check": "demo start appears only in demo: false",
+			"passed": true
+		},
+		{
+			"check": "real password absent in demo: false",
+			"passed": true
+		},
+		{
+			"check": "reject opposite service mode: false",
+			"passed": true
+		},
+		{
+			"check": "real key absent in demo: false",
+			"passed": true
+		},
+		{
+			"check": "saved key does not display connected after failed verification",
+			"passed": true
+		},
+		{
+			"check": "demo suggestion works without a key; production requires a key: false",
+			"passed": true
+		},
+		{
+			"check": "empty child pool remains disabled: false",
+			"passed": true
+		},
+		{
+			"check": "unreviewed name remains disabled: false",
+			"passed": true
+		},
+		{
+			"check": "no mutable gender or appearance: false",
+			"passed": true
+		},
+		{
+			"check": "exact compound-name review permits client action: false",
+			"passed": true
+		},
+		{
+			"check": "changed name invalidates client action: false",
+			"passed": true
+		},
+		{
+			"check": "child cannot be renamed or incur unnecessary naming request: false",
+			"passed": true
+		},
+		{
+			"check": "eligible child permits client action: false",
+			"passed": true
+		},
+		{
+			"check": "identity revocation blocks client action: false",
+			"passed": true
+		},
+		{
+			"check": "demo start appears only in demo: true",
+			"passed": true
+		},
+		{
+			"check": "real password absent in demo: true",
+			"passed": true
+		},
+		{
+			"check": "reject opposite service mode: true",
+			"passed": true
+		},
+		{
+			"check": "real key absent in demo: true",
+			"passed": true
+		},
+		{
+			"check": "demo suggestion works without a key; production requires a key: true",
+			"passed": true
+		},
+		{
+			"check": "empty child pool remains disabled: true",
+			"passed": true
+		},
+		{
+			"check": "unreviewed name remains disabled: true",
+			"passed": true
+		},
+		{
+			"check": "no mutable gender or appearance: true",
+			"passed": true
+		},
+		{
+			"check": "exact compound-name review permits client action: true",
+			"passed": true
+		},
+		{
+			"check": "changed name invalidates client action: true",
+			"passed": true
+		},
+		{
+			"check": "child cannot be renamed or incur unnecessary naming request: true",
+			"passed": true
+		},
+		{
+			"check": "eligible child permits client action: true",
+			"passed": true
+		},
+		{
+			"check": "identity revocation blocks client action: true",
+			"passed": true
+		},
+		{
+			"check": "child has a distinct bundled portrait",
+			"passed": true
+		},
+		{
+			"check": "unrecognized ID is never loaded as a resource: ",
+			"passed": true
+		},
+		{
+			"check": "unrecognized ID is never loaded as a resource: unknown-child",
+			"passed": true
+		},
+		{
+			"check": "unrecognized ID is never loaded as a resource: res://registration/assets/arrival-female.png",
+			"passed": true
+		},
+		{
+			"check": "unrecognized ID is never loaded as a resource: ../login/login.gd",
+			"passed": true
+		},
+		{
+			"check": "unrecognized ID is never loaded as a resource: https://example.invalid/portrait.png",
+			"passed": true
+		},
+		{
+			"check": "unrecognized ID is never loaded as a resource: <null>",
+			"passed": true
+		},
+		{
+			"check": "unrecognized ID is never loaded as a resource: 123",
+			"passed": true
+		},
+		{
+			"check": "unrecognized ID is never loaded as a resource: { \"path\": \"arrival-female\" }",
+			"passed": true
+		},
+		{
+			"check": "arrival retains modern clothing: false",
+			"passed": true
+		},
+		{
+			"check": "no child preview before random pairing: false",
+			"passed": true
+		},
+		{
+			"check": "saved child wins over a new arrival draft: false",
+			"passed": true
+		},
+		{
+			"check": "refreshed account and another tab retain child appearance: false",
+			"passed": true
+		},
+		{
+			"check": "missing child asset does not fall back to another person: false",
+			"passed": true
+		},
+		{
+			"check": "inconsistent registered sex and portrait are not displayed: false",
+			"passed": true
+		},
+		{
+			"check": "male child also resolves its stored appearance: false",
+			"passed": true
+		},
+		{
+			"check": "deleted child portrait is not shown as active: false",
+			"passed": true
+		},
+		{
+			"check": "inheritance never adds a customization selector: false",
+			"passed": true
+		},
+		{
+			"check": "arrival retains modern clothing: true",
+			"passed": true
+		},
+		{
+			"check": "no child preview before random pairing: true",
+			"passed": true
+		},
+		{
+			"check": "saved child wins over a new arrival draft: true",
+			"passed": true
+		},
+		{
+			"check": "refreshed account and another tab retain child appearance: true",
+			"passed": true
+		},
+		{
+			"check": "missing child asset does not fall back to another person: true",
+			"passed": true
+		},
+		{
+			"check": "inconsistent registered sex and portrait are not displayed: true",
+			"passed": true
+		},
+		{
+			"check": "male child also resolves its stored appearance: true",
+			"passed": true
+		},
+		{
+			"check": "deleted child portrait is not shown as active: true",
+			"passed": true
+		},
+		{
+			"check": "inheritance never adds a customization selector: true",
+			"passed": true
+		}
+	],
+	"http_executed": false,
+	"passed": true,
+	"real_identity_or_ai": false,
+	"type": "headless component fixtures",
+	"visual_verified": false
+}

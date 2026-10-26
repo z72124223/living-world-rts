@@ -1,0 +1,15 @@
+登入美術候選圖 v02：全繁體中文
+日期：2026-09-06
+工具：Codex 內建圖像生成
+狀態：供美術定版討論；「活世界」為暫用中文標題，非正式命名確認。
+輸入圖片：pixel-assets/concepts/login-screen-v01.png
+輸出圖片：pixel-assets/concepts/login-screen-v02-zh.png
+
+實際生成提示詞：
+
+Use case: text-localization.
+Edit the supplied game login screen with STRICT preservation of all artwork and layout. The user likes this exact image but dislikes English. Change ONLY the title typography and subtitle. Do not redesign or regenerate the woman, face, pose, armour, hair, banners, soldiers, civilians, roofs, river, mountains, lighting, menu positions, palette or pixel-art textures.
+Replace the large upper-left English title "Living World" with the exact Traditional Chinese title "活世界". Use all three characters exactly, no English. This is a provisional literal Chinese title, not a final approved game name. Set it beautifully in expressive, dignified antique-gold Chinese calligraphy with clear, correct strokes, matching the existing gold material and enough scale to occupy the same upper-left title region. A single well-balanced line or artful compact layout is acceptable within that region.
+Replace the small subtitle "RTS × RPG" with exact Traditional Chinese "即時戰略 × 角色扮演". The Chinese subtitle must be very readable, suitably spaced and fit beneath the title without colliding with the existing login menu. Use elegant readable traditional Chinese type rather than imitating Latin letters.
+Preserve the existing three menu items exactly: "登入遊戲", "設定", "離開遊戲". Keep all other artwork and the selected menu highlight unchanged. Entire image must contain no English text or Latin abbreviations. Preserve the original widescreen dimensions and polished pixel-art style. Do not add new slogans, characters, interface elements or watermark.
+

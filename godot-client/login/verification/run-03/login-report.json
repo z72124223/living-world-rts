@@ -1,0 +1,131 @@
+{
+	"checks": [
+		{
+			"check": "initial keyboard focus is login",
+			"passed": true
+		},
+		{
+			"check": "real login control is visible",
+			"passed": true
+		},
+		{
+			"check": "rendered screenshot saved: 01-login",
+			"passed": true
+		},
+		{
+			"check": "arrow key moves focus to settings",
+			"passed": true
+		},
+		{
+			"check": "Enter opens settings through real keyboard input",
+			"passed": true
+		},
+		{
+			"check": "modal prevents activation of background login",
+			"passed": true
+		},
+		{
+			"check": "rendered screenshot saved: 02-settings",
+			"passed": true
+		},
+		{
+			"check": "Escape cancels unapplied settings",
+			"passed": true
+		},
+		{
+			"check": "mouse click opens settings",
+			"passed": true
+		},
+		{
+			"check": "slider accepts keyboard input",
+			"passed": true
+		},
+		{
+			"check": "Apply writes actual user settings",
+			"passed": true
+		},
+		{
+			"check": "saved settings affect runtime frame cap and menu audio",
+			"passed": true
+		},
+		{
+			"check": "settings are restored from disk",
+			"passed": true
+		},
+		{
+			"check": "fullscreen applies to the actual window",
+			"passed": true
+		},
+		{
+			"check": "window mode can be restored",
+			"passed": true
+		},
+		{
+			"check": "rendered screenshot saved: 03-small-window",
+			"passed": true
+		},
+		{
+			"check": "menu remains in view at minimum window size",
+			"passed": true
+		},
+		{
+			"check": "missing bundle gives visible error and remains retryable",
+			"passed": true
+		},
+		{
+			"check": "rendered screenshot saved: 04-missing-game",
+			"passed": true
+		},
+		{
+			"check": "existing world prevents duplicate launch",
+			"passed": true
+		},
+		{
+			"check": "login click starts actual native game process",
+			"passed": true
+		},
+		{
+			"check": "login is disabled while game is running",
+			"passed": true
+		},
+		{
+			"check": "repeated login cannot launch a duplicate game",
+			"passed": true
+		},
+		{
+			"check": "game closes cleanly and returns to usable login menu",
+			"passed": true
+		},
+		{
+			"check": "actual four-person game connects Rust and passes bundled checks",
+			"passed": true
+		},
+		{
+			"check": "rendered screenshot saved: 05-return-from-game",
+			"passed": true
+		},
+		{
+			"check": "exit button opens confirmation",
+			"passed": true
+		},
+		{
+			"check": "rendered screenshot saved: 06-exit-confirmation",
+			"passed": true
+		},
+		{
+			"check": "cancel exit keeps application open",
+			"passed": false
+		},
+		{
+			"check": "exit can be requested again",
+			"passed": true
+		}
+	],
+	"engine": "4.6.3-stable (official)",
+	"executable": "C:/Users/f7212/AppData/Local/Microsoft/WinGet/Packages/GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe/Godot_v4.6.3-stable_win64.exe",
+	"failures": 1,
+	"game_pid": 19532,
+	"passed": false,
+	"renderer": "gl_compatibility",
+	"settings_path": "C:\\Users\\f7212\\OneDrive\\文件\\遊戲開發\\godot-client\\login\\verification\\run-03/settings.cfg"
+}

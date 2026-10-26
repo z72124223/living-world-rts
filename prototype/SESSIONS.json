@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "coordinator_thread_id": "01a0712a-0d37-7dc2-bd31-b227142e5f76",
+  "coordinator_title": "查找 GitHub 專案",
+  "project_id": "e0b30698-7406-443d-81d6-56810d9f1d81",
+  "baseline_commit": "5fecdf9c50ec1cc67ff6b77be8ba8c8cf8913d82",
+  "baseline_branch": "codex/four-person-prototype-base",
+  "original_checkout_head": "cfbeccc8d439f7cf99e1a6f42322aba664c54e1e",
+  "original_staging_index_preserved": true,
+  "baseline_archive_files_hash_verified": 55,
+  "workers": [
+    {
+      "thread_id": "01a07473-325d-7bb0-be8a-bb7e3369a6e0",
+      "title": "原型｜角色衣裝與動畫",
+      "host_id": "local",
+      "worktree": "C:\\Users\\f7212\\.codex\\worktrees\\ee20\\遊戲開發",
+      "branch": "codex/prototype-actors-20260906",
+      "status_at_dispatch": "active",
+      "wait_cursor": "5abdd794-bfa6-4f59-8315-84aa3668dbd5:1",
+      "completion_report_required": true,
+      "latest_review": {
+        "at": "2026-09-06T10:31:52.592043+08:00",
+        "status": "revision_integrated_native_verified",
+        "checkpoint": "d6707612af51c0baae1057c5b90a98d9a46b7adb",
+        "findings": [
+          "Clothing material detail is too simple compared to approved reference",
+          "Running arm motion needs natural opposing swing",
+          "Precomposed loadout atlases total about 180 MiB; reduce combinations and blank space"
+        ],
+        "new_art_approved": false
+      },
+      "completion": {
+        "status": "integrated",
+        "commits": [
+          "d6707612af51c0baae1057c5b90a98d9a46b7adb",
+          "dbfeddd69a262ce9eeacb57af8a52485a09dd193"
+        ],
+        "art_approved": false
+      }
+    },
+    {
+      "thread_id": "01a07473-90ac-7561-8c17-d66a6029324b",
+      "title": "原型｜營地地圖與小隊操作",
+      "host_id": "local",
+      "worktree": "C:\\Users\\f7212\\.codex\\worktrees\\9bbf\\遊戲開發",
+      "branch": "codex/prototype-client-20260906",
+      "status_at_dispatch": "active",
+      "wait_cursor": "8c26ec01-ae9b-4020-a60f-b09ec7764e43:1",
+      "completion_report_required": true,
+      "latest_review": {
+        "at": "2026-09-06T10:21:45.7841238+08:00",
+        "status": "visual_polish_in_progress",
+        "evidence_reviewed": "Godot screenshot 01-camp-selected.png and verification-rendered.json",
+        "reviewed_functional_checks": 26,
+        "formal_rust_integration": "NOT_RUN",
+        "additional_navigation_result": "Worker reports 120 routes and rock-corner fix; coordinator has not rerun",
+        "next_receipt": "Commit SHA, polished screenshots, assets and limitations"
+      },
+      "completion": {
+        "status": "integrated",
+        "commits": [
+          "7e305b0653661680a426c2a01fe12402f22f2cab",
+          "a304c70a4cb6b2fc652ebdd560c489fa18702916"
+        ],
+        "art_approved": false
+      }
+    },
+    {
+      "thread_id": "01a07473-ff89-7da2-baf2-02f3fb5077ff",
+      "title": "原型｜人物隊伍與存檔核心",
+      "host_id": "local",
+      "worktree": "C:\\Users\\f7212\\.codex\\worktrees\\f872\\遊戲開發",
+      "branch": "codex/prototype-world-20260906",
+      "status_at_dispatch": "active",
+      "wait_cursor": "55eb94a9-225b-43f8-972d-e16f2b0738ea:1",
+      "completion_report_required": true,
+      "completion": {
+        "status": "integrated",
+        "commit": "4454e31774cf0dbe68ff94e705a70ba66716223c"
+      }
+    }
+  ],
+  "coordination": {
+    "report_to": "01a0712a-0d37-7dc2-bd31-b227142e5f76",
+    "report_route": "send_message_to_thread",
+    "startup_reports_received": 3,
+    "integration_owner": "coordinator",
+    "merge_default_branch_authorized": false,
+    "push_authorized": false,
+    "lattice_task_ref": null
+  },
+  "world_config": {
+    "spawn_points": [
+      [
+        304,
+        816
+      ],
+      [
+        352,
+        816
+      ],
+      [
+        304,
+        864
+      ],
+      [
+        352,
+        864
+      ]
+    ],
+    "event_points": {
+      "return-camp": [
+        336,
+        848
+      ],
+      "scout-north": [
+        1040,
+        304
+      ],
+      "scout-east": [
+        1712,
+        848
+      ]
+    },
+    "interaction_radius_px": 64,
+    "commander_id_nullable": true
+  },
+  "next_action": "使用者試玩 Windows 原型並確認新美術與操作；依回饋在此窗口安排後續工作。沒有推送或部署。",
+  "integration": {
+    "worktree": "C:/Users/f7212/.codex/worktrees/rts-squad-integration/遊戲開發",
+    "branch": "codex/prototype-integration-20260906",
+    "head": "5057fd3151a58e83e6b812c71275d6aa8dbdae28",
+    "integrated_checkpoints": [
+      "d6707612af51c0baae1057c5b90a98d9a46b7adb",
+      "4454e31774cf0dbe68ff94e705a70ba66716223c",
+      "7e305b0653661680a426c2a01fe12402f22f2cab",
+      "a304c70a4cb6b2fc652ebdd560c489fa18702916",
+      "dbfeddd69a262ce9eeacb57af8a52485a09dd193"
+    ],
+    "status": "playable_prototype_delivered",
+    "runtime_verification": "35 full-game checks passed; 1148 real position samples; full native save-history restart passed; revised actor Windows bundle create 12 checks and restore 7 checks passed; no remaining test processes",
+    "evidence": "prototype/reports/integration/README.md",
+    "latest_windows_bundle": "C:/Users/f7212/OneDrive/文件/遊戲開發/playable/four-person-prototype-20260906",
+    "remaining": [
+      "User review of new clothing directions animation and map art"
+    ]
+  }
+}

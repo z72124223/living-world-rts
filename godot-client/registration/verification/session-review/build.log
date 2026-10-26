@@ -1,0 +1,73 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started 專案初始化中 (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | 正在掃描檔案結構…[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | 載入全域類別名稱中…[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | 正在驗證GD擴充功能...[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | 正在建立自動載入腳本…[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | 初始化外掛程式...[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | 開始掃描檔案...[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | Started 註冊全域類別中... (2 steps)[39m[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  33% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[92m[ DONE ][39m [1mupdate_scripts_classes[22m
+[0m
+[   0% ] [90m[1m_update_scan_actions[22m | Started 掃描動作中... (6 steps)[39m[0m
+[   0% ] [90m[1m_update_scan_actions[22m | 01-login.png[39m[0m
+[  14% ] [90m[1m_update_scan_actions[22m | 02-account.png[39m[0m
+[  28% ] [90m[1m_update_scan_actions[22m | 03-creation-pending.png[39m[0m
+[  42% ] [90m[1m_update_scan_actions[22m | 04-identity.png[39m[0m
+[  57% ] [90m[1m_update_scan_actions[22m | 05-service-not-configured.png[39m[0m
+[  71% ] [90m[1m_update_scan_actions[22m | 09-small-window.png[39m[0m
+[92m[ DONE ][39m [1m_update_scan_actions[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started （重新）匯入素材 (6 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | 正在準備重新匯入檔案…[39m[0m
+[  14% ] [90m[1mreimport[22m | 正在準備重新匯入檔案…[39m[0m
+[  28% ] [90m[1mreimport[22m | 正在準備重新匯入檔案…[39m[0m
+[  42% ] [90m[1mreimport[22m | 正在準備重新匯入檔案…[39m[0m
+[  57% ] [90m[1mreimport[22m | 正在準備重新匯入檔案…[39m[0m
+[  71% ] [90m[1mreimport[22m | 正在準備重新匯入檔案…[39m[0m
+[   0% ] [90m[1mreimport[22m | 執行預先重新匯入作業…[39m[0m
+[   0% ] [90m[1mreimport[22m | 01-login.png[39m[0m
+[  14% ] [90m[1mreimport[22m | 02-account.png[39m[0m
+[  28% ] [90m[1mreimport[22m | 03-creation-pending.png[39m[0m
+[  42% ] [90m[1mreimport[22m | 04-identity.png[39m[0m
+[  57% ] [90m[1mreimport[22m | 05-service-not-configured.png[39m[0m
+[  71% ] [90m[1mreimport[22m | 09-small-window.png[39m[0m
+[  85% ] [90m[1mreimport[22m | 完成素材匯入...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started （重新）匯入素材 (6 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | 執行重新匯入後續處理作業…[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1msavepack[22m | Started 打包中 (102 steps)[39m[0m
+[   1% ] [90m[1msavepack[22m | 儲存檔案：res://.godot/exported/133200997/export-9032525d0a8d7ed48fc25e82b279d2b0-login.scn[39m[0m
+[  11% ] [90m[1msavepack[22m | 儲存檔案：res://login/login.gdc[39m[0m
+[  21% ] [90m[1msavepack[22m | 儲存檔案：res://registration/registration.gdc[39m[0m
+[  31% ] [90m[1msavepack[22m | 儲存檔案：res://.godot/imported/NotoSerifTC.ttf-4e40d52e3a2b2b4510f44ab6fdc14938.fontdata[39m[0m
+[  31% ] [90m[1msavepack[22m | 儲存檔案：res://login/assets/NotoSerifTC.ttf.import[39m[0m
+[  40% ] [90m[1msavepack[22m | 儲存檔案：res://.godot/imported/ui-font.otf-e9ec3ba7e3c2b266d1a698d9dbeabb36.fontdata[39m[0m
+[  40% ] [90m[1msavepack[22m | 儲存檔案：res://assets/ui-font.otf.import[39m[0m
+[  50% ] [90m[1msavepack[22m | 儲存檔案：res://.godot/imported/cavern-background.png-d92022d41a1b89a2d6987e6f04d5c165.ctex[39m[0m
+[  50% ] [90m[1msavepack[22m | 儲存檔案：res://login/assets/cavern-background.png.import[39m[0m
+[  60% ] [90m[1msavepack[22m | 儲存檔案：res://.godot/imported/creation-background.png-69fa54a96382b96de8e0035839a9e801.ctex[39m[0m
+[  60% ] [90m[1msavepack[22m | 儲存檔案：res://registration/assets/creation-background.png.import[39m[0m
+[  69% ] [90m[1msavepack[22m | 儲存檔案：res://.godot/imported/arrival-male.png-1a63a0740214d41686a9165a9d7aa3fb.ctex[39m[0m
+[  69% ] [90m[1msavepack[22m | 儲存檔案：res://registration/assets/arrival-male.png.import[39m[0m
+[  79% ] [90m[1msavepack[22m | 儲存檔案：res://.godot/imported/arrival-female.png-c964e6d7182df98f06d45bdec8c2201a.ctex[39m[0m
+[  79% ] [90m[1msavepack[22m | 儲存檔案：res://registration/assets/arrival-female.png.import[39m[0m
+[  89% ] [90m[1msavepack[22m | 儲存檔案：res://login/assets/OFL.txt[39m[0m
+[  89% ] [90m[1msavepack[22m | 儲存檔案：res://login/login.tscn.remap[39m[0m
+[  89% ] [90m[1msavepack[22m | 儲存檔案：res://login/login.gd.remap[39m[0m
+[  89% ] [90m[1msavepack[22m | 儲存檔案：res://registration/registration.gd.remap[39m[0m
+[  89% ] [90m[1msavepack[22m | 儲存檔案：res://.godot/global_script_class_cache.cfg[39m[0m
+[  89% ] [90m[1msavepack[22m | 儲存檔案：res://.godot/uid_cache.bin[39m[0m
+[  89% ] [90m[1msavepack[22m | 儲存檔案：res://project.binary[39m[0m
+[92m[ DONE ][39m [1msavepack[22m
+[0m
+NOT RUN: 此次只打包，不啟動遊戲執行檔。
+已建立本機可執行版本：C:\Users\f7212\OneDrive\文件\遊戲開發\playable\yiyu-registration-20260906

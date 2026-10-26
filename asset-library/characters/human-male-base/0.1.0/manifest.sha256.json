@@ -1,0 +1,32 @@
+{
+  "algorithm": "SHA-256",
+  "files": {
+    "asset.json": "598af1de7af9a1da19b10537564a6298c4a46d047668b5054f12a98f74bb489f",
+    "previews/elbow.png": "dd66800fdb7cce123c9cdec84344e38e4a614482cfba9840c15bef06cb4bfa7a",
+    "previews/knee.png": "ac23e73d7cae94d1eab671b1d0a203cf15d54e5d3ff0b0d5d4552f88649421ea",
+    "previews/rest.png": "7cae1789abaf42b61c9825c2bb1e9eda0c7e56802592191f4bd106689de17808",
+    "README.md": "3bfc79d66aa79cdfcfa6dbf495925662a42e6aec5c05daaf8d4946a61ef2c774",
+    "runtime/assets/FONT-LICENSE.txt": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+    "runtime/assets/male-body-head.png": "f96926901609ae01d67857282c4363448e040a1a33d9ee49ab7d291a4abfd0c1",
+    "runtime/assets/male-body-v01-far_arm.png": "ba18c171812fd5ea383423b8169ce87f640c0a6741eb31d65d606d6b17f0b2c7",
+    "runtime/assets/male-body-v01-far_leg.png": "2eb0c75ff37bdf6d71435ad59555249f8d8ec693762314a8eb1a6b1d4dad6c39",
+    "runtime/assets/male-body-v01-master.png": "2b9d04baad669e3486aed2a32ff3f51de957b52ceb99a137fc01d09be118e512",
+    "runtime/assets/male-body-v01-mesh.json": "2973d0b399650ba4fb7e857254eaa795cb062b3476ad4a32223bda4fdb4cda12",
+    "runtime/assets/male-body-v01-near_arm.png": "91841e721c6fdb1c81213f8496b51e0d234e4c10eb3ac57841e9242bf6862c6c",
+    "runtime/assets/male-body-v01-near_leg.png": "2331f58a052ac3d51af495a4b4a97c3b46042fb38b4e6b1d05311aaa670ceede",
+    "runtime/assets/male-body-v01-preview.png": "5360a225aa6e6ca8ed5a991f9fe481306b0159737d4a9acc9402e92a3d898614",
+    "runtime/assets/male-body-v01-rig.json": "a0e42082174c426e5b8b8e4e1023cb7b1061713d06e71adddf0cebcce2f7fad6",
+    "runtime/assets/male-body-v01-torso_pelvis.png": "e67801737f925c2165ab8b8cdd9af7ca7fe12c41d4a5841a4107f59d32cf64fb",
+    "runtime/assets/ui-font.otf": "5bab0cb3c1cf89dde07c4a95a4054b195afbcfe784d69d75c340780712237537",
+    "runtime/body_rig.gd": "39c91b5b813ad64b9982c1951b5b4bcb0c2ac169d927fc9f7c03fbeae4943891",
+    "source/male-body-contour-v01.aseprite": "beab5959929a969331ba00e3db92ac2ad0df6a94757b12a4b4f3b2a206eddb3e",
+    "source/references/male-rig-reference-v01.png": "3ddac68c65a7562c1ed4e64a6f022338e1987e526739d827eea202276bfb3beb",
+    "source/references/male-rig-reference-v01.prompt.txt": "6b32d91da214989093952347659519598755d11d79c7d2efca679e4efd5ec3a0",
+    "source/scripts/build_body_contour_v03.lua": "a695e2cde20ccd2abe78c69f5f2d23b6a9946d5ddc304511ac1b519d81c7f4c4",
+    "source/scripts/male_rig_landmarks.lua": "6fe742d9a5935d1ebf7c438d7b9688ce2e38ae3f769c87e814656bd45336cb15",
+    "verification/aseprite-build.log": "cd0344ce6ccb3f6263f076d9e200be10175493039464f8aabdb7f37ef9a43dde",
+    "verification/gpu-mask.png": "55e0de294231cd0d0d7a96588a396a610e4fde6ddddf21209ac2d923a136d75c",
+    "verification/mask-difference.png": "9b8c0fb55362cdcb2a04b7f52c99aeca590ed88f30b95821b36ec15e8ec819de",
+    "verification/report.json": "f5a56f57bda8aeafd355094a4f3faf3282ebfd65ac7d03c6f1cd47026e7e4548"
+  }
+}

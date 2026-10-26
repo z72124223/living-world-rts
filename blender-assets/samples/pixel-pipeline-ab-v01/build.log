@@ -1,0 +1,14 @@
+00:03.938  blend            | Read blend: "C:\Users\f7212\OneDrive\文件\遊戲開發\blender-assets\samples\female-light-armour-v01\female-light-armour.blend"
+C:\Users\f7212\OneDrive\文件\遊戲開發\scripts\build_pixel_ab_3d.py:136: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if not m.use_nodes: continue
+C:\Users\f7212\OneDrive\文件\遊戲開發\scripts\build_pixel_ab_3d.py:181: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  shadow.diffuse_color=(*rgb('bdb7ab'),1);shadow.use_nodes=True
+00:17.891  render           | Saved: 'C:\Users\f7212\OneDrive\文件\遊戲開發\blender-assets\samples\pixel-pipeline-ab-v01\3d-pixel-256.png'
+00:31.188  render           | Saved: 'C:\Users\f7212\OneDrive\文件\遊戲開發\blender-assets\samples\pixel-pipeline-ab-v01\3d-pixel-128.png'
+00:42.485  render           | Saved: 'C:\Users\f7212\OneDrive\文件\遊戲開發\blender-assets\samples\pixel-pipeline-ab-v01\3d-front-256.png'
+00:58.703  render           | Saved: 'C:\Users\f7212\OneDrive\文件\遊戲開發\blender-assets\samples\pixel-pipeline-ab-v01\3d-back-256.png'
+Info: Saved as "3d-pixel-source.blend"
+PIXEL_AB_3D_COMPLETE {"origin": "Actual evaluated 3D geometry rendered in Blender. No generated image applied to model.", "blender": "5.1.2", "reference": "female-character-b-v01.png, centre light armour", "source_model": "../female-light-armour-v01/female-light-armour.blend", "revision": "Reproportioned geometry, smaller facial features, individually chosen hue-shifted palettes", "resolutions": [128, 256], "animation_ready": false, "art_approved": false, "separate_mesh_objects": 715, "rendered_views": ["three-quarter", "front", "back"]}
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:37:34)
+
+Blender quit
