@@ -1,0 +1,32 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { mkdirSync, mkdtempSync, readFileSync } from 'node:fs';
+import { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { localVault } from '../vault.mjs';
+import { Registration } from '../core.mjs';
+import { Persona, OpenAI } from '../providers.mjs';
+
+test('Windows DPAPI vault and account survive process-independent reopen without plaintext secrets', { skip: process.platform !== 'win32' }, async () => {
+  const evidenceRoot = fileURLToPath(new URL('./evidence/', import.meta.url));
+  mkdirSync(evidenceRoot, { recursive: true });
+  const directory = mkdtempSync(join(evidenceRoot, 'persistence-'));
+  const path = join(directory, 'accounts.sqlite');
+  let vault = localVault(directory);
+  let service = new Registration({ path, vault, persona: new Persona(), ai: new OpenAI() });
+  const result = await service.account('persistence_test', 'test-only-persist-password', true);
+  const id = service.authenticate(result.token);
+  const key = 'sk-test-persistence-not-a-real-secret';
+  service.db.prepare('UPDATE accounts SET ai_key=? WHERE id=?').run(vault.seal(key, id), id);
+  service.close();
+  vault = localVault(directory);
+  service = new Registration({ path, vault, persona: new Persona(), ai: new OpenAI() });
+  assert.equal(service.authenticate(result.token), id);
+  const signedIn = await service.account('persistence_test', 'test-only-persist-password', false);
+  assert.equal(signedIn.state.identity, 'unverified');
+  assert.equal(vault.open(service.get(id).ai_key, id), key);
+  service.close();
+  assert.equal(readFileSync(path).includes(Buffer.from(key)), false);
+  assert.equal(readFileSync(path).includes(Buffer.from('test-only-persist-password')), false);
+  assert.equal(readFileSync(join(directory, 'master.dpapi')).includes(vault.key), false);
+});

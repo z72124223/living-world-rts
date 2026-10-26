@@ -1,0 +1,30 @@
+[
+  {
+    "Path": "C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發\\registration-service\\configure-persona.mjs",
+    "SHA256": "EAD54F634DE53398C11A83F95E5640F0075FF8EE75B2B2C4627109B3042C47A4"
+  },
+  {
+    "Path": "C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發\\registration-service\\core.mjs",
+    "SHA256": "9CF982CB34E5E56854116F67EE0D231917AB406560570A4484B4D4A1A9EB0A70"
+  },
+  {
+    "Path": "C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發\\registration-service\\moderate.mjs",
+    "SHA256": "70A65253EA179BD94AD08F314971ECFB82EB32C0D540319C6BC5B9F5B400102D"
+  },
+  {
+    "Path": "C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發\\registration-service\\package.json",
+    "SHA256": "8C8DACF69D1281C76BC521034A41A31CC632A94A5375C947FF21348AA78E1669"
+  },
+  {
+    "Path": "C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發\\registration-service\\providers.mjs",
+    "SHA256": "269416F6D7D0FEE6497DA5FD7AFF8AB7FED96F1098052543825E516DD4AC8A1D"
+  },
+  {
+    "Path": "C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發\\registration-service\\server.mjs",
+    "SHA256": "6636968ED69B5713DC77358FC19DDC6D4768F77F3324BC5FA2776616F7673C5D"
+  },
+  {
+    "Path": "C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發\\registration-service\\vault.mjs",
+    "SHA256": "4E7DB9D3EA0F95107849FFC5E6F23C12FC5FE5E7A29B09CB623D3FD9A75BDB7C"
+  }
+]

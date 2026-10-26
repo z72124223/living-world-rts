@@ -1,0 +1,86 @@
+[
+  {
+    "Path": "registration-service\\configure-persona.mjs",
+    "Source": "C:\\Users\\f7212\\OneDrive\\文件\\遊戲開發\\registration-service\\configure-persona.mjs",
+    "Snapshot": "C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發\\registration-service\\tests\\qa-evidence-20260906-171705\\final-service-baseline\\registration-service\\configure-persona.mjs",
+    "SHA256": "EAD54F634DE53398C11A83F95E5640F0075FF8EE75B2B2C4627109B3042C47A4"
+  },
+  {
+    "Path": "registration-service\\core.mjs",
+    "Source": "C:\\Users\\f7212\\OneDrive\\文件\\遊戲開發\\registration-service\\core.mjs",
+    "Snapshot": "C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發\\registration-service\\tests\\qa-evidence-20260906-171705\\final-service-baseline\\registration-service\\core.mjs",
+    "SHA256": "95B2F585B125B9C1E6B708FEB4E9E586EA7DC4AC994AE2E4FC259FCF9B098598"
+  },
+  {
+    "Path": "registration-service\\demo.mjs",
+    "Source": "C:\\Users\\f7212\\OneDrive\\文件\\遊戲開發\\registration-service\\demo.mjs",
+    "Snapshot": "C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發\\registration-service\\tests\\qa-evidence-20260906-171705\\final-service-baseline\\registration-service\\demo.mjs",
+    "SHA256": "0EBDF6A4DB792EEB4E6FB51FD1BF078820FD9618E613A5468FD454AE95EEBBEC"
+  },
+  {
+    "Path": "registration-service\\moderate.mjs",
+    "Source": "C:\\Users\\f7212\\OneDrive\\文件\\遊戲開發\\registration-service\\moderate.mjs",
+    "Snapshot": "C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發\\registration-service\\tests\\qa-evidence-20260906-171705\\final-service-baseline\\registration-service\\moderate.mjs",
+    "SHA256": "70A65253EA179BD94AD08F314971ECFB82EB32C0D540319C6BC5B9F5B400102D"
+  },
+  {
+    "Path": "registration-service\\package.json",
+    "Source": "C:\\Users\\f7212\\OneDrive\\文件\\遊戲開發\\registration-service\\package.json",
+    "Snapshot": "C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發\\registration-service\\tests\\qa-evidence-20260906-171705\\final-service-baseline\\registration-service\\package.json",
+    "SHA256": "8C8DACF69D1281C76BC521034A41A31CC632A94A5375C947FF21348AA78E1669"
+  },
+  {
+    "Path": "registration-service\\providers.mjs",
+    "Source": "C:\\Users\\f7212\\OneDrive\\文件\\遊戲開發\\registration-service\\providers.mjs",
+    "Snapshot": "C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發\\registration-service\\tests\\qa-evidence-20260906-171705\\final-service-baseline\\registration-service\\providers.mjs",
+    "SHA256": "27FC4ED93D1FA1B6396973041C52EEB1B038ACFB0EBB567692F21FC586A8D344"
+  },
+  {
+    "Path": "registration-service\\server.mjs",
+    "Source": "C:\\Users\\f7212\\OneDrive\\文件\\遊戲開發\\registration-service\\server.mjs",
+    "Snapshot": "C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發\\registration-service\\tests\\qa-evidence-20260906-171705\\final-service-baseline\\registration-service\\server.mjs",
+    "SHA256": "6636968ED69B5713DC77358FC19DDC6D4768F77F3324BC5FA2776616F7673C5D"
+  },
+  {
+    "Path": "registration-service\\vault.mjs",
+    "Source": "C:\\Users\\f7212\\OneDrive\\文件\\遊戲開發\\registration-service\\vault.mjs",
+    "Snapshot": "C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發\\registration-service\\tests\\qa-evidence-20260906-171705\\final-service-baseline\\registration-service\\vault.mjs",
+    "SHA256": "4E7DB9D3EA0F95107849FFC5E6F23C12FC5FE5E7A29B09CB623D3FD9A75BDB7C"
+  },
+  {
+    "Path": "registration-service\\tests\\demo.test.mjs",
+    "Source": "C:\\Users\\f7212\\OneDrive\\文件\\遊戲開發\\registration-service\\tests\\demo.test.mjs",
+    "Snapshot": "C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發\\registration-service\\tests\\qa-evidence-20260906-171705\\final-service-baseline\\registration-service\\tests\\demo.test.mjs",
+    "SHA256": "D80C65BC5D7BD9999D00948970A2D52323D63B9A7997063C21589E57B7D5BA9E"
+  },
+  {
+    "Path": "registration-service\\tests\\persistence.test.mjs",
+    "Source": "C:\\Users\\f7212\\OneDrive\\文件\\遊戲開發\\registration-service\\tests\\persistence.test.mjs",
+    "Snapshot": "C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發\\registration-service\\tests\\qa-evidence-20260906-171705\\final-service-baseline\\registration-service\\tests\\persistence.test.mjs",
+    "SHA256": "F44553B4986B1B029CD7351295AA67937FA28374C0D95116C058EB419067523A"
+  },
+  {
+    "Path": "registration-service\\tests\\provider-contract.test.mjs",
+    "Source": "C:\\Users\\f7212\\OneDrive\\文件\\遊戲開發\\registration-service\\tests\\provider-contract.test.mjs",
+    "Snapshot": "C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發\\registration-service\\tests\\qa-evidence-20260906-171705\\final-service-baseline\\registration-service\\tests\\provider-contract.test.mjs",
+    "SHA256": "57572C17A95266538CCD3A630C8C1749F762206581A0FC0DC1FDAEB27E7C3920"
+  },
+  {
+    "Path": "registration-service\\tests\\qa-session.test.mjs",
+    "Source": "C:\\Users\\f7212\\OneDrive\\文件\\遊戲開發\\registration-service\\tests\\qa-session.test.mjs",
+    "Snapshot": "C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發\\registration-service\\tests\\qa-evidence-20260906-171705\\final-service-baseline\\registration-service\\tests\\qa-session.test.mjs",
+    "SHA256": "B4AFE647A8D6A330D2DEDA018ED27B3BD4FB1C40B90AFF0C769F801BCE09AF23"
+  },
+  {
+    "Path": "registration-service\\tests\\service.test.mjs",
+    "Source": "C:\\Users\\f7212\\OneDrive\\文件\\遊戲開發\\registration-service\\tests\\service.test.mjs",
+    "Snapshot": "C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發\\registration-service\\tests\\qa-evidence-20260906-171705\\final-service-baseline\\registration-service\\tests\\service.test.mjs",
+    "SHA256": "F9CD52143D0167ABA72A8C519A84BE24D3516E33C01C72FC15D975F2DDE04BA4"
+  },
+  {
+    "Path": "registration-service\\tests\\ui-fixture.mjs",
+    "Source": "C:\\Users\\f7212\\OneDrive\\文件\\遊戲開發\\registration-service\\tests\\ui-fixture.mjs",
+    "Snapshot": "C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發\\registration-service\\tests\\qa-evidence-20260906-171705\\final-service-baseline\\registration-service\\tests\\ui-fixture.mjs",
+    "SHA256": "8FAF4C9509416BA7B2517D0A7584D81188EE73A0589AADAA8B2F9341344D0002"
+  }
+]

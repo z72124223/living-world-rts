@@ -1,0 +1,24 @@
+; Native Godot project: modular 2D art sample, independent from world-core rules.
+config_version=5
+
+[application]
+config/name="異域"
+run/main_scene="res://login/login.tscn"
+config/features=PackedStringArray("4.6", "GL Compatibility")
+
+[display]
+window/size/viewport_width=1280
+window/size/viewport_height=800
+window/size/window_width_override=1280
+window/size/window_height_override=800
+window/stretch/mode="canvas_items"
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/default_filters/use_nearest_mipmap_filter=false
+textures/canvas_textures/default_texture_filter=0
+environment/defaults/default_clear_color=Color(0.063,0.087,0.10,1)
+
+[audio]
+driver/enable_input=false

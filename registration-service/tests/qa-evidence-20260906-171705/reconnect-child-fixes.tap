@@ -1,0 +1,112 @@
+TAP version 13
+# Subtest: QA name format accepts compound/rare Han names and rejects non-name input without an AI call
+ok 1 - QA name format accepts compound/rare Han names and rejects non-name input without an AI call
+  ---
+  duration_ms: 1.5543
+  type: 'test'
+  ...
+# Subtest: QA no vacancy and ineligible children never create a character or consume a child
+ok 2 - QA no vacancy and ineligible children never create a character or consume a child
+  ---
+  duration_ms: 38.5236
+  type: 'test'
+  ...
+# Subtest: QA both registered sexes inherit the eligible child name and appearance despite forged client fields
+ok 3 - QA both registered sexes inherit the eligible child name and appearance despite forged client fields
+  ---
+  duration_ms: 68.5508
+  type: 'test'
+  ...
+# Subtest: QA suggestions do not grant name approval, and AI rejection never freezes or deletes an account
+ok 4 - QA suggestions do not grant name approval, and AI rejection never freezes or deletes an account
+  ---
+  duration_ms: 36.06
+  type: 'test'
+  ...
+# Subtest: QA an expired AI connection blocks creation even while the exact name review is current
+ok 5 - QA an expired AI connection blocks creation even while the exact name review is current
+  ---
+  duration_ms: 34.2589
+  type: 'test'
+  ...
+# Subtest: QA failed AI attempts consume the daily limit and do not call a provider again after exhaustion
+ok 6 - QA failed AI attempts consume the daily limit and do not call a provider again after exhaustion
+  ---
+  duration_ms: 34.3795
+  type: 'test'
+  ...
+# Subtest: QA HTTP register/login to creation obeys server-owned identity/name and protects session data
+ok 7 - QA HTTP register/login to creation obeys server-owned identity/name and protects session data
+  ---
+  duration_ms: 130.2191
+  type: 'test'
+  ...
+# loopback random port: 55852
+# Subtest: QA failed reconnect of the saved AI key must revoke connected status and block creation
+ok 8 - QA failed reconnect of the saved AI key must revoke connected status and block creation
+  ---
+  duration_ms: 34.4315
+  type: 'test'
+  ...
+# {"connectedAfterFailure":false,"createOutcome":"AI_REQUIRED"}
+# Subtest: QA saved-key, replacement-key, incomplete and disapproved reconnects all invalidate old authority
+ok 9 - QA saved-key, replacement-key, incomplete and disapproved reconnects all invalidate old authority
+  ---
+  duration_ms: 139.8475
+  type: 'test'
+  ...
+# 4 reconnect failure variants verified with synthetic provider responses
+# Subtest: QA Persona incomplete trusted document fields must remain under review
+not ok 10 - QA Persona incomplete trusted document fields must remain under review
+  ---
+  duration_ms: 1.7941
+  type: 'test'
+  location: 'C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發\\registration-service\\tests\\qa-session.test.mjs:180:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly deep-equal:
+    + actual - expected
+    
+      [
+    +   'verified',
+    +   'verified',
+    +   'verified'
+    -   'needs_review',
+    -   'needs_review',
+    -   'needs_review'
+      ]
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0: 'needs_review'
+    1: 'needs_review'
+    2: 'needs_review'
+  actual:
+    0: 'verified'
+    1: 'verified'
+    2: 'verified'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/Users/f7212/.codex/worktrees/50b6/%E9%81%8A%E6%88%B2%E9%96%8B%E7%99%BC/registration-service/tests/qa-session.test.mjs:208:10)
+    async Test.run (node:internal/test_runner/test:1313:7)
+    async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+  ...
+# [{"label":"missing document type","status":"verified"},{"label":"blank document number","status":"verified"},{"label":"blank issuing country","status":"verified"}]
+# Subtest: QA malformed future child records cannot fall back to the incoming player name
+ok 11 - QA malformed future child records cannot fall back to the incoming player name
+  ---
+  duration_ms: 34.4053
+  type: 'test'
+  ...
+# rejected malformed record: NO_CHILD
+# {"created":false,"storedName":null}
+1..11
+# tests 11
+# suites 0
+# pass 10
+# fail 1
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 662.0264

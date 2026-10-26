@@ -1,0 +1,26 @@
+[
+  {
+    "Source": "C:\\Users\\f7212\\OneDrive\\文件\\遊戲開發\\godot-client\\registration\\registration.gd",
+    "Snapshot": "C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發\\registration-service\\tests\\qa-evidence-20260906-171705\\integrated-source-readonly\\godot-client\\registration\\registration.gd",
+    "SHA256": "93B667B78E96E35DAE804EA21CBC7805AFDD7D1726C65B29A8F6BE8807697D8D",
+    "SourceMatches": true
+  },
+  {
+    "Source": "C:\\Users\\f7212\\OneDrive\\文件\\遊戲開發\\godot-client\\registration\\launch.ps1",
+    "Snapshot": "C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發\\registration-service\\tests\\qa-evidence-20260906-171705\\integrated-source-readonly\\godot-client\\registration\\launch.ps1",
+    "SHA256": "733F3BBE6A2CDFEAA9EDBA380505344FE0FD7917E9E746DDE4762ECC8CF54A45",
+    "SourceMatches": true
+  },
+  {
+    "Source": "C:\\Users\\f7212\\OneDrive\\文件\\遊戲開發\\registration-service\\demo.mjs",
+    "Snapshot": "C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發\\registration-service\\tests\\qa-evidence-20260906-171705\\integrated-source-readonly\\registration-service\\demo.mjs",
+    "SHA256": "0EBDF6A4DB792EEB4E6FB51FD1BF078820FD9618E613A5468FD454AE95EEBBEC",
+    "SourceMatches": true
+  },
+  {
+    "Source": "C:\\Users\\f7212\\OneDrive\\文件\\遊戲開發\\registration-service\\tests\\demo.test.mjs",
+    "Snapshot": "C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發\\registration-service\\tests\\qa-evidence-20260906-171705\\integrated-source-readonly\\registration-service\\tests\\demo.test.mjs",
+    "SHA256": "D80C65BC5D7BD9999D00948970A2D52323D63B9A7997063C21589E57B7D5BA9E",
+    "SourceMatches": true
+  }
+]

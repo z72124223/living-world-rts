@@ -1,0 +1,44 @@
+[
+  {
+    "Source": "C:\\Users\\f7212\\OneDrive\\文件\\遊戲開發\\AGENTS.md",
+    "Snapshot": "C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發\\registration-service\\tests\\qa-evidence-20260906-171705\\source-snapshot\\AGENTS.md",
+    "SHA256": "9D29E98CB910DEBF4A0F46AD68465FF1897761676B6501BDD151024D309E408C",
+    "SourceMatches": true
+  },
+  {
+    "Source": "C:\\Users\\f7212\\OneDrive\\文件\\遊戲開發\\docs\\registration\\SPEC.md",
+    "Snapshot": "C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發\\registration-service\\tests\\qa-evidence-20260906-171705\\source-snapshot\\docs\\registration\\SPEC.md",
+    "SHA256": "311955642A232D0CD42A814130D1B5772D10681355EDCD814BA7AE088672FAF1",
+    "SourceMatches": true
+  },
+  {
+    "Source": "C:\\Users\\f7212\\OneDrive\\文件\\遊戲開發\\docs\\registration\\ACCEPTANCE.md",
+    "Snapshot": "C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發\\registration-service\\tests\\qa-evidence-20260906-171705\\source-snapshot\\docs\\registration\\ACCEPTANCE.md",
+    "SHA256": "5842A32806EA8BB2C5905F913877B49900D715FBE9DCC5AAEB780721807EAB93",
+    "SourceMatches": true
+  },
+  {
+    "Source": "C:\\Users\\f7212\\OneDrive\\文件\\遊戲開發\\godot-client\\project.godot",
+    "Snapshot": "C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發\\registration-service\\tests\\qa-evidence-20260906-171705\\source-snapshot\\godot-client\\project.godot",
+    "SHA256": "D13049E582D207C3E879E96A33C176A05C5CACA42B1149FAEB9C061E257C1039",
+    "SourceMatches": true
+  },
+  {
+    "Source": "C:\\Users\\f7212\\OneDrive\\文件\\遊戲開發\\godot-client\\registration\\registration.gd",
+    "Snapshot": "C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發\\registration-service\\tests\\qa-evidence-20260906-171705\\source-snapshot\\godot-client\\registration\\registration.gd",
+    "SHA256": "FFF9B1413EC6FE5F8EA702552B156D6E20569883259C1CC5FF686A938B8CF59B",
+    "SourceMatches": true
+  },
+  {
+    "Source": "C:\\Users\\f7212\\OneDrive\\文件\\遊戲開發\\godot-client\\registration\\verify_registration.gd",
+    "Snapshot": "C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發\\registration-service\\tests\\qa-evidence-20260906-171705\\source-snapshot\\godot-client\\registration\\verify_registration.gd",
+    "SHA256": "576046B2AF11583D7C20748BD6D5BC745BB3C2EA81EDD7834F8B9396115317EA",
+    "SourceMatches": true
+  },
+  {
+    "Source": "C:\\Users\\f7212\\OneDrive\\文件\\遊戲開發\\godot-client\\login\\login.gd",
+    "Snapshot": "C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發\\registration-service\\tests\\qa-evidence-20260906-171705\\source-snapshot\\godot-client\\login\\login.gd",
+    "SHA256": "414C0C491DED2A6CB17CCB6CCE90A9B4E1455BF40FC7C81802C3F418DDE0744D",
+    "SourceMatches": true
+  }
+]

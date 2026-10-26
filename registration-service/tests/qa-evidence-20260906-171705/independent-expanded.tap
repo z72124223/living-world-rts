@@ -1,0 +1,163 @@
+TAP version 13
+# Subtest: QA name format accepts compound/rare Han names and rejects non-name input without an AI call
+ok 1 - QA name format accepts compound/rare Han names and rejects non-name input without an AI call
+  ---
+  duration_ms: 1.6679
+  type: 'test'
+  ...
+# Subtest: QA no vacancy and ineligible children never create a character or consume a child
+ok 2 - QA no vacancy and ineligible children never create a character or consume a child
+  ---
+  duration_ms: 44.9373
+  type: 'test'
+  ...
+# Subtest: QA both registered sexes inherit the eligible child name and appearance despite forged client fields
+ok 3 - QA both registered sexes inherit the eligible child name and appearance despite forged client fields
+  ---
+  duration_ms: 83.0447
+  type: 'test'
+  ...
+# Subtest: QA suggestions do not grant name approval, and AI rejection never freezes or deletes an account
+ok 4 - QA suggestions do not grant name approval, and AI rejection never freezes or deletes an account
+  ---
+  duration_ms: 38.8559
+  type: 'test'
+  ...
+# Subtest: QA an expired AI connection blocks creation even while the exact name review is current
+ok 5 - QA an expired AI connection blocks creation even while the exact name review is current
+  ---
+  duration_ms: 38.164
+  type: 'test'
+  ...
+# Subtest: QA failed AI attempts consume the daily limit and do not call a provider again after exhaustion
+ok 6 - QA failed AI attempts consume the daily limit and do not call a provider again after exhaustion
+  ---
+  duration_ms: 50.9476
+  type: 'test'
+  ...
+# Subtest: QA HTTP register/login to creation obeys server-owned identity/name and protects session data
+ok 7 - QA HTTP register/login to creation obeys server-owned identity/name and protects session data
+  ---
+  duration_ms: 149.1561
+  type: 'test'
+  ...
+# loopback random port: 55353
+# Subtest: QA failed reconnect of the saved AI key must revoke connected status and block creation
+not ok 8 - QA failed reconnect of the saved AI key must revoke connected status and block creation
+  ---
+  duration_ms: 42.8062
+  type: 'test'
+  location: 'C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發\\registration-service\\tests\\qa-session.test.mjs:143:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly deep-equal:
+    + actual - expected
+    
+      {
+    +   connectedAfterFailure: true,
+    +   createOutcome: 'CREATED'
+    -   connectedAfterFailure: false,
+    -   createOutcome: 'AI_REQUIRED'
+      }
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    connectedAfterFailure: false
+    createOutcome: 'AI_REQUIRED'
+  actual:
+    connectedAfterFailure: true
+    createOutcome: 'CREATED'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/Users/f7212/.codex/worktrees/50b6/%E9%81%8A%E6%88%B2%E9%96%8B%E7%99%BC/registration-service/tests/qa-session.test.mjs:153:10)
+    async Test.run (node:internal/test_runner/test:1313:7)
+    async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+  ...
+# {"connectedAfterFailure":true,"createOutcome":"CREATED"}
+# Subtest: QA Persona incomplete trusted document fields must remain under review
+not ok 9 - QA Persona incomplete trusted document fields must remain under review
+  ---
+  duration_ms: 1.5309
+  type: 'test'
+  location: 'C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發\\registration-service\\tests\\qa-session.test.mjs:156:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly deep-equal:
+    + actual - expected
+    
+      [
+    +   'verified',
+    +   'verified',
+    +   'verified'
+    -   'needs_review',
+    -   'needs_review',
+    -   'needs_review'
+      ]
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0: 'needs_review'
+    1: 'needs_review'
+    2: 'needs_review'
+  actual:
+    0: 'verified'
+    1: 'verified'
+    2: 'verified'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/Users/f7212/.codex/worktrees/50b6/%E9%81%8A%E6%88%B2%E9%96%8B%E7%99%BC/registration-service/tests/qa-session.test.mjs:184:10)
+    async Test.run (node:internal/test_runner/test:1313:7)
+    async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+  ...
+# [{"label":"missing document type","status":"verified"},{"label":"blank document number","status":"verified"},{"label":"blank issuing country","status":"verified"}]
+# Subtest: QA malformed future child records cannot fall back to the incoming player name
+not ok 10 - QA malformed future child records cannot fall back to the incoming player name
+  ---
+  duration_ms: 52.2218
+  type: 'test'
+  location: 'C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發\\registration-service\\tests\\qa-session.test.mjs:187:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    An approved marker alone must not turn a blank parent name into player renaming authority
+    + actual - expected
+    
+    + [Object: null prototype] {
+    +   appearance: 'qa-child-female',
+    +   entry: 'reincarnation',
+    +   given: '意名',
+    +   id: 'badf14ac-23b8-4c9f-88d3-4a0442ebc1c7',
+    +   sex: 'F',
+    +   state: 'active',
+    +   surname: '任'
+    + }
+    - null
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: ~
+  actual:
+    id: 'badf14ac-23b8-4c9f-88d3-4a0442ebc1c7'
+    surname: '任'
+    given: '意名'
+    sex: 'F'
+    appearance: 'qa-child-female'
+    entry: 'reincarnation'
+    state: 'active'
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/Users/f7212/.codex/worktrees/50b6/%E9%81%8A%E6%88%B2%E9%96%8B%E7%99%BC/registration-service/tests/qa-session.test.mjs:194:10)
+    async Test.run (node:internal/test_runner/test:1313:7)
+    async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+  ...
+# {"created":true,"storedName":"任意名"}
+1..10
+# tests 10
+# suites 0
+# pass 7
+# fail 3
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 635.1285

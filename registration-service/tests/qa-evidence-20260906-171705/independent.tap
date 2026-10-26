@@ -1,0 +1,86 @@
+TAP version 13
+# Subtest: QA name format accepts compound/rare Han names and rejects non-name input without an AI call
+ok 1 - QA name format accepts compound/rare Han names and rejects non-name input without an AI call
+  ---
+  duration_ms: 1.8774
+  type: 'test'
+  ...
+# Subtest: QA no vacancy and ineligible children never create a character or consume a child
+ok 2 - QA no vacancy and ineligible children never create a character or consume a child
+  ---
+  duration_ms: 55.2511
+  type: 'test'
+  ...
+# Subtest: QA both registered sexes inherit the eligible child name and appearance despite forged client fields
+ok 3 - QA both registered sexes inherit the eligible child name and appearance despite forged client fields
+  ---
+  duration_ms: 89.1828
+  type: 'test'
+  ...
+# Subtest: QA suggestions do not grant name approval, and AI rejection never freezes or deletes an account
+ok 4 - QA suggestions do not grant name approval, and AI rejection never freezes or deletes an account
+  ---
+  duration_ms: 49.3035
+  type: 'test'
+  ...
+# Subtest: QA an expired AI connection blocks creation even while the exact name review is current
+ok 5 - QA an expired AI connection blocks creation even while the exact name review is current
+  ---
+  duration_ms: 50.0633
+  type: 'test'
+  ...
+# Subtest: QA failed AI attempts consume the daily limit and do not call a provider again after exhaustion
+ok 6 - QA failed AI attempts consume the daily limit and do not call a provider again after exhaustion
+  ---
+  duration_ms: 52.3094
+  type: 'test'
+  ...
+# Subtest: QA HTTP register/login to creation obeys server-owned identity/name and protects session data
+ok 7 - QA HTTP register/login to creation obeys server-owned identity/name and protects session data
+  ---
+  duration_ms: 169.9569
+  type: 'test'
+  ...
+# loopback random port: 54638
+# Subtest: QA failed reconnect of the saved AI key must revoke connected status and block creation
+not ok 8 - QA failed reconnect of the saved AI key must revoke connected status and block creation
+  ---
+  duration_ms: 45.6666
+  type: 'test'
+  location: 'C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發\\registration-service\\tests\\qa-session.test.mjs:143:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly deep-equal:
+    + actual - expected
+    
+      {
+    +   connectedAfterFailure: true,
+    +   createOutcome: 'CREATED'
+    -   connectedAfterFailure: false,
+    -   createOutcome: 'AI_REQUIRED'
+      }
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    connectedAfterFailure: false
+    createOutcome: 'AI_REQUIRED'
+  actual:
+    connectedAfterFailure: true
+    createOutcome: 'CREATED'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/Users/f7212/.codex/worktrees/50b6/%E9%81%8A%E6%88%B2%E9%96%8B%E7%99%BC/registration-service/tests/qa-session.test.mjs:153:10)
+    async Test.run (node:internal/test_runner/test:1313:7)
+    async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+  ...
+# {"connectedAfterFailure":true,"createOutcome":"CREATED"}
+1..8
+# tests 8
+# suites 0
+# pass 7
+# fail 1
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 654.0032

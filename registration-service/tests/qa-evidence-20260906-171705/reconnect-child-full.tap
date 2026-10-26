@@ -1,0 +1,184 @@
+TAP version 13
+# Subtest: Windows DPAPI vault and account survive process-independent reopen without plaintext secrets
+ok 1 - Windows DPAPI vault and account survive process-independent reopen without plaintext secrets
+  ---
+  duration_ms: 4144.5734
+  type: 'test'
+  ...
+# Subtest: QA name format accepts compound/rare Han names and rejects non-name input without an AI call
+ok 2 - QA name format accepts compound/rare Han names and rejects non-name input without an AI call
+  ---
+  duration_ms: 2.6029
+  type: 'test'
+  ...
+# Subtest: QA no vacancy and ineligible children never create a character or consume a child
+ok 3 - QA no vacancy and ineligible children never create a character or consume a child
+  ---
+  duration_ms: 48.0364
+  type: 'test'
+  ...
+# Subtest: QA both registered sexes inherit the eligible child name and appearance despite forged client fields
+ok 4 - QA both registered sexes inherit the eligible child name and appearance despite forged client fields
+  ---
+  duration_ms: 109.0541
+  type: 'test'
+  ...
+# Subtest: QA suggestions do not grant name approval, and AI rejection never freezes or deletes an account
+ok 5 - QA suggestions do not grant name approval, and AI rejection never freezes or deletes an account
+  ---
+  duration_ms: 41.863
+  type: 'test'
+  ...
+# Subtest: QA an expired AI connection blocks creation even while the exact name review is current
+ok 6 - QA an expired AI connection blocks creation even while the exact name review is current
+  ---
+  duration_ms: 40.6971
+  type: 'test'
+  ...
+# Subtest: QA failed AI attempts consume the daily limit and do not call a provider again after exhaustion
+ok 7 - QA failed AI attempts consume the daily limit and do not call a provider again after exhaustion
+  ---
+  duration_ms: 55.1481
+  type: 'test'
+  ...
+# Subtest: QA HTTP register/login to creation obeys server-owned identity/name and protects session data
+ok 8 - QA HTTP register/login to creation obeys server-owned identity/name and protects session data
+  ---
+  duration_ms: 171.5731
+  type: 'test'
+  ...
+# loopback random port: 56420
+# Subtest: QA failed reconnect of the saved AI key must revoke connected status and block creation
+ok 9 - QA failed reconnect of the saved AI key must revoke connected status and block creation
+  ---
+  duration_ms: 55.5794
+  type: 'test'
+  ...
+# {"connectedAfterFailure":false,"createOutcome":"AI_REQUIRED"}
+# Subtest: QA saved-key, replacement-key, incomplete and disapproved reconnects all invalidate old authority
+ok 10 - QA saved-key, replacement-key, incomplete and disapproved reconnects all invalidate old authority
+  ---
+  duration_ms: 204.9767
+  type: 'test'
+  ...
+# 4 reconnect failure variants verified with synthetic provider responses
+# Subtest: QA Persona incomplete trusted document fields must remain under review
+not ok 11 - QA Persona incomplete trusted document fields must remain under review
+  ---
+  duration_ms: 2.0195
+  type: 'test'
+  location: 'C:\\Users\\f7212\\.codex\\worktrees\\50b6\\遊戲開發\\registration-service\\tests\\qa-session.test.mjs:180:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly deep-equal:
+    + actual - expected
+    
+      [
+    +   'verified',
+    +   'verified',
+    +   'verified'
+    -   'needs_review',
+    -   'needs_review',
+    -   'needs_review'
+      ]
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0: 'needs_review'
+    1: 'needs_review'
+    2: 'needs_review'
+  actual:
+    0: 'verified'
+    1: 'verified'
+    2: 'verified'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/Users/f7212/.codex/worktrees/50b6/%E9%81%8A%E6%88%B2%E9%96%8B%E7%99%BC/registration-service/tests/qa-session.test.mjs:208:10)
+    async Test.run (node:internal/test_runner/test:1313:7)
+    async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+  ...
+# [{"label":"missing document type","status":"verified"},{"label":"blank document number","status":"verified"},{"label":"blank issuing country","status":"verified"}]
+# Subtest: QA malformed future child records cannot fall back to the incoming player name
+ok 12 - QA malformed future child records cannot fall back to the incoming player name
+  ---
+  duration_ms: 39.3642
+  type: 'test'
+  ...
+# rejected malformed record: NO_CHILD
+# {"created":false,"storedName":null}
+# Subtest: registration, password hashing, login, session expiry and logout
+ok 13 - registration, password hashing, login, session expiry and logout
+  ---
+  duration_ms: 134.4637
+  type: 'test'
+  ...
+# Subtest: unconfigured Persona never verifies; forged flags cannot create or bill AI
+ok 14 - unconfigured Persona never verifies; forged flags cannot create or bill AI
+  ---
+  duration_ms: 45.9374
+  type: 'test'
+  ...
+# Subtest: duplicate identity and identity blacklist prevent binding
+ok 15 - duplicate identity and identity blacklist prevent binding
+  ---
+  duration_ms: 96.8568
+  type: 'test'
+  ...
+# Subtest: fees require consent, request limits are enforced and vault binds owner
+ok 16 - fees require consent, request limits are enforced and vault binds owner
+  ---
+  duration_ms: 42.0009
+  type: 'test'
+  ...
+# Subtest: exact name review, policy, TTL, immutable sex and duplicate character constraints
+ok 17 - exact name review, policy, TTL, immutable sex and duplicate character constraints
+  ---
+  duration_ms: 41.2655
+  type: 'test'
+  ...
+# Subtest: expired reviews and rejected AI results cannot grant creation
+ok 18 - expired reviews and rejected AI results cannot grant creation
+  ---
+  duration_ms: 45.5184
+  type: 'test'
+  ...
+# Subtest: provider revocation prevents creation despite earlier verified status
+ok 19 - provider revocation prevents creation despite earlier verified status
+  ---
+  duration_ms: 53.372
+  type: 'test'
+  ...
+# Subtest: same-sex eligible public child is atomically claimed, reserved and occupied excluded
+ok 20 - same-sex eligible public child is atomically claimed, reserved and occupied excluded
+  ---
+  duration_ms: 95.0626
+  type: 'test'
+  ...
+# Subtest: HTTP host, browser, auth, forged status and JSON gates
+ok 21 - HTTP host, browser, auth, forged status and JSON gates
+  ---
+  duration_ms: 96.9935
+  type: 'test'
+  ...
+# Subtest: OpenAI uses Luna Responses schema and rejects partial, quota and authorization failures
+ok 22 - OpenAI uses Luna Responses schema and rejects partial, quota and authorization failures
+  ---
+  duration_ms: 2.7815
+  type: 'test'
+  ...
+# Subtest: Persona requires account binding, approved inquiry, document sex and live matching selfie
+ok 23 - Persona requires account binding, approved inquiry, document sex and live matching selfie
+  ---
+  duration_ms: 3.0899
+  type: 'test'
+  ...
+1..23
+# tests 23
+# suites 0
+# pass 22
+# fail 1
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 4263.0573

@@ -1,0 +1,20 @@
+✔ Windows DPAPI vault and account survive process-independent reopen without plaintext secrets (5966.7645ms)
+✔ registration, password hashing, login, session expiry and logout (174.7359ms)
+✔ unconfigured Persona never verifies; forged flags cannot create or bill AI (64.707ms)
+✔ duplicate identity and identity blacklist prevent binding (138.9855ms)
+✔ fees require consent, request limits are enforced and vault binds owner (68.7578ms)
+✔ exact name review, policy, TTL, immutable sex and duplicate character constraints (77.5889ms)
+✔ expired reviews and rejected AI results cannot grant creation (61.6547ms)
+✔ provider revocation prevents creation despite earlier verified status (60.7882ms)
+✔ same-sex eligible public child is atomically claimed, reserved and occupied excluded (108.0201ms)
+✔ HTTP host, browser, auth, forged status and JSON gates (142.6788ms)
+✔ OpenAI uses Luna Responses schema and rejects partial, quota and authorization failures (4.1903ms)
+✔ Persona requires account binding, approved inquiry, document sex and live matching selfie (3.0954ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 6105.6421
