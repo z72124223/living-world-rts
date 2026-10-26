@@ -1,0 +1,20 @@
+00:02.907  blend            | Read blend: "C:\Users\f7212\OneDrive\文件\遊戲開發\blender-assets\samples\body-pixel-v02\body-rig.blend"
+C:\Users\f7212\.codex\worktrees\e43b\遊戲開發\art-experiments\3d-toon-v01\build.py:28: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world.use_nodes=True
+C:\Users\f7212\.codex\worktrees\e43b\遊戲開發\art-experiments\3d-toon-v01\build.py:47: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.use_nodes=True;m.diffuse_color=(*base,1)
+C:\Users\f7212\.codex\worktrees\e43b\遊戲開發\art-experiments\3d-toon-v01\build.py:246: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  gm=bpy.data.materials.new('Studio matte');gm.diffuse_color=(.61,.62,.60,1);gm.use_nodes=True
+C:\Users\f7212\.codex\worktrees\e43b\遊戲開發\art-experiments\3d-toon-v01\build.py:253: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  clay=bpy.data.materials.new('Clay only');clay.diffuse_color=(.44,.46,.47,1);clay.use_nodes=True
+00:19.219  render           | Saved: 'C:\Users\f7212\.codex\worktrees\e43b\遊戲開發\art-experiments\3d-toon-v01\01-clay.png'
+00:42.250  render           | Saved: 'C:\Users\f7212\.codex\worktrees\e43b\遊戲開發\art-experiments\3d-toon-v01\02-toon-front.png'
+01:03.875  render           | Saved: 'C:\Users\f7212\.codex\worktrees\e43b\遊戲開發\art-experiments\3d-toon-v01\03-toon-back.png'
+01:25.688  render           | Saved: 'C:\Users\f7212\.codex\worktrees\e43b\遊戲開發\art-experiments\3d-toon-v01\04-toon-side.png'
+01:30.141  render           | Saved: 'C:\Users\f7212\.codex\worktrees\e43b\遊戲開發\art-experiments\3d-toon-v01\05-rts.png'
+01:32.454  render           | Saved: 'C:\Users\f7212\.codex\worktrees\e43b\遊戲開發\art-experiments\3d-toon-v01\06-rts-96.png'
+Info: Saved as "model.blend"
+REAL_3D_PREVIEW_COMPLETE {"source": "C:\\Users\\f7212\\OneDrive\\文件\\遊戲開發\\blender-assets\\samples\\body-pixel-v02\\body-rig.blend", "source_sha256": "e3179a8e38d02a6ce8490984f54dad051a21b38fc1e18171b39af4b0aa08e0c4", "blender": "5.1.2", "renderer": "CYCLES", "samples": 24, "asset_objects": 37, "evaluated_triangles": 34388, "new_cloth_texture": [512, 512], "rendered_views": 6, "same_mesh_gray_and_color": true, "generative_image_used": false, "source_game_modified": false, "animation_verified": false, "engine_performance_verified": false, "seconds": 89.6, "task_ref": "aa097cb47f9e7584477d3b23051c0f52cb61edb42cf0769b273672139971d598"}
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:37:34)
+
+Blender quit

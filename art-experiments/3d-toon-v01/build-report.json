@@ -1,0 +1,21 @@
+{
+  "source": "C:\\Users\\f7212\\OneDrive\\文件\\遊戲開發\\blender-assets\\samples\\body-pixel-v02\\body-rig.blend",
+  "source_sha256": "e3179a8e38d02a6ce8490984f54dad051a21b38fc1e18171b39af4b0aa08e0c4",
+  "blender": "5.1.2",
+  "renderer": "CYCLES",
+  "samples": 24,
+  "asset_objects": 37,
+  "evaluated_triangles": 34388,
+  "new_cloth_texture": [
+    512,
+    512
+  ],
+  "rendered_views": 6,
+  "same_mesh_gray_and_color": true,
+  "generative_image_used": false,
+  "source_game_modified": false,
+  "animation_verified": false,
+  "engine_performance_verified": false,
+  "seconds": 89.6,
+  "task_ref": "aa097cb47f9e7584477d3b23051c0f52cb61edb42cf0769b273672139971d598"
+}
